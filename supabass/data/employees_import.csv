@@ -1,0 +1,1163 @@
+emp_no,title_th,name_th,surname_th,title_en,name_en,surname_en,dept_code,group_code,zone_code,sub_process
+J3431,นางสาว,ปริศนา,เครื่องพาที,Miss,Prissana,Kruangpatee,PR,AI,Z17T,AI
+L7070,นางสาว,ศิรินภา,ศิริสลุง,Miss,Sirinapa,Sirisalung,PR,AI,Z17T,AI
+L7606,นางสาว,อ้อนจันทร์,เสนศิริ,Miss,Aonjun,Sensiri,PR,AI,Z17T,AI
+X4961,นางสาว,สุพรรณี,ภักมณี,Miss,Supannee,Pakmanee,PR,AI,Z17T,AI
+L9150,นางสาว,วิมล,สังข์กลม,Miss,Wimorn,Sangklom,MDS,Anl,PEMDS,Failure analysis
+L7701,นางสาว,อังคณา,ริมแจ้ง,Miss,Uangkana,Rimjang,MDS,Anl,PEMDS,Failure analysis
+J3050,นางสาว,จริญา,คงมี,Miss,Jariya,Khongmee,MDS,Anl,PEMDS,Failure analysis
+D2565,นางสาว,สโรชา,ใจยืน,Miss,Sarocha,Jaiyuen,MDS,Anl,PEMDS,Failure analysis
+D6968,นางสาว,ภัทรดา,ขำพึ่งตน,Miss,Pattrada,Kampungton,MDS,Anl,PEMDS,Failure analysis
+X2128,นาง,นงค์นุช,ศิวบวร,Mrs.,Nongnuch,Siwaborworn,PE,ANL00,CLERK,Clerk PE
+L9791,นางสาว,นงนุช,พันธุ์มี,Miss,Nongnuth,Pantme,PE,ANLHA1,IMPT3,Analysis
+J8581,นางสาว,กัญญาณัฐ,ศรีคช,Miss,Kanyanat,Srikooh,PE,ANLHA1,IMPT3,Analysis
+D5598,นางสาว,ฤทัยรัตน์,สุจริต,Miss,Ruthairat,Sujirit,PE,ANLHA1,IMPT3,Analysis
+J4548,นางสาว,พัชราภรณ์,พรหมสอาด,Miss,Patcharaporn,Promsa-art,PE,ANLHA1,IMPT3,Analysis
+J6717,นางสาว,เจนจิรา,ไล้เลิศ,Miss,JANJIRA,LAILERT,PE,ANLHA2,IMPT3,Analysis
+L8546,นางสาว,นารีรัตน์,แก้วมาก,Miss,Nareerat,Keawmak,PE,ANLHA2,IMPT3,Analysis
+X5191,นางสาว,รจนา,โฉมงาม,Miss,Rodjana,Chomngam,PE,ANLHA2,IMPT3,Analysis
+X6582,นางสาว,นิตยา,พรเณร,Miss,Nittaya,Pornnen,PE,ANLHA2,IMPT3,Analysis
+X2661,นางสาว,ปรีญาภร,ไชยโพธิ์,Miss,Preeyaporn,Chaipho,PE,ANLHA4,IMPT3,Analysis
+D8510,นางสาว,อมรรัตน์,สังวงษา,Miss,Amornrat,Sangwongsa,PE,ANLHA4,IMPT3,Analysis
+D2370,นางสาว,เกษร,อยู่สบาย,Miss,Kesorn,Yoosabai,PE,ANLHA4,IMPT3,Analysis
+J3174,นาง,กิ่งทอง,มาเพิ่มผล,Mrs.,Kingthong,Mapeompol,LCDM,CL01,PRLCM,PR Cleanliness
+D9735,นางสาว,สุภาวดี,เถียรประวัติ,Miss,Supawadee,Thianprawat,LCDM,CL02,PRLCM,PR Cleanliness
+L6536,นางสาว,ปิยานันท์,ดิฐจาด,Miss,PIYANAN,DITJAD,MDS,Cleaner00,PRMDS,Clean Tray
+L4781,นางสาว,เสาวมล,สังข์ทอง,Miss,Saowamol,Sangthong,MDS,Cleaner00,PRMDS,PR Cleanliness
+C3460,นางสาว,สิริกร,กุลวงษ์,Miss,Sirikorn,Kulwong,MDS,Cleaner00,PRMDS,PR Cleanliness
+E1191,นาง,ทองพูล,ร่าเริง,Mrs.,Thongpool,Rareng,PR,Cleanlines,Z17T,PR Cleanliness
+E9408,นาง,ฐิติพร,พรมอ่อน,Mrs.,Dhitiporn,Prom-aon,PR,Cleanlines,Z17T,PR Cleanliness
+E8625,นางสาว,สมนึก,หอมสุข,Miss,Somnuek,Homsuk,PR,Cleanlines,Z17T,PR Cleanliness
+J6187,นางสาว,ชมัยพร,มั่งมี,Miss,Chamaypron,Mangmee,PR,Cleanlines,Z17T,PR Cleanliness
+J6036,นาง,วรรณทนี,แสนคำ,Mrs.,Wantanee,Saenkam,PR,Cleanlines,Z17T,PR Cleanliness
+L0800,นาง,สิริรักษ์,มุขโต,Mrs.,Sirirak,Muktoo,PR,Cleanlines,Z17T,PR Cleanliness
+D8392,นางสาว,ปราณี,คำวงษา,Miss,Pranee,Khamwongsa,MDS,CLERK MDS,PRMDS,Clerk PR
+J5333,นางสาว,หทัยรัตน์,พันธุ์,Miss,Hathairat,Pun,MDS,Clerk ENG,ENMDS,Clerk EN
+L4235,นางสาว,วิไลลักษณ์,กองศาสนา,Miss,Wilailak,Kongsatsana,EN,Clerk ENG,CLERK,Clerk EN
+L7675,นางสาว,ประภัสสร,แสนยะบุตร,Miss,Prapatsorn,Sanyabut,MDS,Clerk ENG,ENMDS,Clerk EN
+L7576,นางสาว,สุบังอร,กองศาสนา,Miss,Subang-on,Kongsatsana,EN,Clerk ENG,CLERK,Clerk EN
+L4684,นาง,วรรณกร,น้อยเจริญ,Mrs.,Wannakorn,Noicharoen,COMN,Clerk HRA,CLERK,Clerk LD
+X4900,นางสาว,เบญจพรรณ,ฉิมมา,Miss,Benjapan,Chimma,COMN,Clerk HRA,CLERK,Clerk LD
+X3328,นางสาว,ขวัญชนก,โพธิ์ษะ,Miss,Kuanchanok,Po-sa,MDS,Clerk MM,MMMDS,Clerk MM
+J4488,นางสาว,สุดาศจี,อิ่มมาก,Miss,Sudasajee,Immark,MM,Clerk MM,CLERK,Clerk MM
+D2129,นางสาว,ปวีณา,มากทรง,Miss,Paweena,Maksong,MM,Clerk MM,CLERK,Clerk MM
+D1801,นางสาว,ขวัญชนก,โสระแสน,Miss,Khanchanok,Sorasan,PC,Clerk PC,CLERK,Clerk PC
+D0855,นาง,วัชรีพร,ปานแม้น,Mrs.,Watchareeporn,Panman,MDS,Clerk PC,PCMDS,Clerk PC
+J5238,นางสาว,เสาวลักษณ์,รักษาเพ็ชร์,Miss,Saowalak,Raksaphet,PC,Clerk PC,CLERK,Clerk PC
+L4464,นาง,อัญชลี,กองอาษา,Mrs.,Anchalee,Kong-arsa,PC,Clerk PC,CLERK,Clerk PC
+L4658,นาง,วารุณี,วงษ์เนตร,Mrs.,Warunee,Wongnet,PR,Clerk PR,CLERK,Clerk PR
+C1480,นาง,รุจาภา,แสงสว่าง,Mrs.,Rujapa,Saengsawang,PR,CLX10,Z17P,PR Cleanliness
+D2022,นางสาว,ศิรินภา,ชุนหะจินดา,Miss,Sirinapa,Chunhajinda,EN,Common,CAD,Cad Design
+X4100,นาย,สมบัติ,ภิรมย์แทน,Mr.,Sombat,Piromtan,EN,Common,CAD,Cad Design
+L6787,นางสาว,สุนิษา,นิยม,Miss,Sunisa,Niyom,PR,DATA,Z17T,SUB1
+J4481,นางสาว,พรทิพย์,ผิวมุข,Miss,Phontip,Piwmuk,PR,DATA,SPOE,SUB1
+X4526,นาง,นิสา,ยืนยง,Mrs.,Nisa,Yuenyong,MDS,DIM,ENMDS,Dimension Measurement
+X5318,นางสาว,ปัทมาภรณ์,คนดี,Miss,Pattamaporn,Kondee,MDS,DIM,ENMDS,Dimension Measurement
+D3258,นางสาว,ดารารัตน์,กิ่งไทร,Miss,Dararat,Kingchai,PR,EXI04,Z17R,STB RW
+X6735,นาย,อุเทน,งามดี,Mr.,Auten,Ngamdee,PR,EXI04,Z17R,STB RW
+E9272,นาง,ปราณี,มังกรทอง,Mrs.,Pranee,Mangkornthong,PR,EXI10,Z17R,STB RW
+E8131,นางสาว,ณัฐชา,กลีบกลาง,Miss,Nattcha,Kleepklang,PR,EXI10,Z17R,STB RW
+J2221,นางสาว,พัทยา,รุ่งแจ้ง,Miss,Pattaya,Rungjang,PR,EXI10,Z17R,STB RW
+L6479,นางสาว,ชิดชนก,พวงมาลัย,Miss,Chitchanok,Puangmalai,PR,EXI10,Z17R,STB RW
+E5842,นางสาว,เยาวภา,สีรัตน์,Miss,Yaowapa,Srirat,EN,GP001,GP,GP Support
+D2694,นางสาว,กฤษดา,คงเที่ยง,Miss,Kritsada,Khongthiang,EN,GP003,GP,GP Support
+J4471,นางสาว,วิจิตตรา,นิลมงคล,Miss,Wichittra,Ninmongkhon,EN,GP004,GP,Pregnant
+J6221,นางสาว,วนารัตน์,สุขมั่น,Miss,Wanarat,Sookman,EN,GP005,GP,GP Support
+LC289,นางสาว,กรรณิกา,กลิ่นกุหลาบ,Miss,Kannika,Klinkulab,EN,GP005,GP,GP Support
+L8943,นางสาว,วันวิสาข์,บุญพา,Miss,Wanvisa,Bunpa,EN,GPFac10,GP,GP Support
+J2524,นาง,รุจิษยา,ศรีบรม,Mrs.,Rujisaya,Sriborom,EN,GPFac10,GP,GP Support
+E9828,นาง,พนมพร,มีรอด,Mrs.,Pranomporn,Meerod,PR,HD,Z17T,Clean Sheet
+D8875,นางสาว,ดวงดาว,จันทคุ้ม,Miss,Doungdowe,Jantakhum,PR,HD,Z17T,Clean Sheet
+L0953,นาง,งามเนตร,ศรีเมฆ,Mrs.,Ngamnetr,Simek,PR,HD,Z17T,Clean Sheet
+L4512,นางสาว,วรีพร,รุ่งสว่าง,Miss,Wareeporn,Rungsawang,PR,HD,Z17T,HD Material
+L7438,นางสาว,วิลาวรรณ,ลือขจร,Miss,Wilawan,Luekajon,PR,HD,Z17T,HD Material
+L9050,นางสาว,กิตติยา,กันยะวงค์,Miss,Kittiya,Kanyawong,PR,HD,Z17T,HD Material
+L8683,นางสาว,เพ็ญนภา,เจริญทอง,Miss,Pennapa,Charoenthong,PR,HD,Z17T,HD Material
+LC314,นางสาว,สาวิตรี,โทผาวงษ์,Miss,Sawitree,Tophawong,PR,HD,Z17T,HD Material
+D9736,นางสาว,จันทร์เพ็ญ,อ่อนบุญ,Miss,Janpen,Onboon,PR,HD,Z17T,HD Material
+D7542,นางสาว,พัชรินทร์,พัทธเสมา,Miss,Patcharin,Patasema,PR,HD,Z17T,HD Material
+E7647,นางสาว,นิตยา,ขันตี,Miss,Nitaya,Khantee,PR,HD,Z17T,HD Material
+J1825,นางสาว,พจนีย์,อินทร์นุช,Miss,Pojjanee,Inthanut,PR,HD,Z17T,HD Tray
+L3070,นาง,กิ่งแก้ว,เสือเผือก,Mrs.,Kingkaew,Suephuek,PR,HD,Z17T,HD Tray
+L3161,นาง,วาสนา,ทองเหลืองสุข,Mrs.,WASSANA,THONGLURNGSUK,PR,HD,Z17T,Pre-Protection Film
+L7338,นางสาว,วัชรี,พรหมสถิตย์,Miss,Watcharee,Promsatit,PR,HD,Z17T,Pre-Protection Film
+D3529,นางสาว,วิไลพร,ร่มโพธิ์ศรี,Miss,Wilaiporn,Romposri,PR,HD,Z17T,Pre-Protection Film
+E7801,นางสาว,ปุณยนุช,อยู่สอน,Miss,Punyanoot,Yosorn,MDS,HD00,PRMDS,HD Clean Material
+J4055,นางสาว,พัชรินทร์,พันธุ์ผ่าน,Miss,Patcharin,Panphan,MDS,HD00,PRMDS,HD Material
+D3866,นาง,นงนิตย์,แก้วบุษา,Mrs.,Nongnit,Kaeobusa,MDS,HD00,PRMDS,HD Material
+L6806,นางสาว,อังคณา,บุ้งทอง,Miss,Angkana,Bungthong,MDS,HD00,PRMDS,HD Material
+X5256,นาง,พรลภัส,ยิ้มสุข,Mrs.,Pornlaphat,Yimsuk,MDS,HD00,PRMDS,HD Material
+X3942,นางสาว,จิดาภา,สมสงวนสุทธ,Miss,Jidapa,Somsa-ngounsut,MDS,HD00,PRMDS,HD Material
+X6598,นางสาว,สุจิตรา,สีทา,Miss,Sujittra,Seeta,MDS,HD00,PRMDS,HD Material
+E6144,นาง,วิภา,ตันเจริญ,Mrs.,Wipa,Tancharoen,EN,HD01,SCI,MC SCI
+J1645,นางสาว,รุ่งทิวา,ป้อมทอง,Miss,Rungtiva,Pomtong,EN,HD04,SCI,HD WIP
+D8714,นางสาว,อัญชลี,ฉิมพาลี,Miss,UNCHALEE,CHIMPALEE,EN,HD04,SCI,MC SCI
+X0333,นางสาว,ประยงค์,ผันเนตร,Miss,Prayong,Phannet,EN,HD04,SCI,MC SCI
+D1348,นางสาว,เตือนตา,เอี่ยมยิ่ง,Miss,Teunta,Aeimying,PR,HDX10,Z17P,HD Main
+L2053,นางสาว,ดอกอ้อ,คำรัตน์,Miss,Dokao,Kamrat,PR,HDX10,Z17P,HD Sub
+L6567,นางสาว,วาสนา,แก่นนิล,Miss,Watsana,Kaennin,PR,Ins01,Z17T,Sort MCH
+A4203,นางสาว,รัตนา,สิงห์ทอง,Miss,Rattana,Singthong,PR,Ins01,SPOE,Sort MCH
+D6233,นางสาว,อาทิตญา,ผิวอ่ำ,Miss,Artittaya,Pew-am,PR,Ins02,Z17T,Sort MCH
+E8234,นาง,จินตนา,กว้างสวาสดิ์,Mrs.,Jintana,Kwangsawad,PR,Ins02,SPOE,Sort MCH
+J9961,นาง,กัลยา,จ้อยชู,Mrs.,KANLAYA,JOICHU,PR,IP001,Z17T,2D
+D2302,นางสาว,จีรนันท์,แก้วศิริ,Miss,Jeeranan,Kaewsiri,PR,IP001,Z17T,Insert AOI
+L2229,นางสาว,พัชรี,อิ่มจิตร์,Miss,Patcharee,Aimjit,PR,IP001,Z17T,Leader AUTO
+D8898,นางสาว,ประภาภรณ์,แสงอรุณ,Miss,Prapaporn,Sangaroon,PR,IP001,Z17T,Leader Main
+D2559,นางสาว,ธิดา,แล่งสนาม,Miss,Thida,Laengsanam,PR,IP001,Z17T,MAIN1
+L9613,นางสาว,นิภาพร,จันทราสา,Miss,Nipaporn,Chantrasa,PR,IP001,Z17T,MAIN1
+J8590,นาง,นิตยา,ซับเจียม,Mrs.,Nittaya,Sabjiam,PR,IP001,Z17T,MAIN2
+L5435,นาง,สุพรรษา,ประคำทอง,Mrs.,SUPANSA,PRAKUMTHONG,PR,IP001,Z17T,MAIN2
+J7631,นางสาว,ณัฐวดี,บุญรอด,Miss,Nattawadee,Bunrood,PR,IP001,Z17T,MAIN2
+L3254,นางสาว,ปาริชาติ,แก้วคง,Miss,Parcichart,Keawkong,PR,IP001,Z17T,MP6
+L0920,นาง,ดาราพรรณ,ศรีฮุย,Mrs.,DARAPAN,SRIHUY,PR,IP001,Z17T,Protection Film
+X6911,นาง,บุญส่ง,นิลประดิษฐ,Mrs.,Boonsong,Ninpadit,PR,IP001,Z17T,PSA TAB
+LA158,นางสาว,รุ่งทิพย์,ทองสุกดี,Miss,Rungthip,Thongsukdee,PR,IP001,Z17T,Repair
+J5283,นางสาว,สุรีย์รัตน์,เขียนกัน,Miss,Sureerat,Kiankan,PR,IP001,Z17T,SUB1
+J2870,นางสาว,ปทุม,บุญเกิด,Miss,Pathum,Boonkerd,PR,IP001,Z17T,SUB1
+D1820,นางสาว,กัณหา,มงคลเฉลิม,Miss,Kanha,Mongklonchaleam,PR,IP001,Z17T,SUB1
+J2122,นางสาว,ณัฏฐณิชา,ศรีบัวลา,Miss,Natthanicha,Sribuala,PR,IP001,Z17T,SUB2
+J7809,นางสาว,สุกัญญา,ปิ่นทองคำ,Miss,Sukanya,Pinthongkham,PR,IP001,Z17T,SUB2
+L2840,นาง,พัชรี,บุญซ้อน,Mrs.,Patcharee,Boonson,PR,IP001,Z17T,SUB2
+J4814,นางสาว,มารยาท,เชื้อวงษ์,Miss,MARAYART,CHOEWONG,PR,IP001,Z17T,SUB3
+D7558,นางสาว,ศิรภัสสร,ดียิ่ง,Miss,SIRAPHATSON,DIYING,PR,IP001,Z17T,SUB3
+J5177,นาง,พจนี,ฉิมสุนทร,Mrs.,Potjanee,Chimsuntorn,PR,IP001,Z17T,SUB4
+J3272,นางสาว,จารุณี,งานดี,Miss,Jarunee,Ngan-dee,PR,IP001,Z17T,SUB4
+D9648,นางสาว,ศิริดาว,ทองสวัสดิ์,Miss,SIRIDOW,THONGSAWAT,PR,IP001,Z17T,SUB5
+J9566,นางสาว,เสาวนีย์,ศรีจันทร์,Miss,Saowanee,Srijan,PR,IP001,Z17T,SUB5
+X3914,นางสาว,ชุตินันท์,จรรยา,Miss,Chutinun,Junya,PR,IP001,Z17T,SUB6
+D2427,นางสาว,สุพัตรา,เลี้ยงชีพชอบ,Miss,Supattra,Liangchepchob,PR,IP001,Z17T,SUB7
+J3104,นางสาว,วารุณี,ภู่ดาด,Miss,Warunee,Pudad,PR,IP001,Z17T,SUB8
+J5246,นางสาว,ศิริรัตน์,กล้วยเอี่ยม,Miss,Sirirat,Kloayiam,PR,IP001,Z17T,VCON
+LA274,นางสาว,จิรฐา,สง่าแสง,Miss,Jiratha,Sanga-sang,PR,IP001,Z17T,VCON
+J8416,นางสาว,เกศรินทร์,ช้างมาก,Miss,Ketsarin,Changmak,PR,IP001,Z17T,VCON
+J7566,นางสาว,อรพรรณ,บุญเลิศ,Miss,Orapan,Boonlert,PR,IP001,Z17T,VMEC
+J8473,นางสาว,นิวรรณ,ปานเจริญ,Miss,NIWAN,PANJARAEN,PR,IP001,Z17T,VMEC CCD
+E8581,นางสาว,กิ่งแก้ว,ช่วยชาติ,Miss,KINGKAEW,CHUAYCHAT,PR,IP002,Z17T,2D
+D1008,นางสาว,เพ็ญพยอม,ฝั่งทะเล,Miss,Phenpayorm,Fangtalae,PR,IP002,Z17T,Insert AOI
+L0899,นาง,จารินี,ลาภทวี,Mrs.,Jarinee,Laptawee,PR,IP002,Z17T,LEADER AUTO
+D3719,นางสาว,กมลทิพย์,แก้วใส,Miss,KAMONTHIP,KAEWSAI,PR,IP002,Z17T,Leader Main
+D3000,นางสาว,วินิตย์,ชุ่มจีน,Miss,Winit,Chumgeen,PR,IP002,Z17T,MAIN1
+L0268,นาง,ศรีไพร,ตะกุดแก้ว,Mrs.,Sripai,Takutkaew,PR,IP002,Z17T,MAIN1
+X5901,นางสาว,กานต์ชนก,เปียนุ่ม,Miss,Kanchanog,Pianum,PR,IP002,Z17T,MAIN2
+P4549,นางสาว,อุทุมพร,เติมสูงเนิน,Miss,UTUMPORN,TERMSUNGNOEN,PR,IP002,Z17T,MAIN2
+D7656,นางสาว,สุกัญญา,สวรรค์ดร,Miss,Sukanya,SAWANDON,PR,IP002,Z17T,MAIN2
+L4403,นางสาว,อรอุมา,อยู่สุข,Miss,ON-UMA,YOOSUK,PR,IP002,Z17T,MP6
+L0043,นางสาว,ชมนาจ,ฉายสุวรรณ,Miss,CHOMNAJ,CHAYSUWAN,PR,IP002,Z17T,Peel TRRL
+E4718,นางสาว,ปัทมาพร,งามขำ,Miss,Patthamaporn,Ngam-kham,PR,IP002,Z17T,PRESS
+J3519,นางสาว,กรองแก้ว,เขียววิลัย,Miss,KRONKAEW,KHIEWWILAI,PR,IP002,Z17T,Protection Film
+L2405,นาง,วันเพ็ญ,พรมมา,Mrs.,Wanpen,Promma,PR,IP002,Z17T,PSA TAB
+J6806,นางสาว,ยุภาภรณ์,วงษ์ขำ,Miss,YUPAPORN,WONGKHAM,PR,IP002,Z17T,Repair
+L1959,นางสาว,สุลี,สท้านวัตร,Miss,SULEE,SATRANVAT,PR,IP002,Z17T,SUB1
+L3716,นาง,ปราจีน,พวงพยอม,Mrs.,Prajean,Puangpayom,PR,IP002,Z17T,SUB1
+X4540,นางสาว,จิตติมา,เปาอินทร์,Miss,JITTIMA,POAIN,PR,IP002,Z17T,SUB1
+L7425,นางสาว,ธิตินันท์,บุตรสี,Miss,Thitinan,Bootsee,PR,IP002,Z17T,SUB2
+J3179,นางสาว,วาสนา,แก้วงาม,Miss,Wassana,Keawngam,PR,IP002,Z17T,SUB2
+E9395,นางสาว,นรินทร์,เหมหอมวงศ์,Miss,NARIN,HEMHOMWONG,PR,IP002,Z17T,SUB2
+L6908,นางสาว,ชนิตา,ฉ่ำชุ่ม,Miss,Chanita,Chamchum,PR,IP002,Z17T,SUB3
+L5338,นางสาว,ไพฑูรย์,นาฉิม,Miss,Paitoon,Nachim,PR,IP002,Z17T,SUB3
+E3854,นาง,อุทัยรัตน์,ธนะสุทธินันท์,Mrs.,Uthairat,Thasuttinan,PR,IP002,Z17T,SUB4
+D7226,นางสาว,นริสรา,ประสานทอง,Miss,Nalisala,Pasanthong,PR,IP002,Z17T,SUB4
+D7255,นางสาว,ลาวัลย์,คำภา,Miss,Lawan,Kampha,PR,IP002,Z17T,SUB5
+X4220,นางสาว,ธวัลรัตน์,ตุ้มทอง,Miss,Tawanrat,Tumthong,PR,IP002,Z17T,SUB5
+L0844,นาง,ญาติกา,เนียมแสงกนก,Mrs.,Yatika,Niemsaenganok,PR,IP002,Z17T,SUB6
+X5367,นางสาว,สุปราณี,เทียนขาว,Miss,Supranee,Thiankhao,PR,IP002,Z17T,SUB7
+L9950,นางสาว,เสริมสุข,ยิ้มแย้ม,Miss,Surmsuk,Yimyam,PR,IP002,Z17T,SUB8
+LC320,นางสาว,อรอนงค์,ชื่นชม,Miss,ONANONG,CHAEN-CHOM,PR,IP002,Z17T,VCON
+LB748,นางสาว,เจนจิรา,ทัดศรี,Miss,Janjira,Thadsri,PR,IP002,Z17T,VCON
+L6601,นางสาว,กนกวรรณ,ยนต์สหการ,Miss,Kanokwan,Yonsahakarn,PR,IP002,Z17T,VCON
+J3805,นางสาว,อัญชนา,วิสาสะ,Miss,ANCHANA,WISASA,PR,IP002,Z17T,VMEC
+D7024,นางสาว,ถนิมภรณ์,กองพูล,Miss,Tanimporn,Kongpul,PR,IP002,Z17T,VMEC CCD
+LC323,นางสาว,อาภัสจิรา,ภู่เขียว,Miss,Arpatjira,Phukew,PR,IP003,Z17T,2D
+E9179,นาง,จารุวรรณ,สุพวง,Mrs.,JARUWAN,SUPAUNG,PR,IP003,Z17T,Insert AOI
+D2189,นางสาว,สุภาวรรณ,แปะกระโทก,Miss,Supawan,Paekratok,PR,IP003,Z17T,Leader AUTO
+J5432,นางสาว,สุณิสา,ไม้เจริญ,Miss,Sunisa,Maicharoen,PR,IP003,Z17T,Leader Main
+D2011,นางสาว,ศลิษา,สุธรรมวงค์,Miss,SALISA,SUTUMWONG,PR,IP003,Z17T,MAIN1
+X3426,นางสาว,กฤติมา,บัวเงิน,Miss,KIRTTIMA,BUANGOEN,PR,IP003,Z17T,MAIN1
+X3047,นาง,สาวิตรี,ตุ้มทอง,Mrs.,SAWITREE,TUMTHONG,PR,IP003,Z17T,MAIN2
+X1578,นางสาว,ทนิดา,หอยสังข์,Miss,Tanida,Hoisang,PR,IP003,Z17T,MAIN2
+J2214,นางสาว,สุไพพรรณ,กองสุวรรณ์,Miss,Supipun,Kongsuwan,PR,IP003,Z17T,MAIN2
+X4925,นางสาว,รุ่งอรุณ,คำสิงห์,Miss,RUNGAROON,COMESING,PR,IP003,Z17T,MP6
+L1833,นาง,ทองแดง,ก้อนมะณี,Mrs.,THONGDANG,KONMANEE,PR,IP003,Z17T,Peel TRRL
+L0087,นาง,อุสา,เทียนชุบ,Mrs.,Usa,Teinchoop,PR,IP003,Z17T,PRESS
+X5658,นางสาว,พรทิพย์,มั่นคง,Miss,PORNTHIP,MANKHONG,PR,IP003,Z17T,Protection Film
+E2273,นาง,ทองแดง,เฉลิมกิจ,Mrs.,Thongdaeng,Chalermkij,PR,IP003,Z17T,PSA TAB
+LC291,นางสาว,เจี๊ยบ,ฮ้อยคำ,Miss,JIAB,HOIKAM,PR,IP003,Z17T,Repair
+M9195,นาง,โสภิตา,พรหมดวงตา,Mrs.,Sopita,Promduangta,PR,IP003,Z17T,SUB1
+X3077,นางสาว,เพ็ญนภา,งิ้วเรือง,Miss,PENNAPA,NGIWGRUENG,PR,IP003,Z17T,SUB1
+J8925,นางสาว,ศรีไพร,ดำสนิท,Miss,SRIPIA,DAMSANIT,PR,IP003,Z17T,SUB1
+L7324,นางสาว,สุนิสา,คอนโต,Miss,SUNISA,KONTO,PR,IP003,Z17T,SUB2
+L7065,นาง,มยุรีย์,โคตรชุม,Mrs.,Mayuree,Chotchom,PR,IP003,Z17T,SUB2
+L4337,นางสาว,รุ่งอรุณ,พุ่มประภา,Miss,Rungaroon,Pumprapa,PR,IP003,Z17T,SUB2
+D6282,นางสาว,ทัศณี,พันธุพูล,Miss,THATSANI,PHANTHUPHUN,PR,IP003,Z17T,SUB3
+D2673,นางสาว,กัญญารัตน์,สายสวัสดิ์,Miss,Kanyarat,Saisawat,PR,IP003,Z17T,SUB3
+J5598,นางสาว,ช่อทิพย์,บุญสันต์,Miss,Chotip,Boonsun,PR,IP003,Z17T,SUB4
+L3823,นาง,กัญญารัตน์,วงษ์วิลัย,Mrs.,KANYARAT,WONGWILAI,PR,IP003,Z17T,SUB4
+L1185,นาง,เฉลิมศรี,พันธุ์สุ,Mrs.,Chalermsri,Phansu,PR,IP003,Z17T,SUB5
+L9777,นางสาว,กนกพร,ผ่องใส,Miss,Kanokporn,Phongsai,PR,IP003,Z17T,SUB5
+L9338,นางสาว,นภาลัย,เทศโล,Miss,NAPHALAI,THETSARO,PR,IP003,Z17T,SUB6
+D6873,นางสาว,ศุภลักษณ์,มนตรี,Miss,SUPALAK,MONTHREE,PR,IP003,Z17T,SUB7
+D9466,นางสาว,สมควร,เม่าขุนทด,Miss,SOMKHUAN,MAOKHUNTHOD,PR,IP003,Z17T,SUB8
+D5811,นางสาว,สุพัตรา,ภู่สวรรค์,Miss,SUPATTRA,POOSAWAN,PR,IP003,Z17T,VCON
+D2439,นางสาว,ปิยวรรณ,พูลสวัสดิ์,Miss,PIYAWAN,PULSAWAD,PR,IP003,Z17T,VCON
+L6792,นางสาว,เจริญรัตน์,แก้วตุมกา,Miss,Jaroenrat,Kaeotumka,PR,IP003,Z17T,VCON
+L0952,นาง,เกศสุดา,งามแก้ว,Mrs.,Kessuda,Ngamkeaw,PR,IP003,Z17T,VMEC
+D8977,นางสาว,ชิดชนก,กล้องกระโทก,Miss,Chidchanok,Klongrathok,PR,IP003,Z17T,VMEC CCD
+L9788,นางสาว,ดลนภา,น้อยประถม,Miss,Donnapa,Noyprathom,PR,IP004,Z17T,2D
+X0743,นางสาว,มาลัย,ทาแป้ง,Miss,MALAI,Tapang,PR,IP004,Z17T,Insert AOI
+L4389,นางสาว,วิไล,ฟองเขียว,Miss,Wilai,Fongkhiew,PR,IP004,Z17T,Leader AUTO
+J2571,นางสาว,ฤทัยวรรณ,เทียนงาม,Miss,RUTHAIWAN,TEANNGAM,PR,IP004,Z17T,Leader Main
+L0461,นางสาว,โสน,หมอนทอง,Miss,Sanoo,Mornthong,PR,IP004,Z17T,MAIN1
+L2831,นาง,ทัศติยา,เที่ยงทัศน์,Mrs.,THATTIYA,TIANGTAT,PR,IP004,Z17T,MAIN1
+L0925,นางสาว,นันท์นภัส,บุญญา,Miss,Nannapat,Boonya,PR,IP004,Z17T,MAIN2
+L4454,นางสาว,สุพรรษา,ทรัพย์มีมา,Miss,SUPANSA,SAPMEEMA,PR,IP004,Z17T,MAIN2
+P0762,นางสาว,ภัสราพร,โก่งศร,Miss,PATSARAPORN,KONGSORN,PR,IP004,Z17T,MAIN2
+L3021,นาง,สมควร,ขวัญประชารัฐ,Mrs.,Somkoun,Khwanpracharaj,PR,IP004,Z17T,MP6
+L3816,นางสาว,สมทรง,โคมบัว,Miss,SOMSONG,KOMBUA,PR,IP004,Z17T,PRESS
+X6480,นาง,นันทิพร,คล้ายพงษ์,Mrs.,NANTHIPORN,KLAIPONG,PR,IP004,Z17T,PRESS
+L2566,นาง,จันทร์วลัยพร,สืบอักษร,Mrs.,CHANWALAIPORN,SUEBAKSORN,PR,IP004,Z17T,Protection Film
+E6793,นางสาว,นันทนา,ทาแสง,Miss,Nanthana,Thasaeng,PR,IP004,Z17T,PSA TAB
+L8650,นางสาว,เนตรดาว,เนตรสกุล,Miss,NETDAO,NETSAKUL,PR,IP004,Z17T,Repair
+X1123,นาง,สุจิตรา,น้ำนวน,Mrs.,SUJITTRA,NUMNUAN,PR,IP004,Z17T,SUB1
+X0224,นาง,มณีรัตน์,จุ้ยมณี,Mrs.,MANEERAT,PHO-THOON,PR,IP004,Z17T,SUB1
+E7378,นาง,จินดารัตน์,ชวัยเกตุ,Mrs.,Jindarat,CHAWAIKED,PR,IP004,Z17T,SUB1
+L4500,นาง,ฐานิดา,เชยขุนทด,Mrs.,Tanida,Chaykunthod,PR,IP004,Z17T,SUB2
+L4193,นางสาว,อทิตยา,ไสยเลิศ,Miss,ATITAYA,SAILEARD,PR,IP004,Z17T,SUB2
+L4124,นางสาว,สุรีภรณ์,อินอุ่นโชติ,Miss,SUREEPORN,IN-OUNCHOT,PR,IP004,Z17T,SUB2
+L4597,นางสาว,ชารินี,ศรีดี,Miss,Charinee,Sridee,PR,IP004,Z17T,SUB3
+L1829,นาง,จันจิรา,นาคอุดม,Mrs.,JANJIRA,NARKUDOM,PR,IP004,Z17T,SUB3
+L5487,นาง,ศรีสกุล,ทับลอย,Mrs.,Srisakun,Tubloy,PR,IP004,Z17T,SUB4
+X0115,นาง,วิไล,นวลอินทร์,Mrs.,Wilai,NUANAIN,PR,IP004,Z17T,SUB4
+L9266,นางสาว,สุนีย์,บุญมั่น,Miss,Sunee,Boonman,PR,IP004,Z17T,SUB5
+J3175,นาง,จุรีรัตน์,วงษ์สิงห์,Mrs.,Jureerat,Wongsing,PR,IP004,Z17T,SUB5
+L1333,นางสาว,วาสนา,วัดยิ้ม,Miss,Wassana,Wadyim,PR,IP004,Z17T,SUB6
+J3119,นางสาว,ราตรี,อังเปรม,Miss,RATRE,Ang-prem,PR,IP004,Z17T,SUB7
+D7482,นาง,ณิชานันท์,อรัญปาน,Mrs.,Nichanan,Arunpan,PR,IP004,Z17T,SUB8
+D3268,นางสาว,สิวา,ประสาทแก้ว,Miss,SIWA,PRASATKEW,PR,IP004,Z17T,VCON
+LA267,นางสาว,ศิริวรรณ,คงมี,Miss,SIRIWAN,KONGME,PR,IP004,Z17T,VCON
+LC310,นางสาว,สมคิด,ปาวรีย์,Miss,SOMKID,PAWAREE,PR,IP004,Z17T,VCON
+D1401,นางสาว,สมปอง,ชินบูรณ์,Miss,SOMPONG,CHINBOON,PR,IP004,Z17T,VMEC
+L8995,นางสาว,ยุภา,ผิวผ่อง,Miss,Yupha,Phiwphong,PR,IP004,Z17T,VMEC CCD
+D1286,นางสาว,อัญชลี,อินทร์ขาว,Miss,Aunchalee,In-kaw,PR,IP005,Z17T,2D
+L3785,นางสาว,กฤษณา,เรืองบุญ,Miss,KRITSANA,RUENGBOON,PR,IP005,Z17T,Insert AOI
+E0366,นาง,รุจิรา,เมืองช้าง,Mrs.,Rugira,Muangchang,PR,IP005,Z17T,LEADER AUTO
+L6859,นางสาว,วิไลพร,ทาประดิษฐ์,Miss,WILAIPORN,TAPRADIT,PR,IP005,Z17T,Leader Main
+L6861,นางสาว,อนุชสรา,น้อยเสนา,Miss,ANUTSARA,NOISENA,PR,IP005,Z17T,MAIN1
+C7256,นางสาว,เจนจิรา,อำภา,Miss,JANJIRA,AMPA,PR,IP005,Z17T,MAIN1
+L3652,นาง,สุวดี,บัวทอง,Mrs.,Suwadee,Buathong,PR,IP005,Z17T,MAIN2
+L0542,นางสาว,บุปผา,ปานทอง,Miss,Bhupha,Panthong,PR,IP005,Z17T,MAIN2
+X4365,นาง,วาสนา,ใจเหี้ยม,Mrs.,Wassana,Jaihaim,PR,IP005,Z17T,MAIN2
+J8744,นางสาว,ลดามาศ,สารี,Miss,Ladamas,Saree,PR,IP005,Z17T,MP6
+E9822,นางสาว,ลัดดาวัลย์,เตชะไพศาลทวี,Miss,LADDAWON,TECHAPAISALTAWE,PR,IP005,SPOE,Peel TRRL
+X6591,นางสาว,อำไพ,สำราญเพ็ชร์,Miss,Umpai,Samranpech,PR,IP005,SPOE,PRESS
+L8176,นางสาว,สุกัญญา,เชาว์ไว,Miss,Sukunya,Chawwi,PR,IP005,Z17T,Protection Film
+E8600,นาง,รสมณ,สุวรรธนะ,Mrs.,Rotsamon,Suwantana,PR,IP005,Z17T,PSA TAB
+D1952,นางสาว,ชรินรัตน์,วงษ์นวม,Miss,Charinrat,Wongnoum,PR,IP005,Z17T,Repair
+E9392,นาง,นิตยา,คงเลิศ,Mrs.,NITAYA,KONGLERT,PR,IP005,Z17T,SUB1
+L7345,นางสาว,สุวรรณษา,เปรมจิต,Miss,Suwannasa,Pamjit,PR,IP005,Z17T,SUB1
+P6480,นางสาว,พรทิพย์,ลีเพ็ง,Miss,PORNTIP,LEEPENG,PR,IP005,Z17T,SUB1
+X4290,นางสาว,รัตนา,เรืองสันเทียะ,Miss,RATTANA,RUENGSANTHEI,PR,IP005,Z17T,SUB2
+X4696,นางสาว,จันทร์จ้า,ยงยุทธิ์,Miss,JUNJA,YONGYUTH,PR,IP005,Z17T,SUB2
+L3712,นางสาว,ทองล้วน,เจริญมาก,Miss,THONGLUAN,CHAROENMAK,PR,IP005,Z17T,SUB2
+J1295,นางสาว,อัจฉริยา,วงษ์บุดดี,Miss,Atchariya,Vongbuddee,PR,IP005,Z17T,SUB3
+D1672,นางสาว,กรรณิการ์,จำมั่น,Miss,KANNIGA,JUMMUN,PR,IP005,Z17T,SUB3
+E6609,นาง,จงกล,แสงทอง,Mrs.,Jongkol,Seangthong,PR,IP005,Z17T,SUB4
+E4585,นาง,จำเรียง,ถุงทรัพย์,Mrs.,Jamriang,Tungsap,PR,IP005,Z17T,SUB4
+J2795,นางสาว,วริศรา,บางผึ้ง,Miss,Walisla,Bangpueng,PR,IP005,Z17T,SUB5
+D1755,นางสาว,ศกุนตลา,ฤทธิสาร,Miss,Sakuntala,Rittisan,PR,IP005,Z17T,SUB5
+X0649,นาง,เพชร,เพราะชม,Mrs.,PHETCH,PROHCHOM,PR,IP005,Z17T,SUB6
+X5624,นางสาว,ภัทรสุดา,บุญประดิษฐ์,Miss,PHATSUDA,BOONPRADIT,PR,IP005,Z17T,SUB7
+L1630,นางสาว,รุ่งลาวัลย์,เพ็ชรฉลู,Miss,Runglawan,Phetchalu,PR,IP005,Z17T,SUB8
+L9258,นางสาว,สุภาพร,วงษ์บุตรรอด,Miss,SUPAPORN,WONGBUTROT,PR,IP005,Z17T,VCON
+J4917,นางสาว,วิชชุดา,แซ่ฉั่ว,Miss,Wichuda,Sachula,PR,IP005,Z17T,VCON
+X6887,นางสาว,ลัดดาวัลย์,คำนวนชอบ,Miss,Laddawan,Kamnuanchob,PR,IP005,Z17T,VCON
+L4864,นาง,ทัศวรรณ,สุขโม,Mrs.,Tassawan,Sukmo,PR,IP005,Z17T,VMEC
+L7631,นางสาว,กัลยา,สมจันทร์,Miss,Kanlaya,Somchan,PR,IP005,Z17T,VMEC CCD
+L7081,นางสาว,เนาวรัตน์,สังข์ศิริ,Miss,NAOWARAT,SANGSIRI,PR,IP006,Z17T,2D
+X5937,นางสาว,วิภา,พระนาค,Miss,Wipa,Pranak,PR,IP006,Z17T,Insert AOI
+D7351,นางสาว,อุมา,สมบัติ,Miss,Uma,Sambat,PR,IP006,Z17T,LEADER AUTO
+L9724,นางสาว,สายรุ้ง,บุญมี,Miss,Sairung,Bunmee,PR,IP006,Z17T,Leader Main
+X5201,นางสาว,สุมิตรา,คำสัตย์,Miss,SUMITRA,KHUMSAT,PR,IP006,Z17T,MAIN1
+E6080,นาง,กชกร,สุภาตรี,Mrs.,Kodchakorn,Supatree,PR,IP006,Z17T,MAIN1
+J7916,นางสาว,นุชจรี,เสือจาก,Miss,SUNUTCHAREE,SUAJAK,PR,IP006,Z17T,MAIN2
+D0889,นางสาว,แสงจันทร์,เงินภูเขียว,Miss,Sangjun,Ngoenpookhiew,PR,IP006,Z17T,MAIN2
+J9814,นางสาว,มินตา,ช้อนทอง,Miss,Minta,Chonthong,PR,IP006,Z17T,MAIN2
+E5595,นางสาว,วรรณภา,แซ่อือ,Miss,Wannapa,Sae-uer,PR,IP006,Z17T,MP6
+L9084,นาง,ลัดดา,ศรีลาภา,Mrs.,Ladda,Silapha,PR,IP006,Z17T,Protection Film
+E4635,นางสาว,ขนิษฐา,น้อยแก้ว,Miss,Khanistha,Noikaew,PR,IP006,Z17T,PSA TAB
+J5158,นางสาว,มณฑิตา,กลมแก้ว,Miss,MONTHITA,KLOMKAEW,PR,IP006,Z17T,Repair
+X2829,นาง,ปราณี,ปานขวัญ,Mrs.,Pranee,Pankwan,PR,IP006,Z17T,SUB1
+L1323,นางสาว,ลำจวน,สุขจันทร์,Miss,Lamjoun,Sukchan,PR,IP006,Z17T,SUB1
+L6485,นางสาว,นันทกา,แก้วพนม,Miss,Nantaka,KAEWPANOM,PR,IP006,Z17T,SUB1
+L1588,นาง,พรทิพย์,อินทศร,Mrs.,Pornthip,Inthasorn,PR,IP006,Z17T,SUB2
+X2954,นาง,สายฝน,บุญศรีทอง,Mrs.,Saifon,Boonsritong,PR,IP006,Z17T,SUB2
+E8216,นาง,วราภร,แก้วคง,Mrs.,Waraporn,Kaewkong,PR,IP006,SPOE,SUB2
+D6189,นางสาว,ปัทมา,อุ่นรัมย์,Miss,PATTAMA,UNRAM,PR,IP006,Z17T,SUB2
+E5289,นางสาว,ปัทมพร,ศรีโคตร,Miss,Pattamaporn,SRIKHOT,PR,IP006,Z17T,SUB3
+E9797,นางสาว,สอิ้ง,ไวยปราชญ์,Miss,Sa-eng,Waiprad,PR,IP006,Z17T,SUB3
+L1596,นาง,สำอาง,รอดสัมฤทธิ์,Mrs.,Sam-ang,Rodsamrit,PR,IP006,Z17T,SUB4
+L0735,นาง,ศุภากร,ไชยนามน,Mrs.,Supakorn,Chainamon,PR,IP006,Z17T,SUB4
+X6505,นางสาว,นรินทร,ผดุงชีพ,Miss,Narintorn,Padungcheep,PR,IP006,SPOE,SUB4
+L2249,นาง,สุปราณี,เพ็ชร์พลอย,Mrs.,SUPRANEE,PETPLOY,PR,IP006,Z17T,SUB5
+E4968,นางสาว,รัชดาวัลย์,ภู่แส,Miss,Rachadawal,Poosae,PR,IP006,Z17T,SUB5
+L4667,นางสาว,ศศิธร,ศักดี,Miss,SASITORN,SAKDEE,PR,IP006,Z17T,SUB6
+E4567,นางสาว,ภรณวิภา,ศิลปวุฒิ,Miss,Pornwipa,Sillapawut,PR,IP006,Z17T,SUB7
+D2413,นางสาว,ปราณี,พุดศรีทอง,Miss,PRANEE,PUTSREETHONG,PR,IP006,Z17T,SUB8
+D8329,นางสาว,อ้อย,กุลชาติ,Miss,OOY,KUNLACHAT,PR,IP006,Z17T,VCON
+J7282,นางสาว,ช่อทิพย์,สุขสโมสร,Miss,Chotip,Suksamosorn,PR,IP006,Z17T,VCON
+LC294,นางสาว,นฤมล,ทองศรี,Miss,NARIMON,THONGSRI,PR,IP006,Z17T,VCON
+J9457,นางสาว,นภาพร,มางาม,Miss,NAPAPORN,MANGAM,PR,IP006,Z17T,VMEC
+D5719,นางสาว,เกวรีย์,พรหมโสภา,Miss,Kewari,Promsopa,PR,IP006,Z17T,VMEC CCD
+L3757,นางสาว,นัฐจวรรณ,เดชพงษ์,Miss,NATJAWAN,DATPONG,PR,IP007,Z17T,2D
+L0708,นางสาว,สุภลักษณ์,ชักนำ,Miss,SUPALAK,CHAGNAM,PR,IP007,Z17T,Insert AOI
+L4386,นาง,นงนุช,สุขวิบูลย์,Mrs.,Nongnuch,Sukwiboon,PR,IP007,Z17T,LEADER AUTO
+L9141,นางสาว,อรวดี,ศรีเมืองจันทร์,Miss,Aonvadee,Srimueangjun,PR,IP007,Z17T,Leader Main
+L3754,นางสาว,นุชนารถ,ลอยเลิศ,Miss,NUTCHANART,LOILERT,PR,IP007,Z17T,MAIN1
+J2676,นางสาว,สมใจ,เมืองสา,Miss,Somjai,Mueangsa,PR,IP007,Z17T,MAIN1
+L3409,นางสาว,แพรว,จันทร์ทับพวง,Miss,Praew,Juntuppaung,PR,IP007,Z17T,MAIN2
+L6607,นาง,สิรภัทร,รัตนบัลลังก์,Mrs.,Sirapath,Rattanabanlang,PR,IP007,Z17T,MAIN2
+X1793,นางสาว,บุปผา,เฉลยบุญ,Miss,Buppha,Chaleoyboon,PR,IP007,Z17T,MAIN2
+D2495,นางสาว,กาญจนา,บัวจาน,Miss,Kanjana,Buajan,PR,IP007,Z17T,MP6
+L2173,นาง,สุณี,แสนล้อม,Mrs.,Sunee,Saenlom,PR,IP007,Z17T,Peel TRRL
+E6209,นางสาว,เมตตา,ชัยปัญญา,Miss,Metta,Chaipanya,PR,IP007,Z17T,PRESS
+E5228,นาง,บัวหลวง,เสือหิน,Mrs.,Buawluang,Suehin,PR,IP007,Z17T,Protection Film
+L0057,นาง,นัฏฐิกา,โปร่งกลาง,Mrs.,Natthika,Prongklang,PR,IP007,Z17T,PSA TAB
+L9325,นางสาว,น้ำค้าง,คุ้มคง,Miss,NAMKHANG,KHUMKHONG,PR,IP007,Z17T,Repair
+L0647,นาง,ทองสุข,แดงทอง,Mrs.,Thongsuk,Daengthong,PR,IP007,Z17T,SUB1
+L8234,นางสาว,จีราภา,คัมภีร์พงษ์,Miss,JEERAPA,KOMPEEPONG,PR,IP007,Z17T,SUB1
+X6806,นาง,เมรีย์,เครือคร้าม,Mrs.,MAREE,KRUEKRAM,PR,IP007,Z17T,SUB1
+L4263,นางสาว,ชุติมา,รามัญวงษ์,Miss,Chutima,Ramunwong,PR,IP007,Z17T,SUB2
+L2134,นางสาว,นงนุช,เกตุดี,Miss,Nongnuch,Ketdee,PR,IP007,Z17T,SUB2
+E5280,นางสาว,เรียมรัตน์,แจ้งสว่าง,Miss,Riamrut,Jaengsawang,PR,IP007,Z17T,SUB2
+D9799,นาง,ทานิการ์,จันทร์หอม,Mrs.,Tanika,Junhom,PR,IP007,Z17T,SUB3
+L2923,นางสาว,วรัญญา,แสนพันธ์,Miss,Waranya,Sanpan,PR,IP007,Z17T,SUB3
+L1112,นาง,มณีรัตน์,เสียงล้ำ,Mrs.,MANEERAT,SEINGLUM,PR,IP007,Z17T,SUB4
+L0842,นางสาว,ขวัญเมือง,คนมั่น,Miss,KHUANMAUNG,KONMAN,PR,IP007,Z17T,SUB4
+M8746,นาง,จันทร์แรม,แสงเกลียว,Mrs.,JANRAM,SAENGKLEAW,PR,IP007,Z17T,SUB5
+E7620,นางสาว,บุษบา,โอฬารวุฒิกุล,Miss,Busaba,Oranwutthikul,PR,IP007,Z17T,SUB5
+L6269,นางสาว,สุวภัทร,ธวัตติ,Miss,Suwapat,Tawatti,PR,IP007,Z17T,SUB6
+L6895,นาง,นุชลี,จันทร์ขำ,Mrs.,Nuchalee,Chankorn,PR,IP007,Z17T,SUB7
+X5971,นางสาว,แววตา,จันทร์กลาง,Miss,WAWTA,JUNGANG,PR,IP007,Z17T,SUB8
+X2154,นางสาว,นันทิยา,ใจตรง,Miss,Nantiya,Jaitrong,PR,IP007,Z17T,VCON
+J8336,นางสาว,ลลิตา,กาวิระ,Miss,Lalita,Kawira,PR,IP007,Z17T,VCON
+D2001,นางสาว,กัญญารัตน์,สิงห์ทรัพย์,Miss,Kanyarat,SINGTHAP,PR,IP007,Z17T,VCON
+D9076,นางสาว,มุกดา,เชื้อเกตุ,Miss,MOOKDA,CHUEAKET,PR,IP007,Z17T,VMEC
+D3254,นางสาว,พรพรรณ,สุวรรณที,Miss,Pornpan,Suwanatee,PR,IP007,Z17T,VMEC CCD
+L1398,นางสาว,จิณห์จุทาฐ์,ท้าวศรีสกุล,Miss,Jinjuta,Thowsrisakul,PR,IP008,Z17T,2D
+E7090,นางสาว,กุหลาบ,ดำขำ,Miss,Kularb,Damkham,PR,IP008,Z17T,Insert AOI
+X3777,นางสาว,นัทธ์หทัย,ป่าหวาย,Miss,Nuthathai,Pawai,PR,IP008,Z17T,LEADER AUTO
+L8835,นางสาว,บุญนำ,ฉ่ำหวาน,Miss,Bunnam,Chamwan,PR,IP008,Z17T,Leader Main
+L3357,นาง,อรัญญา,จันทร์สาลี,Mrs.,Aranya,Jansalee,PR,IP008,Z17T,MAIN1
+L3980,นางสาว,ยุวดี,เอี่ยมระหงษ์,Miss,YUWADEE,AIMRAHONG,PR,IP008,Z17T,MAIN1
+L6439,นาง,มาลี,เจริญผล,Mrs.,MALEE,JARUENPHON,PR,IP008,Z17T,MAIN2
+L0280,นางสาว,สมพร,พาตา,Miss,Somporn,Pata,PR,IP008,Z17T,MAIN2
+D7885,นาง,วันทนา,ม่วงวิจิตร,Mrs.,Wanthana,Muangwichit,PR,IP008,Z17T,MAIN2
+E9200,นางสาว,จารุวรรณ,สังวาลย์ทอง,Miss,Jaruwan,Sangwanthong,PR,IP008,Z17T,MP6
+D2579,นาง,ปราณี,เกิดผล,Mrs.,PRANEE,KERDPHON,PR,IP008,SPOE,Peel TRRL
+X5827,นางสาว,วารินทร์,อ่ำพงษ์,Miss,Varin,Aumpong,PR,IP008,SPOE,PRESS
+D4066,นางสาว,ฉันทนา,วงษา,Miss,Chanthana,Wongsa,PR,IP008,Z17T,Protection Film
+E8337,นางสาว,ปิยะนุช,ช้างเฟื่อง,Miss,Piyanuch,Changfueang,PR,IP008,Z17T,PSA TAB
+X2592,นางสาว,ขนิษฐา,สิมสีนวล,Miss,Khanittha,Simsenuan,PR,IP008,Z17T,Repair
+L3804,นางสาว,อมรรัตน์,โพธิ์กัน,Miss,Amornrat,Pungun,PR,IP008,Z17T,SUB1
+L2824,นาง,สุธิดา,รอดภัย,Mrs.,Sutida,Rodpai,PR,IP008,Z17T,SUB1
+L2007,นาง,สมบัติ,แนบนวล,Mrs.,Sombat,Nam-nuan,PR,IP008,Z17T,SUB1
+L1143,นางสาว,สมหมาย,ภูตันวงษ์,Miss,SOMMAI,POOTANWONG,PR,IP008,Z17T,SUB2
+L2776,นางสาว,สาวิตรี,อยู่แจ่ม,Miss,Sawitree,Yoocham,PR,IP008,Z17T,SUB2
+E9483,นางสาว,ศรัญญา,บุญทวี,Miss,Saranya,Boonthawee,PR,IP008,Z17T,SUB2
+E5778,นาง,ปราณี,อ้อยหวาน,Mrs.,Pranee,Ooywarn,PR,IP008,Z17T,SUB3
+L2018,นาง,นัยนา,สอฮอง,Mrs.,NAIYANA,SAWHONG,PR,IP008,Z17T,SUB3
+L0721,นางสาว,จำเนียร,วิลัยวงค์,Miss,Jamnein,Wilaiwong,PR,IP008,Z17T,SUB4
+D1848,นางสาว,จินตนา,คงอาภาส,Miss,Jintana,Kongarpas,PR,IP008,Z17T,SUB4
+E9209,นางสาว,สายรุ้ง,แสนรัก,Miss,Sairung,Saenrak,PR,IP008,Z17T,SUB5
+M9178,นาง,จิตติมา,พรหมมาศ,Mrs.,Jittima,Prommas.,PR,IP008,Z17T,SUB5
+L8939,นางสาว,จิราภา,แสงม่วง,Miss,Jirapa,Saengmoung,PR,IP008,Z17T,SUB6
+L4882,นางสาว,บุญธรรม,คุ้มทัพ,Miss,Boontham,Koomtap,PR,IP008,Z17T,SUB7
+D0764,นาง,รุ้งมาณีวรรณ์,แก้วล้อม,Mrs.,Rungmaneewan,Keawlom,PR,IP008,Z17T,SUB8
+J8739,นางสาว,มะลิวัลย์,แดงเวช,Miss,Maliwan,Dangwet,PR,IP008,Z17T,VCON
+LC305,นางสาว,วิจิตรา,สาระบูรณ์,Miss,Wijittra,Saraboon,PR,IP008,Z17T,VCON
+LB703,นางสาว,ปวีณา,เอี่ยมสอาด,Miss,Pawina,Eamsaarb,PR,IP008,Z17T,VCON
+L3831,นางสาว,รัชนีย์,ดาวยันต์,Miss,Ratchanee,Dorwyan,PR,IP008,Z17T,VMEC
+L9310,นางสาว,กวินทิพย์,เมนทอง,Miss,Kawintip,Manthong,PR,IP008,Z17T,VMEC CCD
+E5526,นาง,ดวงเดือน,แตงสี,Mrs.,Duangduen,Teangsri,PR,IP009,Z17T,2D
+X0139,นางสาว,รัชนก,ทองดี,Miss,Ratchanok,Thong-dee,PR,IP009,Z17T,Insert AOI
+L4353,นางสาว,สมใจ,วงษ์เคี่ยม,Miss,Somjai,Wongkhiam,PR,IP009,Z17T,Leader AUTO
+J7830,นางสาว,ศิริวรรณ,คล้ายประดิษฐ์,Miss,Siriwan,Klaipradit,PR,IP009,Z17T,Leader Main
+L4595,นางสาว,อิสรีพร,จามร,Miss,Itsareeporn,Jamorn,PR,IP009,Z17T,MAIN1
+L9265,นางสาว,นันทินีย์,บุญมี,Miss,NANTINEE,BOONMEE,PR,IP009,Z17T,MAIN1
+X1939,นาง,นิรชา,แป้งขาว,Mrs.,Niracha,Pangkhaw,PR,IP009,Z17T,MAIN2
+L8321,นาง,กาญจนา,รุ่งเขียน,Mrs.,Kanchana,Rungkhain,PR,IP009,Z17T,MAIN2
+E4857,นาง,สุนันท์,กาเผือก,Mrs.,Sunan,Kaphuek,PR,IP009,Z17T,MAIN2
+L3700,นาง,จินตนา,ยืนทน,Mrs.,JINTANA,YEENTHON,PR,IP009,Z17T,MP6
+L2179,นาง,ปิยะวรรณ,วงศ์พุฒ,Mrs.,Piyawan,Wongput,PR,IP009,SPOE,Peel TRRL
+P4316,นางสาว,อำภา,เกิดผล,Miss,Ampha,Kerdpol,PR,IP009,SPOE,PRESS
+X1439,นางสาว,รุ่งอรุณ,ยาบุญ,Miss,Rungarun,Yaboon,PR,IP009,Z17T,Protection Film
+E5428,นาง,ประภัสสร,ศรีสุไลย์,Mrs.,Prapassorn,Srisulai,PR,IP009,Z17T,PSA TAB
+D5990,นางสาว,ชนัญชิดา,หลิ่มบางอิฐ,Miss,Chananchida,Pasuk,PR,IP009,Z17T,Repair
+E6385,นาง,นันทวรรณ,นวนนุ่ม,Mrs.,Nanthawan,Nuannum,PR,IP009,Z17T,SUB1
+X4735,นาง,วิไลพร,ทองเย็น,Mrs.,Vilaiporn,Thongyen,PR,IP009,Z17T,SUB1
+L8820,นาง,ทองสุข,เสมาเงิน,Mrs.,Thongsuk,Samangeon,PR,IP009,Z17T,SUB1
+L1772,นางสาว,ชุมพร,วิทยา,Miss,Chumporn,Witthaya,PR,IP009,Z17T,SUB2
+L4264,นางสาว,อัมพร,วงศ์ท้าว,Miss,Aumporn,Wongtoung,PR,IP009,Z17T,SUB2
+J1532,นางสาว,วนิดา,แก้วปรับภาพ,Miss,Wanida,Kaweupabpap,PR,IP009,Z17T,SUB2
+E7677,นาง,สมจิตร์,บุญคำนนท์,Mrs.,Somjit,Boonkamnon,PR,IP009,Z17T,SUB3
+C2758,นางสาว,ยุพา,สังขมาน,Miss,YUPA,SANGHAMAN,PR,IP009,Z17T,SUB3
+D4045,นาง,อำพร,สามัคคี,Mrs.,Amporn,Samakkee,PR,IP009,Z17T,SUB4
+M2140,นางสาว,วรารัตน์,สวนมะลิ,Miss,Wararat,Suan-mali,PR,IP009,Z17T,SUB4
+L0503,นางสาว,รัตนา,มาลี,Miss,Rattana,Malee,PR,IP009,Z17T,SUB5
+E0570,นาง,เบญญพร,โกมล,Mrs.,Benyaphon,Komonl,PR,IP009,Z17T,SUB5
+D8823,นาง,มนัสชนก,อยู่ดี,Mrs.,Manatchanok,Yoodee,PR,IP009,Z17T,SUB6
+D9420,นางสาว,เรืองอุไร,เฉลิมสงฆ์,Miss,REANGURAI,CHLOEAMSONG,PR,IP009,Z17T,SUB7
+D1768,นางสาว,วาสนา,แจ่มใสสี,Miss,Watsana,Jaemsaisi,PR,IP009,Z17T,SUB8
+D7541,นางสาว,พลอย,เรืองศรี,Miss,Ploy,Rueangsri,PR,IP009,Z17T,VCON
+J6977,นางสาว,หทัยรัตน์,ราชคำ,Miss,Hathirat,Rachakham,PR,IP009,Z17T,VCON
+X5055,นาง,ปัทมา,บัวทอง,Mrs.,Padtama,Bouthong,PR,IP009,Z17T,VCON
+L9348,นางสาว,ศิริพร,ดวงสุวรรณ์,Miss,SIRIPORN,DOUNGSUWAN,PR,IP009,Z17T,VMEC
+X6079,นาง,ณัฏฐ์ชานันท์,ล้อมณรงค์,Mrs.,Natchanan,Lomnarong,PR,IP009,Z17T,VMEC CCD
+D1234,นาย,ธนสาร,อินทร์ประยงค์,Mr.,Thanasan,Inprayong,PE,IPAD00,Z17T,Machine Setters
+D5569,นาย,พงษ์ธกานต์,กองนึก,Mr.,Phongthakan,Khongneuk,PE,IPAD01,Z17T,Machine Setters
+D7397,นาย,ศุภวิชญ์,มาเรือง,Mr.,Suppawit,Maruaeng,PE,IPAD01,Z17T,Machine Setters
+D7404,นาย,อภิวัฒน์,สิงไพร,Mr.,Apiwat,Singprai,PE,IPAD01,Z17T,Machine Setters
+J7522,นาย,ชัยวัฒน์,กล่อมสุวรรณ,Mr.,Chaiwat,Khomsuwan,PE,IPAD01,Z17T,Machine Setters
+J6915,นาย,คฑากร,ช่อกุหลาบ,Mr.,Kathakorn,Chokularb,PE,IPAD01,Z17T,Machine Setters
+LC041,นาย,อมรเทพ,น้อยเจริญ,Mr.,Amornthep,Noichareon,PE,IPAD01,Z17T,Machine Setters
+LC052,นางสาว,สุกัญญา,จันทร์มี,Miss,Sukanya,Janmee,PE,IPAD01,Z17T,Machine Setters
+J7863,นาย,ปฐมพงษ์,แก้วแหยม,Mr.,Ptoompong,Kaewyaem,PE,IPAD01,Z17T,Machine Setters
+J8150,นาย,เชษฐา,แดนทอง,Mr.,Chattha,Danthong,PE,IPAD01,Z17T,Machine Setters
+L5543,นาย,อาทร,กลิ่นสุคนธ์,Mr.,Artorn,Gilisukhol,PE,IPAD01,Z17T,Machine Setters
+L5439,นางสาว,อารีรัตน์,แก้วมงคล,Miss,Areerat,Kaewmongkol,PE,IPAD02,Z17T,Machine Setters
+L7447,นาย,เทวฤทธิ์,สำลี,Mr.,Tawarit,Samlee,PE,IPAD02,Z17T,Machine Setters
+J6157,นางสาว,ทิพย์วรรณ,ลือพงษ์,Miss,Tippawan,Luepong,PE,IPAD02,Z17T,Machine Setters
+J7153,นาย,ธีรศักดิ์,ลือดารา,Mr.,Theerasak,Luedara,PE,IPAD02,Z17T,Machine Setters
+J3895,นาย,เกษมสุข,จำปาขาว,Mr.,Gasemsuk,Jampakao,PE,IPAD02,Z17T,Machine Setters
+J4039,นาย,ชนาธิป,วงษ์ศรี,Mr.,Chanatip,Wongsri,PE,IPAD02,Z17T,Machine Setters
+D6698,นาย,ขวัญชัย,โทนะบุตร,Mr.,Khwanchai,Tonabut,PE,IPAD02,Z17T,Machine Setters
+D6702,นาย,ชัยณรงค์,พลอยแสง,Mr.,Chainarong,Ploysang,PE,IPAD02,Z17T,Machine Setters
+D5559,นาย,สุชาติ,หลิ่มบางอิฐ,Mr.,Suchat,Limbangit,PE,IPAD02,Z17T,Machine Setters
+D8844,นาย,อายุทัย,ยาทิพย์,Mr.,Aryuthai,Yathip,PE,IPAD02,Z17T,Machine Setters
+D9866,นาย,ณัฐพล,บวรโชคชัย,Mr.,Nattapol,Borwornchokchai,PE,IPAD02,Z17T,Machine Setters
+D2218,นาย,ประวิทย์,กองทอง,Mr.,Prawit,Khongtong,PE,IPAD03,Z17T,Machine Setters
+J8153,นางสาว,พนิดา,มณีศรี,Miss,Panida,Maneesri,PE,IPAD03,Z17T,Machine Setters
+LB997,นาย,ธนภูมิ,ใบ๋สกุล,Mr.,Tanapoom,Baisakul,PE,IPAD04,Z17T,Machine Setters
+LB912,นาย,ธนากรณ์,เอี่ยมสุนทร,Mr.,Thanakon,Aiamsunthon,PE,IPAD04,Z17T,Machine Setters
+D9877,นางสาว,สัณหจุฑา,พูลเพิ่ม,Miss,Sanhajutha,Phoolpherm,PE,IPAD04,Z17T,Machine Setters
+D6505,นาย,สุรพงษ์,น้ำแก้ว,Mr.,Surapong,Namkeaw,PE,IPAD04,Z17T,Machine Setters
+D6155,นาย,จิรายุทธ,กวางแก้ว,Mr.,Jirayut,Kwangkaew,PE,IPAD04,Z17T,Machine Setters
+D6910,นางสาว,ศิริวรรณ,แสนแอ,Miss,Siriwan,Sanair,PE,IPAD04,Z17T,Machine Setters
+N1032,นาย,ซาโตชิ,มินาคาว่า,Mr.,SATOSHI,MINAKAWA,EN,JPN,JPN,JPN EN
+N1180,นาย,ยู,อิโซเบะ,Mr.,Yu,Isobe,OP,JPN,JPN,JPN EN
+N1206,นาย,โคตะ,มัทซึนางะ,Mr.,Kota,Matsunaga,EN,JPN,JPN,JPN EN
+N1472,นาย,YOSHIHISA,MUROKAWA,Mr.,YOSHIHISA,MUROKAWA,LCDM,JPN,JPN,JPN EN
+N1630,นาย,ยูกิ,โมริตะ,Mr.,YUKI,MORITA,MDS,JPN,JPN,JPN EN
+N1441,นาย,ฮิโรยูกิ,คูริตะ,Mr.,HIROYUKI,KURITA,MDS,JPN,JPN,JPN QC
+N1283,นาย,โยชิอากิ,ยามากูจิ,Mr.,YOSHIAKI,YAMAGUCHI,COMN,JPN,JPN,Manager
+J7417,นางสาว,นงนุช,กลิ่นราตรี,Miss,Nongnuch,Glinratree,LCDM,LCM01,PRLCM,Auto clave
+L6491,นางสาว,จินตนา,กล่อมกูล,Miss,Jintana,Klomkool,LCDM,LCM01,PRLCM,CCD inspection
+J3444,นางสาว,ฉัตรตราภรณ์,แสวงผล,Miss,CHATTRAPORN,SAWENGPON,LCDM,LCM01,PRLCM,CTP/TP appearance inspection
+D8404,นางสาว,พีรยา,ตุรงค์เรือง,Miss,Peeraya,Turongruang,LCDM,LCM01,PRLCM,Excimer UV Treatment
+D9751,นางสาว,สุทธิดา,กองเมือง,Miss,Sudthida,Gongmeung,LCDM,LCM01,PRLCM,Final Display/Electrical Inspection
+X1635,นางสาว,ศิริวรรณ,ปริสิทธิ์,Miss,Siriwan,Parisit,LCDM,LCM01,PRLCM,Final Display/Electrical Inspection
+X1572,นางสาว,นฤมณ,คล้อยสมัย,Miss,Narumon,Kloysamai,LCDM,LCM01,PRLCM,Insert Bonding
+D1305,นาง,วิภารัตน์,พลอยกระจ่าง,Mrs.,Wiparat,Ploykrajang,LCDM,LCM01,PRLCM,Paste BST/Spacer
+X5612,นางสาว,สมใจ,มอญดี,Miss,Somjai,Mondee,LCDM,LCM01,PRLCM,Paste Protection Film
+J4714,นางสาว,พิสินี,ทองโฉม,Miss,Pisinee,Tongchom,LCDM,LCM01,PRLCM,STB Common
+J6116,นางสาว,เกศินี,พรมภักดี,Miss,Kesinee,Prompakdee,LCDM,LCM01,PRLCM,TC SUB Appearance Insp.
+X3514,นาง,เพ็ญนภา,ตุ้มทอง,Mrs.,PENNAPA,TUMTHONG,LCDM,LCM02,PRLCM,Auto clave
+T4704,นางสาว,เบญจวรรณ,จันละคล,Miss,BENJAWAN,JANLAKOL,LCDM,LCM02,PRLCM,CCD inspection
+J8449,นางสาว,สุรีภรณ์,จีระพรต,Miss,Sureeporn,Cheeraphot,LCDM,LCM02,PRLCM,CTP/TP appearance inspection
+J9104,นางสาว,ณัฐรินทร์,หม้อนนทา,Miss,Nattarin,Mononta,LCDM,LCM02,PRLCM,Excimer UV Treatment
+D5308,นางสาว,สุดารัตน์,จันทนลาช,Miss,SUDARAT,JANTANALACH,LCDM,LCM02,PRLCM,Final Display/Electrical Inspection
+X6725,นางสาว,รพีพรรณ์,ประสมสู่,Miss,Rapeepan,Prasomsoo,LCDM,LCM02,PRLCM,Final Display/Electrical Inspection
+X1591,นางสาว,สุนทรี,ทาถี,Miss,Suntaree,Tatee,LCDM,LCM02,PRLCM,Insert Bonding
+J5548,นางสาว,พัชรี,บุญมี,Miss,Patcharee,Boonmee,LCDM,LCM02,PRLCM,Paste BST/Spacer
+J9142,นางสาว,จันทา,ดวงใจ,Miss,Janta,Duangchai,LCDM,LCM02,PRLCM,Paste Protection Film
+X4717,นาง,ชาลินี,พูนางแย้ม,Mrs.,Chalinee,Poonagnyam,LCDM,LCM02,PRLCM,STB Common
+L9303,นางสาว,พนิดา,ปานทอง,Miss,Panida,Panthong,LCDM,LCM02,PRLCM,TC SUB Appearance Insp.
+X3511,นางสาว,รัชนีกร,ผ่านประดิษฐ์,Miss,Ratchaneekorn,Phanpradit,LCDM,LCM03,PRLCM,Auto clave
+J3392,นางสาว,สุวิพรรณ,สุขสมัย,Miss,Suwipan,Suksamai,LCDM,LCM03,PRLCM,CCD inspection
+D9062,นางสาว,เบญจรัตน์,สุกเกตุ,Miss,Benjarat,Sukket,LCDM,LCM03,PRLCM,CTP/TP appearance inspection
+X3796,นาง,บุญหลา,นนทะสันต์,Mrs.,Boonla,Nontasan,LCDM,LCM03,PRLCM,Excimer UV Treatment
+J3410,นาง,วนิดา,จามากุล,Mrs.,Wanida,Chamakun,LCDM,LCM03,PRLCM,Final Display/Electrical Inspection
+J5313,นางสาว,กัลยาณี,รอดเชื้อ,Miss,Kanyanee,Rodchuea,LCDM,LCM03,PRLCM,Final Display/Electrical Inspection
+J3800,นางสาว,กัลยา,บรรเทาว์,Miss,Kalaya,Banthao,LCDM,LCM03,PRLCM,Insert Bonding
+D4870,นางสาว,สุนิดา,สินสร,Miss,Sunida,Sinsorn,LCDM,LCM03,PRLCM,Paste BST/Spacer
+E7513,นางสาว,มุกดาการ,กออินทร์,Miss,Mukdakan,Koo-in,LCDM,LCM03,PRLCM,Paste Protection Film
+L7288,นางสาว,สุภาภรณ์,บุญมาก,Miss,Supaporn,Bunmak,LCDM,LCM03,PRLCM,STB Common
+J5628,นางสาว,ศิริรัตน์,ราชใจผิด,Miss,Sirirat,Ratchaiphit,LCDM,LCM03,PRLCM,TC SUB Appearance Insp.
+D8092,นางสาว,สุปราณี,พินิจรอบ,Miss,SUPRANEE,PINIJROB,LCDM,LCM04,PRLCM,Auto clave
+D3634,นางสาว,มัลลิกา,เชื้อน้อย,Miss,MALLIKA,CHUENOY,LCDM,LCM04,PRLCM,CCD inspection
+J3022,นางสาว,น้อง,บรรณศรี,Miss,Nong,Bannasri,LCDM,LCM04,PRLCM,CTP/TP appearance inspection
+J1506,นางสาว,นิสา,บัวหอม,Miss,Nisa,Buohom,LCDM,LCM04,PRLCM,Excimer UV Treatment
+J1805,นางสาว,วันเพ็ญ,สีทา,Miss,WANPEN,SEETA,LCDM,LCM04,PRLCM,Final Display/Electrical Inspection
+D2025,นางสาว,วานิสสา,คำภูอ่อน,Miss,Wanissa,Kampu-on,LCDM,LCM04,PRLCM,Final Display/Electrical Inspection
+LC244,นางสาว,ประภาพร,วันนาพ่อ,Miss,Prapaporn,Wannapor,LCDM,LCM04,PRLCM,Insert Bonding
+X5124,นาง,อัมพร,พลไพร,Mrs.,Amporn,Phonpai,LCDM,LCM04,PRLCM,Paste BST/Spacer
+J1522,นางสาว,อรทัย,ยงยุทธ์,Miss,Orathai,Yongyut,LCDM,LCM04,PRLCM,Paste Protection Film
+L9295,นางสาว,สุธินันท์,นาคจันทร์,Miss,Sutinun,Nakjun,LCDM,LCM04,PRLCM,STB Common
+D7990,นางสาว,ศิรินภา,มายา,Miss,Sirinapa,Maya,LCDM,LCM04,PRLCM,TC SUB Appearance Insp.
+E8311,นางสาว,พจนี,หงษ์ประสิทธ์,Miss,Pojjanee,Hongprasit,LCDM,LCM05,PRLCM,Annealing
+J6704,นางสาว,เตือนจิตร,ปล้องอ้วน,Miss,TEANJIT,PLONGAUAN,LCDM,LCM05,PRLCM,Annealing
+X6187,นางสาว,วรรณลี,ทรวงโคกสูง,Miss,Wannali,Suangkhoksung,LCDM,LCM05,PRLCM,Annealing
+X2054,นาง,สนิยา,ไชยสุระ,Mrs.,Saniya,Chaisura,LCDM,LCM05,PRLCM,Annealing
+L8417,นางสาว,ชวนชม,เอี่ยมเจริญ,Miss,Chunchom,Aiemjarun,LCDM,LCM05,PRLCM,Paste label
+E6549,นางสาว,สุภัตตรา,สัญญา,Miss,Supattra,Sanya,LCDM,LCM05,PRLCM,Paste label
+D2271,นางสาว,สุทธิสา,สิงห์พรมมา,Miss,Suttisa,Singpromma,LCDM,LCM05,PRLCM,Paste label
+E6638,นางสาว,สายทอง,ใจแก้ว,Miss,Saithong,Jaikaew,PR,Leader,Z17T,Leader
+L4109,นางสาว,เพ็ญพรรณ,กลิ่นศรีสุข,Miss,Phenpan,Klinsrisuk,PR,Leader,Z17T,Leader
+L0467,นางสาว,นัตฐา,ทับทิมศรี,Miss,Nittha,Tubtimsri,PR,Leader,Z17T,Leader
+X2820,นาง,สุวณี,ยิ้มฉาย,Mrs.,Suwannee,Yimchay,PR,Maid,Z17T,Maid
+X5619,นางสาว,พรพรหม,โพธิ์งาม,Miss,Pronpom,Phongam,LCDM,Maid,PRLCM,Maid
+E9889,นางสาว,สุนิสสา,แทนเดช,Miss,Sunisa,Tandech,MDS,Maid,PRMDS,Maid
+E9610,นาง,น้ำทิพย์,วิริยจันทร์ตา,Mrs.,Namthip,Wiriyajanda,LCDM,Maid,PRLCM,Maid
+J5859,นางสาว,วันทา,ปานผา,Miss,Wanta,Panpa,PR,Maid,Z17T,Maid
+J3359,นาง,ทองคูณ,พันธ์พิมท์,Mrs.,Thongchoon,Phanphim,MDS,Maid,PRMDS,Maid
+J4571,นางสาว,จิตร์ตรา,สร้อยวงษ์,Miss,Chitta,Soiuaong,PR,Maid,Z17T,Maid
+D2488,นางสาว,ดาริญา,มอญงาม,Miss,Dariya,Mongram,LCDM,Maid,PRLCM,Maid
+D9516,นางสาว,มะยุเรศ,ผลโภชน์,Miss,Mayures,Phonphod,PR,Maid,Z17T,Maid
+E4006,นาง,บุญมา,บุญจง,Mrs.,Boonma,Boonjong,PR,Maid,Z17T,Maid
+J8146,นาย,อิสระพงษ์,ละอองนิล,Mr.,Itsarapong,Laongnil,LCDM,MC,MCLCM,MC
+J1670,นาย,ธรรมนูญ,กอกัน,Mr.,Thummanoon,Kokun,LCDM,MC,MCLCM,MC
+LA388,นางสาว,วาสนา,จันทร์มี,Miss,Watsana,Chanmi,LCDM,MC,MCLCM,MC
+LB545,นางสาว,ศิลามณี,ฤกษ์คง,Miss,Silamane,Erergkong,LCDM,MC,MCLCM,MC
+D7684,นาย,พีรพัฒน์,ทองใบ,Mr.,Peeraphat,Thongbai,MC,MC,MCTRY,MC Tray
+D8027,นาย,ชัชชัย,อินพันทัง,Mr.,Chatchai,Inphuntung,MC,MC,MCTRY,MC Tray
+D1946,นางสาว,จันทร์เพ็ญ,ตันศิริ,Miss,Chanpen,Tansiri,MC,MC,MCTRY,MC Tray
+D1302,นาย,นิรุตน์,ลารันต์,Mr.,Nirut,Larun,MC,MC,MCTRY,MC Tray
+D2818,นางสาว,เบญจมาส,ปฏิพันธ์,Miss,Benjamas,Patipan,MDS,MCINH,MCMDS,MC Inhouse
+D6810,นางสาว,สุจิตรา,เครือลุน,Miss,Sujitra,Krualoon,MC,MCINH,MCINH,MC Inhouse
+E9902,นาง,นิตยา,โตเจริญ,Mrs.,Nittaya,Tocharoen,MC,MCINH,MCINH,MC Inhouse
+J2729,นางสาว,จุฬาลักษณ์,ประเสริฐสุข,Miss,Juraluk,Praseatsuk,MDS,MCINH,MCMDS,MC Inhouse
+J8140,นาย,จักรพันธ์,แย้มมาก,Mr.,Juckrapun,Yaemmak,MC,MCINH,MCINH,MC Inhouse
+J8015,นาย,วิวัฒน์ชัย,สว่างศรี,Mr.,Wiwatchai,Sawangsri,MC,MCINH,MCINH,MC Inhouse
+J8099,นาย,สืบพงศ์,อุบลบาน,Mr.,Suepphong,Ubonban,MDS,MCINH,MCMDS,MC Inhouse
+J4661,นาย,ศิลป์ชัย,สดภิบาล,Mr.,CINCHAI,SODPIBAN,MC,MCINH,MCINH,MC Inhouse
+X4699,นางสาว,ยุพาทิพย์,ทิมเทียน,Miss,Yupathip,Timthien,MDS,MCINH,MCMDS,MC Inhouse
+X4233,นาย,อภินันท์,เชื้อมุข,Mr.,Apinan,Chuermook,MC,MCINH,MCINH,MC Inhouse
+L7166,นางสาว,พรพรรณ,นิรากรณ์,Miss,Ponphan,Nirakon,MDS,MCINH,MCMDS,MC Inhouse
+J9162,นางสาว,รุ่งฤทัย,สวยเกษร,Miss,Roongruethai,Suaykesorn,MDS,MCOVS,MCMDS,MC Oversea
+X4910,นางสาว,ชลธิชา,ทวีสุทธิ์,Miss,Chonticha,Taweesut,MC,MCOVS,MCOVS,MC Oversea
+X1430,นางสาว,อรสา,สัพยะกระ,Miss,Orasa,Sapphayaka,MC,MCOVS,MCOVS,MC Oversea
+L8847,นางสาว,ตติยา,บุตรแสน,Miss,Tatiya,Butsean,MDS,MCOVS,MCMDS,MC Oversea
+J3185,นางสาว,จุรีพร,เฉยแหวน,Miss,Jureeporn,Cheiwen,MDS,MCOVS,MCMDS,MC Oversea
+J4467,นางสาว,ณัฐมล,แซ่กู้,Miss,Natmon,Saepoo,MC,MCOVS,MCOVS,MC Oversea
+J4469,นางสาว,วรัญญา,ทับทิมศรี,Miss,Waranya,Thabthimsri,MC,MCOVS,MCOVS,MC Oversea
+E9389,นางสาว,วาสนา,เสอิ้ง,Miss,Wasana,Saerng,MDS,MCOVS,MCMDS,MC Oversea
+D2555,นางสาว,นงนุช,กุญแจทอง,Miss,Nongnut,Goonnjaethong,MDS,MCOVS,MCMDS,MC Oversea
+D3194,นางสาว,อุมาริน,อินคำไพ,Miss,AUMARIN,INKUMPAI,MC,MCOVS,MCOVS,MC Oversea
+D3349,นาย,จิรวัฒน์,ศรีพูนอนันภ์,Mr.,Jirawath,Sripoolarnnan,MDS,MCTRAY,MCMDS,MC Tray
+J8145,นาย,สายัณห์,ฉายอรุณ,Mr.,Sayan,Chaiaroon,MDS,MCTRAY,MCMDS,MC Tray
+J7681,นาย,สรชัช,ดำขำ,Mr.,Sorachat,Damkam,MDS,MCTRAY,MCMDS,MC Tray
+D8536,นางสาว,ทิวาพร,กลิ่นมะลิ,Miss,Tiwaporn,Klinmali,MDS,MD002,PRMDS,Characteristic
+D3064,นาง,สายสวาท,ยิ้มยันยง,Mrs.,Saysawat,Yimyangyong,MDS,MD002,PRMDS,Inspection combination
+D6079,นางสาว,อรพรรณ,มาทัพ,Miss,Oraparn,Martap,MDS,MD002,PRMDS,P.1
+J3496,นางสาว,หัทยา,แสงจันทร์,Miss,Hattaya,Saengchan,MDS,MD002,PRMDS,P.2
+L2611,นางสาว,บานเช้า,วิทยะนัน,Miss,Banchao,Witthayana,MDS,MD002,PRMDS,P.3
+L7704,นางสาว,พิไลวรรณ,คชวงษ์,Miss,Pilaiwan,Kodchawong,MDS,MD002,PRMDS,P.4
+D2697,นางสาว,วนิดา,ศรีพูล,Miss,Wanida,Sriphoon,MDS,MD002,PRMDS,P.5
+D6056,นางสาว,วิชุดา,สอนศรี,Miss,WICHUDA,SORNSRI,MDS,MD002,PRMDS,P.6
+L8505,นางสาว,ปริยาภัทร,อันชุรี,Miss,Pariyapat,OANCHURI,MDS,MD003,PRMDS,Characteristic
+D8524,นางสาว,จินตนา,สุขสวัสดิ์,Miss,Jintana,Suksa-wat,MDS,MD003,PRMDS,Inspection combination
+J7828,นางสาว,ศิริพร,ท้าวศิริกุล,Miss,Siriporn,Thaosirikun,MDS,MD003,PRMDS,Inspection combination
+X0182,นางสาว,สมพิศ,แสนล้อม,Miss,Sompit,Sanlom,MDS,MD003,PRMDS,P.1
+J6458,นางสาว,สายสุณี,จินดา,Miss,Saisunee,Jinda,MDS,MD003,PRMDS,P.2
+D5253,นางสาว,ขวัญตา,สงเคราะห์,Miss,Khwanta,Songkhrao,MDS,MD003,PRMDS,P.3
+X1393,นางสาว,อาภรณ์,สุกุมาร,Miss,A-porn,Sukumal,MDS,MD003,PRMDS,P.4
+L7182,นางสาว,แวว,วิสุมา,Miss,Waew,Visuma,MDS,MD003,PRMDS,P.5
+X5233,นางสาว,บุญส่ง,ฝ้ายแก้ว,Miss,Boonsong,Faykaew,MDS,MD003,PRMDS,P.6
+J9811,นางสาว,อุไรพร,เทียบหว้า,Miss,Uraiporn,Thiabhwa,MDS,MD014,PRMDS,Characteristic
+L9154,นางสาว,อาทิตยา,สารคาม,Miss,Athitaya,Sarakham,MDS,MD014,PRMDS,Inspection combination
+X0664,นาง,นาฏอนงค์,เอมอ่อน,Mrs.,Nat-anong,Em-on,MDS,MD014,PRMDS,P.1
+D6215,นางสาว,สรานันท์,ศรีประพันธ์,Miss,Saranan,Sriprapan,MDS,MD014,PRMDS,P.10
+D2927,นางสาว,กัญญารัตน์,โพธิวรรณ์,Miss,Kanyarut,Potiwun,MDS,MD014,PRMDS,P.11
+D1373,นางสาว,อุษณี,สมศรี,Miss,Usanee,Somsri,MDS,MD014,PRMDS,P.12 A
+J1715,นางสาว,เจริญ,แตงนวน,Miss,Jaroen,Tangnuan,MDS,MD014,PRMDS,P.12 B
+D1963,นางสาว,สายพิณ,บุญขุนทด,Miss,Saypin,Bunkuntod,MDS,MD014,PRMDS,P.13
+J2456,นางสาว,เบญจา,แสนยินดี,Miss,Benja,Sanyindee,MDS,MD014,PRMDS,P.14
+L7514,นางสาว,พรทิพย์,พูลถิน,Miss,Phornthip,Phulthin,MDS,MD014,PRMDS,P.2
+J5639,นาง,ชวนชม,ชำนาญสอน,Mrs.,Chuanchom,Chumnanson,MDS,MD014,PRMDS,P.3
+J2644,นางสาว,ชลธิชา,รอดจู,Miss,Chonthicha,Rotchu,MDS,MD014,PRMDS,P.4
+J5904,นางสาว,อารีรัตน์,ไกรสะอาด,Miss,Areerat,Kraisaart,MDS,MD014,PRMDS,P.5
+J9598,นางสาว,มาลัย,วุฒิ,Miss,Marai,Vutti,MDS,MD014,PRMDS,P.6
+L9862,นางสาว,ธันย์ชนก,หลั่นจันทึก,Miss,Tanchanok,Lanchanthuek,MDS,MD014,PRMDS,P.7
+L7485,นางสาว,กนกวรรณ,ริ้วแพร,Miss,Kanokwan,Rewpare,MDS,MD014,PRMDS,P.8
+LC306,นางสาว,วิภาพร,สายปัญญา,Miss,Wipaporn,Saipanya,MDS,MD014,PRMDS,P.9
+D2576,นาง,นิโลบล,ทัพบุรี,Mrs.,Nilobon,Thapburee,MDS,MD014,PRMDS,VMEC
+L9642,นางสาว,อัมพร,น้อยเจริญ,Miss,Umporn,Noijaroen,MDS,MD021,PRMDS,Characteristic
+L7187,นางสาว,ณัฐฎณิชา,หลักหาญ,Miss,Nattanicha,Lakhan,MDS,MD021,PRMDS,Characteristic
+L7411,นางสาว,ชนากาญ,พรหมคำแสน,Miss,Chanakan,Promkamsan,MDS,MD021,PRMDS,Inspection combination
+J6658,นางสาว,สุภาภรณ์,ผิวเพ็ง,Miss,Supaporn,Puewpeng,MDS,MD021,PRMDS,Inspection combination
+J7092,นางสาว,นรินทร,ตะสาริกา,Miss,Narintron,Tasarika,MDS,MD021,PRMDS,Inspection combination
+D5611,นางสาว,สุปราณี,ปัทมะเสวี,Miss,Supranee,Pattamasevee,MDS,MD021,PRMDS,P.1
+L4576,นางสาว,วริศรา,ไตรธรรม,Miss,Warissara,Traitham,MDS,MD021,PRMDS,P.10
+X6631,นางสาว,ประไพร,อินกองงาม,Miss,Praprai,In-kong-ngam,MDS,MD021,PRMDS,P.11
+D3886,นางสาว,นงนุช,ชาวนา,Miss,Nongnoot,CHAWNA,MDS,MD021,PRMDS,P.12
+L8382,นาง,จำเรียง,เอี่ยมสงคราม,Mrs.,Jamreing,Aeimsongkarm,MDS,MD021,PRMDS,P.2
+X6596,นาง,อุดมพร,คำรอด,Mrs.,Udomporn,Camrod,MDS,MD021,PRMDS,P.3
+X5667,นางสาว,จารุวรรณ,หนิมสุข,Miss,Charuwan,Nimsook,MDS,MD021,PRMDS,P.4
+J2145,นางสาว,ณัฏฐณัน,หอมกรูด,Miss,Natthanan,Homkrut,MDS,MD021,PRMDS,P.5
+D8249,นางสาว,จิราภรณ์,ชุ่มอารมณ์,Miss,Jiraporn,Chumarrom,MDS,MD021,PRMDS,P.6
+D7495,นางสาว,รริร,นิ่มน้อม,Miss,Rarin,Nimnom,MDS,MD021,PRMDS,P.7
+L0670,นาง,พเยาว์,จัตุรัส,Mrs.,Payao,Jatturat,MDS,MD021,PRMDS,P.8
+D2748,นางสาว,อมรรัตน์,กองก่ำ,Miss,Amornrat,Kongkum,MDS,MD021,PRMDS,P.9
+D3359,นางสาว,สุพัตรา,ทาบุตร,Miss,Supatta,Tabut,MDS,MD031,PRMDS,Inspection combination
+X4651,นางสาว,ธนาภรณ์,รอดสาย,Miss,Tanaporn,Rodsai,MDS,MD031,PRMDS,Inspection combination
+L5461,นางสาว,อนงนุช,สายสด,Miss,Anongnuch,Saisod,MDS,MD031,PRMDS,P.1
+J2759,นางสาว,สิรินทรา,อ่อนแก้ว,Miss,Sirinthra,Onkaew,MDS,MD031,PRMDS,P.1
+L0890,นางสาว,พิมพ์ใจ,วราโภ,Miss,Pimjai,Warapo,MDS,MD031,PRMDS,P.2
+X5265,นางสาว,วิลัยพร,พินสา,Miss,Wilaiporn,Pinsa,MDS,MD031,PRMDS,P.2
+L6747,นางสาว,ศิรินทรา,ผงมาลา,Miss,Sirintha,Phongmala,MDS,MD031,PRMDS,P.3
+D2767,นางสาว,จิตรา,ใจกล้า,Miss,Jitta,Jaikla,MDS,MD031,PRMDS,P.3
+D8834,นาง,สุกัญญา,พูลหวัง,Mrs.,Sukanya,Phulwung,MDS,MD031,PRMDS,Sub Assembly
+J5839,นางสาว,จุฬารัชต์,พานทอง,Miss,Jurarat,Panthong,MDS,MD031,PRMDS,Sub Assembly
+X4704,นางสาว,เจนจิรา,สิมบุตร,Miss,Jenjira,Simbut,MDS,MD031,PRMDS,Sub Assembly
+L6830,นางสาว,ไพริน,โนนคล้อ,Miss,Phairin,Nonklor,MDS,MD031,PRMDS,VMEC
+D3128,นางสาว,อนงนุช,สักการะ,Miss,Anongnuch,Sakgara,MDS,MD031,PRMDS,VMEC
+J5638,นางสาว,จรรยาพร,ทองประเสริฐ,Miss,Janyaporn,Tongprasert,MDS,MD041,PRMDS,P.1
+L7309,นางสาว,รุจิรดา,ปัตแวว,Miss,Rujirada,Pattawaw,MDS,MD041,PRMDS,P.10
+D6850,นางสาว,กันยา,หนูน้อย,Miss,Kanya,Nhunoi,MDS,MD041,PRMDS,P.12 V.CON
+D3989,นางสาว,สุภาวดี,ชื่นชาวนา,Miss,Supawadee,Chuenchawna,MDS,MD041,PRMDS,P.13 PMI8
+X3221,นางสาว,ศิริพร,สมบุญ,Miss,Siriporn,Somboon,MDS,MD041,PRMDS,P.14 AVI
+D2307,นางสาว,กมลทิพย์,เค้าเจริญ,Miss,Kamaltip,Khaojaroen,MDS,MD041,PRMDS,P.17 Protection Flim
+X4517,นางสาว,วันดี,สายทอง,Miss,Wandee,Saithong,MDS,MD041,PRMDS,P.2
+L3753,นาง,ทัศนีย์,แก้วมาก,Mrs.,Tassanee,Kawmak,MDS,MD041,PRMDS,P.3
+X6415,นางสาว,กุลจิรา,คำวงษา,Miss,Kuljira,Kamwongsa,MDS,MD041,PRMDS,P.4
+D3540,นางสาว,ทิพย์วิมล,โพธิกูล,Miss,Tipvimal,Photikul,MDS,MD041,PRMDS,P.5 A
+L0931,นางสาว,อรวรรณ,แบนมณฑา,Miss,Orrawan,Benmontha,MDS,MD041,PRMDS,P.5 B
+D7291,นางสาว,นฤมล,วงษ์รัสมี,Miss,Naruemol,Wongradsamee,MDS,MD041,PRMDS,P.6 A
+L6191,นางสาว,พรนิภา,เจ๊กเผือกหอม,Miss,Pornnipa,Jekpeakhom,MDS,MD041,PRMDS,P.6 B
+L0457,นางสาว,พนารัตน์,พวงจำปี,Miss,Phanarat,Phuangjumpee,MDS,MD041,PRMDS,P.7 A
+J2720,นางสาว,ชนันธร,ยิ้มแย้ม,Miss,CHANANTHON,YIMYAM,MDS,MD041,PRMDS,P.7 B
+LA297,นางสาว,ฐิฑาริณี,จันทร์เทศ,Miss,Thitarinee,Jantes,MDS,MD041,PRMDS,P.8 A
+D2754,นางสาว,ประวีณา,แย้มกลัด,Miss,Praweena,Yamklad,MDS,MD041,PRMDS,P.8 B
+D5127,นางสาว,ชาลินี,แตงหอม,Miss,Chalinee,Taenghom,MDS,MD041,PRMDS,P.9
+L4405,นาง,สุภาพร,บวร,Mrs.,Supaporn,BOWORN,MDS,MD041,PRMDS,Sub 1.1_A
+J9851,นางสาว,รัชนก,เกิดประทุม,Miss,Ratchanok,Kudprathum,MDS,MD041,PRMDS,Sub 1.1_B
+X1947,นางสาว,สมใจ,ครอบสวย,Miss,Somjai,Krobsuay,MDS,MD041,PRMDS,Sub 1.2_A
+D6776,นางสาว,โยษิตา,ศรีสวัสดิ์,Miss,Yosita,Srisawat,MDS,MD041,PRMDS,Sub 1.2_B
+X2510,นางสาว,ณัฐพร,แนบนวล,Miss,Nuttaporn,Nabnaun,MDS,MD041,PRMDS,Sub 1.3_A
+J2891,นางสาว,กมลทิพย์,ชุนสร,Miss,Kamolthip,Chunson,MDS,MD041,PRMDS,Sub 1.3_B
+L0649,นาง,ธัญญารัตน์,หอมกลิ่นยา,Mrs.,Thanyarat,Homklinya,MDS,MD041,PRMDS,Sub 1.4_A
+L6490,นาง,นิตยา,สุขจุ่น,Mrs.,Nittaya,Sukjun,MDS,MD041,PRMDS,Sub 1.4_B
+D2149,นางสาว,ปรัชญาณี,ศรีวิโชติ,Miss,Prachayanee,Sriwichod,MDS,MD041,PRMDS,Sub 1.5
+P6510,นางสาว,วาสนา,ยอดดีรัง,Miss,Wasana,Yoddeerang,MDS,MD042,PRMDS,P.1
+X4225,นาง,ดวงใจ,วงษ์สูงเนิน,Mrs.,Duangjai,Wongsungnoen,MDS,MD042,PRMDS,P.10
+D1919,นางสาว,รุ่งอรุณ,อ่วมเชื้อ,Miss,Rungarun,Oumchua,MDS,MD042,PRMDS,P.12 V.CON
+X0088,นาง,ทรายทอง,พรมอินทร์แก้ว,Mrs.,Saithong,Porm-inkaew,MDS,MD042,PRMDS,P.13 PMI8
+J7597,นางสาว,ศุภรัตน์,ภักดี,Miss,Suparat,Pakdee,MDS,MD042,PRMDS,P.14 AVI
+X0325,นางสาว,สำราญ,สัตชัง,Miss,Samran,Sattachang,MDS,MD042,PRMDS,P.17 Protection Flim
+X5332,นางสาว,รัตปราณี,ผลสุวรรณ,Miss,Rutpranee,Ponsuwun,MDS,MD042,PRMDS,P.2
+L1786,นางสาว,เสาวลักษณ์,รัตนสอาด,Miss,Saowaluk,Rattanasa-ard,MDS,MD042,PRMDS,P.3
+J7831,นาง,สีไพร,ยังแช่ม,Mrs.,Seephi,Yangchaem,MDS,MD042,PRMDS,P.4
+D3345,นางสาว,ศรีรัตน์,จาดจร,Miss,Srirat,Jadjorn,MDS,MD042,PRMDS,P.5 A
+E8219,นาง,รุ่งทิพย์,ยอดดี,Mrs.,Rungthip,Yod-dee,MDS,MD042,PRMDS,P.5 B
+LC140,นางสาว,ธนินกร,จำนงพันธ์,Miss,Thaninkorn,Chamnongpha,MDS,MD042,PRMDS,P.6 A
+D6356,นางสาว,ปาริชาต,พาสอน,Miss,Parichat,Pasorn,MDS,MD042,PRMDS,P.6 B
+L1414,นาง,ทิพวัลย์,ดวงสุวรรณ์,Mrs.,Thipawan,Duangsuwan,MDS,MD042,PRMDS,P.7 A
+J2351,นางสาว,จารุวรรณ,เพิ่มสติ,Miss,Jaruwan,Permsati,MDS,MD042,PRMDS,P.7 B
+D3561,นางสาว,วิภาพร,บุญภาพ,Miss,Wipaporn,Bonpap,MDS,MD042,PRMDS,P.8 A
+D3045,นางสาว,มินตรา,หิงษ์สา,Miss,Mintra,Hingsa,MDS,MD042,PRMDS,P.8 B
+L4354,นางสาว,ชุติมา,แสงสว่าง,Miss,Chutima,Saengsawang,MDS,MD042,PRMDS,P.9
+J9466,นางสาว,วนิดา,กล่อมตระกูล,Miss,Wanida,Klomtrakool,MDS,MD051,PRMDS,Characteristic
+D1732,นางสาว,น้ำทิพย์,สังเกตุ,Miss,Numthip,Sangket,MDS,MD051,PRMDS,Inspection combination
+J7571,นางสาว,จิระประภา,สีน้อย,Miss,Jiraprapa,Seenoi,MDS,MD051,PRMDS,Inspection combination
+P7880,นางสาว,ประนอม,ฉัตรเจริญ,Miss,Pranom,Chatjaroen,MDS,MD051,PRMDS,P.1
+L4846,นางสาว,ชาลินี,แจ่มศรี,Miss,Chalinee,Jamsri,MDS,MD051,PRMDS,P.10 A
+J9770,นางสาว,นาตยา,สุวรรณ์สรี,Miss,Nattaya,Suwansri,MDS,MD051,PRMDS,P.10 B
+D8932,นางสาว,ศิริพร,เกิดผล,Miss,Siriporn,Kartpon,MDS,MD051,PRMDS,P.11
+L4628,นางสาว,อัญชลีกร,สร้อยมั่น,Miss,Unchaleekorn,Sroyman,MDS,MD051,PRMDS,P.13
+D3813,นางสาว,สำลี,อบปิ่น,Miss,Samree,Obpin,MDS,MD051,PRMDS,P.14
+X6361,นางสาว,ทิพวัลย์,กันหา,Miss,Tippawan,Ganha,MDS,MD051,PRMDS,P.2
+M8416,นาง,รัตนา,พันธ์เพชร,Mrs.,Rattana,Punpech,MDS,MD051,PRMDS,P.3
+L6967,นางสาว,ลัดดา,แดงพงษ์,Miss,Ladda,Daengphong,MDS,MD051,PRMDS,P.4
+J5792,นางสาว,มลฤดี,บุญศิลป์,Miss,Monrudee,Boonsin,MDS,MD051,PRMDS,P.5
+J2960,นางสาว,ไพจิตร,แก่นคง,Miss,Phaijit,Kankong,MDS,MD051,PRMDS,P.6
+D9541,นางสาว,หัสยาภรณ์,ทับทิม,Miss,Hussayaporn,Tabtim,MDS,MD051,PRMDS,P.7
+X6397,นางสาว,พะยอม,โพนสูง,Miss,Phayom,Phonsung,MDS,MD051,PRMDS,P.8
+L6900,นางสาว,ชะเอม,วงษ์จันทร์,Miss,Cha-em,Wongjan,MDS,MD051,PRMDS,P.9
+L6877,นางสาว,ละศรีดา,ธรรมโชติ,Miss,Sasrida,Tammachot,MDS,MD051,PRMDS,VMEC
+X1446,นางสาว,วันเพ็ญ,กาสี,Miss,Wanpen,Kasee,MDS,MD091,PRMDS,P.1
+L8139,นาง,กนกวรรณ์,ฤกษ์กายี,Mrs.,Kanokwan,Reukkayee,MDS,MD093,PRMDS,P.1
+J4546,นางสาว,นิรมล,สีแตงสุก,Miss,Niramon,Seetangsook,MDS,MD099,PRMDS,P.1
+D0992,นางสาว,มารินทร์,บุญประเสริฐ,Miss,Marin,Boonprasert,MDS,MD099,PRMDS,P.2
+L4318,นางสาว,วันเพ็ญ,เสือทัพ,Miss,Wanpen,Suetup,MDS,MD099,PRMDS,P.3
+L9578,นางสาว,แพรวพรรณ,จั่นจอน,Miss,Phraeophan,Chanchon,MDS,MD099,PRMDS,P.6
+D1960,นางสาว,เบญจพร,กองทอง,Miss,Benjaporn,Kongthong,MDS,MD099,PRMDS,P.8
+J6804,นางสาว,ชมพูนุท,เมืองอินทร์,Miss,Chomphunut,Mueangain,MDS,MD099,PRMDS,P.9
+D2641,นางสาว,ประภาพร,นุภาพ,Miss,Prapaporn,Nupab,MDS,MD099,PRMDS,Training MDS
+X4510,นาง,กาญจนา,คงเมือง,Mrs.,Kanjana,Kongmuang,MDS,ML MDS,PRMDS,P.4
+D1195,นาย,นพพล,ทรัพย์ระเบียบ,Mr.,Noppol,Subrabeab,MDS,MM,MMMDS,Assis Staff
+D2522,นาย,ทรงพล,สุรันนา,Mr.,Songpon,Surunna,MM,MM,JIG,Cad Design
+J6524,นาย,อานนท์,ดวงประโคน,Mr.,Arnon,Daungprakon,MM,MM,JIG,Cad Design
+J6190,นางสาว,ณัฐกฤตา,แย้มพรม,Miss,Natthakritta,Yaemphom,MM,MM,JIG,Cad Design
+J4881,นางสาว,ชนิดา,อนุชน,Miss,Chanida,Anuchon,MM,MM,JIG,Cad Design
+L7311,นาย,จักรกรี,ใจมา,Mr.,Jakkree,Jaima,MM,MM,JIG,Cad Design
+L9601,นางสาว,กมลรัตน์,อ้นพวง,Miss,Kamonrat,Onpong,MDS,MM,MMMDS,ESD
+J4042,นาย,ประกิต,กองทอง,Mr.,Prakit,Kongthong,MDS,MM,MMMDS,Improvement
+D8629,นาย,จีระศักดิ์,ประชากุล,Mr.,Jeerasak,Prachakul,MDS,MM,MMMDS,Improvement
+D1184,นาย,โสพล,เย็นอารมย์,Mr.,Sopon,Yenarom,MM,MM,SUPPT,Ionizer Control
+WA464,นาย,จักรพันธ์,โพนทอง,Mr.,Jakkapan,Pontong,MM,MM,SUPPT,Ionizer Control
+L6638,นางสาว,กัญญา,มาอยู่,Miss,Kanya,Mayoo,MM,MM,JIG,Jig Control
+D3776,นาง,วัชรี,แดงหนูงาม,Mrs.,Watcharee,Dangnoo-ngam,MM,MM,JIG,Jig Control
+D3087,นาย,พินิจ,พุ่มพวง,Mr.,Phinit,Phumphuang,MM,MM,JIG,Jig Maintenance
+J7682,นาย,อนุรักษ์,ทองวร,Mr.,Anurak,Thonguaon,MM,MM,JIG,Jig Maintenance
+J7683,นาย,วันชนะ,ชูมณี,Mr.,Wanchana,Chumanee,MM,MM,JIG,Jig Maintenance
+L6414,นาย,ทิวากร,ปล้องอ้วน,Mr.,Tiwagon,Plong-aon,MM,MM,JIG,Jig Maintenance
+X5919,นาย,จีรยุทธ,ราชา,Mr.,Jeerayut,Racha,MM,MM,JIG,Jig Maintenance
+X5861,นาย,นพดล,ชอบค้าขาย,Mr.,Nobphadon,Chopkhakhai,MM,MM,JIG,Jig Maintenance
+P0281,นาย,ธนกฤต,เอี่ยมสะอาด,Mr.,Thanakrit,Eiamsa-ard,MM,MM,JIG,Jig Maintenance
+LC002,นาย,ศิริโชค,มีศรี,Mr.,Sirichok,Meese,MM,MM,JIG,Jig Maintenance
+X4143,นาย,พลากร,ดีโต,Mr.,Palakorn,Deeto,MDS,MM,MMMDS,Jig MMCT
+D3088,นาย,กิตติศักดิ์,อรชร,Mr.,Kitisunk,Aorachorn,MDS,MM,MMMDS,Jig MMCT
+D2436,นาย,นวพล,จำเนียรทรง,Mr.,Navaphol,Chamneansong,MDS,MM,MMMDS,Jig MMCT
+D0832,นาย,ณรงศักดิ์,สังข์ทอง,Mr.,Narongsak,Sangthong,MDS,MM,MMMDS,Jig MMCT
+L4282,นาย,วิฑูรย์,พางาม,Mr.,Vitoon,Pa-ngam,MM,MM,JIG,Leader
+X5066,นางสาว,เครือวัลย์,ปั้นวงษ์,Miss,Khruawan,Panwong,LCDM,MM,MMLCM,Machine Maintenance
+LC102,นาย,ปฏิภาณ,สุพวง,Mr.,Patipan,Supaung,LCDM,MM,MMLCM,Machine Maintenance
+D2779,นางสาว,ปทุมพร,แสนสะอาด,Miss,Patumporn,Sansa-ard,LCDM,MM,MMLCM,Machine Maintenance
+D7393,นาย,วีรชิต,เพ่งเล็งดี,Mr.,Weerachit,Peanglangdee,LCDM,MM,MMLCM,Machine Maintenance
+D8725,นาย,คำรณ,หมีทอง,Mr.,Kamron,Meethong,LCDM,MM,MMLCM,Machine Maintenance
+J4175,นาย,จักรกฤษณ์,ถิ่นรัตน์,Mr.,Juggris,Thinrat,LCDM,MM,MMLCM,Machine Maintenance
+D3039,นางสาว,ขวัญชนก,นิลเขียว,Miss,Kvanchanok,Nilkeaw,MM,MM,SUPPT,Particle Monitoring
+X5911,นาย,ณัตพล,บัวเล็ก,Mr.,Nuttapol,Bualek,MM,MM,SUPPT,Particle Monitoring
+J4425,นาย,วรากร,เชื้อหลง,Mr.,Warakon,Chuealong,MDS,MM,MMMDS,PM
+J6161,นาย,ภูมินทร์,วงษ์มอญ,Mr.,Pumin,Wongmorn,MDS,MM,MMMDS,PM
+D1419,นาย,ธนากร,กันหาภัย,Mr.,Tanakorn,Khanhapai,MM,MM,STAFF,Staff MM
+D1466,นาย,สุรชาติ,คงช่วย,Mr.,Surachat,Kongchuay,MM,MM,STAFF,Staff MM
+E8635,นาง,เนาวรัตน์,อ่อนอำไพ,Mrs.,Naowarat,Onampai,MM,MM,SUPCL,Support Cleaning
+L5135,นาย,เอกพล,อินทพล,Mr.,Akapol,In-tapol,MM,MM,SUPCL,Support Cleaning
+L8260,นาย,พิทักษ์ชัย,โพธิ,Mr.,Pitukchai,Pothi,MM,MM,SUPCL,Support Cleaning
+L7513,นาย,วิสุทธิ์,ธงชัย,Mr.,Wisut,Thongchai,MM,MM,SUPPT,Support Outside
+L7314,นาย,วีระยุทธ,งามแก้ว,Mr.,Veerayut,Ngam-keaw,MM,MM,SUPPT,Support Outside
+L5408,นาย,พิเชฐ,แซ่ตั๊น,Mr.,Pichat,Sae-tan,MM,MM,SUPPT,Support Outside
+L4970,นาย,อนุชาติ,สาดทอง,Mr.,Anuchat,Sadthong,MM,MM,SUPPT,Support Outside
+L0796,นาย,โชคชัย,ทองดี,Mr.,Chokchai,Thongdee,MM,MM,SUPPT,Support Outside
+WD470,นาย,ทนิต,บู่ทอง,Mr.,Tanit,Boothong,MM,MM,SUPPT,Support Outside
+LC328,นาย,ภานุวัฒน์,ทองอินทร์,Mr.,Panuwat,Tong-in,MM,MM,SUPPT,Support Outside
+J3904,นาย,สุรศักดิ์,ศรีวงษ์ษา,Mr.,Surasak,Sriwongsa,MM,MM,SUPPT,Support Outside
+D7401,นาย,อนิรุต,ดีศิริ,Mr.,Anirut,Deesiri,MM,MM,SUPPT,Support Outside
+D6918,นาย,อมรเทพ,นิลกลั่น,Mr.,Amorntep,Ninklun,MM,MM,SUPPT,Support Outside
+D7711,นาย,เอกลักษ์,นิลกลั่น,Mr.,AEKALAKS,NINKLAN,MM,MM,SUPPT,Support PR
+C3543,นาย,นทชา,อิ่มจิตร์,Mr.,Nathacha,Imjit,MM,MM,SUPPT,Support PR
+X5139,นาย,สัญชัย,ใจเที่ยง,Mr.,Sanchai,Jaiteang,MM,MM,SUPPT,Support PR
+L7199,นาย,อาทิตย์,รอดทอง,Mr.,Arthit,Rotthong,MM,MM,SUPPT,Washing
+D7402,นาย,อภิชาติ,ตันศิริ,Mr.,Apichart,Tunsiri,MM,MM,SUPPT,Washing
+E9825,นาย,สุรพงษ์,เดชช่วย,Mr.,Surapong,Dechchuy,MM,MM,SUPPT,Washing
+X4933,นางสาว,ธิดารัตน์,ดวงจันทร์,Miss,Thidarat,Duangjan,MDS,MS01,PRMDS,Sub Assembly
+X5819,นางสาว,เดือนเพ็ญ,เสมาทอง,Miss,Duanpen,Samatong,MDS,MS02,PRMDS,Sub Assembly
+X2166,นางสาว,สุนทรี,หลิ่มบางอิด,Miss,Soontaree,Limbang-id,MDS,MS03,PRMDS,Sub Assembly
+D8364,นางสาว,ชญานุตม์,เครือคำ,Miss,Chayanuch,Kruekam,MDS,MS04,PRMDS,Sub Assembly
+L6992,นางสาว,อุบล,โพธิ์ภิรมย์,Miss,Ubol,Phopirom,MDS,MS05,PRMDS,Sub Assembly
+L6915,นางสาว,ปณิตา,ทัพจันทร์,Miss,Panita,Thapchan,MDS,Multi 00,PRMDS,Multi Skill
+J9512,นางสาว,ภมรรัตน์,รอดสาย,Miss,Phamornrat,Rodsai,MDS,Multi 00,PRMDS,Multi Skill
+J9140,นางสาว,นาถตยา,เทียมลี้,Miss,Nattaya,Thiamlee,MDS,Multi 00,PRMDS,Multi Skill
+L9284,นางสาว,เพชรรัตน์,ปิ่นเพิก,Miss,Petcharat,Pinperk,MDS,Multi 00,PRMDS,Multi Skill
+D5406,นางสาว,จีระนันท์,ควรหัตถ์,Miss,Jeeranan,Khuanhat,MDS,Multi 00,PRMDS,Multi Skill
+J4948,นางสาว,เจนจิรา,วิสุนี,Miss,Janejira,Wisunee,MDS,Multi 00,PRMDS,Multi Skill
+J5178,นางสาว,พรนภา,เฮงสิ,Miss,Pronnapa,Hengsi,MDS,Multi 00,PRMDS,Multi Skill
+L8537,นางสาว,จุรีกร,เจือจุล,Miss,Jureekorn,Juejul,MDS,Multi 00,PRMDS,Off line inspection
+L9781,นางสาว,กิติยา,โกยทา,Miss,Kitiya,Kooyta,MDS,Multi 00,PRMDS,Off line inspection
+D3207,นางสาว,กานจณา,มั่งมี,Miss,Kanchana,Mangmee,MDS,Multi 01,PRMDS,Multi Skill
+L7188,นางสาว,วาสนา,เปียวงษ์,Miss,Wassana,Paiwong,MDS,Multi 02,PRMDS,Multi Skill
+LB676,นาง,ฤทัยรัตน์,ทาทั่ว,Mrs.,Luethairat,Tatue,MDS,Offline00,PRMDS,Off line inspection
+D6043,นางสาว,รุ่งทิพย์,บุญมา,Miss,Roongtip,Boonma,MDS,Offline00,PRMDS,Off line inspection
+D8816,นางสาว,ปิยะวรรณ,จูเปีย,Miss,Piyawan,Chupia,MDS,Offline00,PRMDS,Off line inspection
+J1342,นางสาว,วาสนา,กองทอง,Miss,Wassana,Kongtong,MDS,Offline00,PRMDS,Off line inspection
+J1738,นางสาว,พรนิภา,หินอ่อน,Miss,Phonnipa,Hin-on,MDS,Offline00,PRMDS,PR Packing
+L6623,นางสาว,นพรัตน์,ยี่จีน,Miss,Nopparat,Yeejeen,MDS,Offline00,PRMDS,PR Packing
+L6828,นางสาว,บุษบง,ทับเปีย,Miss,Butsabong,Tabpai,MDS,Offline00,PRMDS,PR Packing
+L4501,นางสาว,สุพรรณี,นามประเทือง,Miss,Supannee,Nampratuang,MDS,Offline00,PRMDS,VPI
+E9057,นาย,เฉลียว,ใจเป็นใหญ่,Mr.,Chaleaw,Jaipeanyai,OP,OPL,Z07,Leader
+E0111,นางสาว,ยุพิน,ทันแจ้ง,Miss,Yupin,Tanjeang,OP,OPL,Z07,Leader
+J1885,นางสาว,ละอองมาศ,ศรีเจิม,Miss,La-ongmas,Sichoem,OP,OPT,Z07,Clerk PC
+J6079,นางสาว,แกมกาญจน์,จันทร์ดัด,Miss,Kaemkarn,Jandad,OP,OPT,Z07,Clerk PC
+LB693,นางสาว,ณัฐชาภัทร,ศรีศร,Miss,Nutchaput,Srisorn,OP,OPT,Z07,Clerk PR
+X5155,นางสาว,สุภาธิณี,มีสันทัด,Miss,Supatinee,Meesantad,OP,OPT,Z07,HD Optical
+X4415,นางสาว,วาสนา,ชัยศรี,Miss,Wassana,Chaisri,OP,OPT,Z07,HD Optical
+D9680,นางสาว,วราพร,พวงมาลัย,Miss,Waraporn,Puangmalai,OP,OPT,Z07,HD Optical
+D9195,นางสาว,แคทลียา,สุกใส,Miss,Khaethaliya,Suksai,OP,OPT,Z07,Insp. Optical
+D2384,นางสาว,เพ็ญศรี,จำเนียรทรง,Miss,Pensri,Chamneansong,OP,OPT,Z07,Insp. Optical
+J5117,นางสาว,มาริสา,ประสมพงค์,Miss,Marisa,Parsonpong,OP,OPT,Z07,Insp. Optical
+X5793,นางสาว,ติ๋ม,สุดามก,Miss,Tim,Sudamok,OP,OPT,Z07,Insp. Optical
+L4229,นางสาว,อุไรวรรณ,ปานนิยม,Miss,Uraiwan,Panniyom,OP,OPT,Z07,Insp. Optical
+L5436,นาง,ภัทรภร,มาเจริญ,Mrs.,Phattaraporn,Macharoen,OP,OPT,Z07,Insp. Optical
+L6641,นางสาว,พรทิพย์,ดวงแข,Miss,Porntip,Doungkae,OP,OPT,Z07,Insp. Optical
+L2862,นางสาว,รัตนา,เมืองทอง,Miss,Rattana,Mongthong,OP,OPT,Z07,Insp. Optical
+L5875,นางสาว,กัญญารัตน์,เถาใต้,Miss,Kanyarat,Thaotai,OP,OPT,Z07,Leader
+L5332,นางสาว,จันทิมา,ชาวสมุทร,Miss,Jantima,Chaosamut,OP,OPT,Z07,Machine Optical
+L7246,นางสาว,สุภาสินีย์,เอี่ยมสอาด,Miss,Supasinee,Aiamsa-art,OP,OPT,Z07,Machine Optical
+X5021,นางสาว,สุจิรา,สูนจันทร์,Miss,Sujira,Soonjan,OP,OPT,Z07,Machine Optical
+J5260,นางสาว,นริสรา,เรืองวิเศษ,Miss,Narisara,Rueangwiset,OP,OPT,Z07,Machine Optical
+D2204,นางสาว,กุลธิดา,น้อยเจริญ,Miss,Kulthida,Noyjarern,OP,OPT,Z07,Machine Optical
+D1970,นางสาว,เรณู,แสงธูป,Miss,Renoo,Sangtoop,OP,OPT,Z07,Machine Optical
+J8348,นาย,นิธิศ,โชติสิทธิฤทธ์,Mr.,Nitis,Chotsittirit,OP,OPT,Z07,MC Optical
+L0150,นาย,รัชพล,สินทา,Mr.,Rachaphon,Sintha,OP,OPT,Z07,MC Optical
+L5451,นางสาว,สาธิยา,แจ้งจิตร,Miss,Satiya,Jangjit,OP,OPT,Z07,Packing Optical
+D5358,นางสาว,เดือนเพ็ญ,นามบุรี,Miss,Duenphen,Namburi,OP,OPT,Z07,QC Optical
+L0754,นางสาว,จุฑาภรณ์,ชันษา,Miss,Juthaporn,Chansa,OP,OPT,Z07,Senior
+L7446,นาย,ชัยยุทธ,มาพุฒิ,Mr.,Chaiyut,Maput,OP,OPT,Z07,TECH. Optical
+D0931,นาย,พงษ์พันธ์,เถาว์พันธ์,Mr.,Phongphun,Thaophun,OP,OPT,Z07,TECH. Optical
+D2523,นาย,ณรงค์ศักดิ์,ทองสุภาพ,Mr.,Narongsak,Thongsupap,OP,OPT,Z07,TECH. Optical
+J8148,นาย,เกริกไกร,ศรีดี,Mr.,Kerkkai,Sridee,OP,OPT,Z07,TECH. Optical
+J8097,นางสาว,บุษราคัม,บุญอินทร์,Miss,Butsarakham,Bunain,PR,OSH35,Z17P,BST ASSY
+D8951,นางสาว,สุรีย์รัตน์,ยอดขำ,Miss,Sureerat,Yodkhum,PR,OSH35,Z17P,BST ASSY
+L9852,นาง,กัณทิมา,สำริดผ่อง,Mrs.,Kantima,Samridpong,PR,OSH35,Z17P,BST ASSY
+J8993,นางสาว,อรวรรณ,บุญช่วย,Miss,Orawan,Boonchuai,PR,OSH35,Z17P,Diffuser Assy
+J5252,นางสาว,สุรีรัตน์,พันเทศ,Miss,Sureerat,Panted,PR,OSH35,Z17P,Diffuser Assy
+E4807,นาง,สุจิตรา,กองค้า,Mrs.,Sujittra,Kongka,PR,OSH35,Z17P,Insert HF
+X5659,นางสาว,ทิพวรรณ,ทิวแพรสี,Miss,Thipphawan,Thiwpreasi,PR,OSH35,Z17P,Line leader
+L7575,นางสาว,สุภชาดา,วันมี,Miss,Suphachada,Wanmee,PR,OSH35,Z17P,Protecion Film Assy
+D3139,นางสาว,นิภาภรณ์,นราเลิศ,Miss,Nipaporn,Naralead,PR,OSH35,Z17P,Protecion Film Assy
+D2931,นางสาว,พรพรรณ,ชะนู,Miss,Pornpan,Chanu,PR,OSH35,Z17P,Spacer Assy
+X5488,นางสาว,สุวรรณี,คีรี,Miss,Suwannee,Keeree,PR,OSH35,Z17P,Spacer Assy
+L9709,นางสาว,สุพรรษา,บุญคลี่,Miss,Supansar,Boonklee,PR,OSH35,Z17P,Spacer Assy
+L7505,นางสาว,ขวัญเรียม,ทองเงิน,Miss,Khwanriam,Thong-ngoen,PR,OSH35,Z17P,VCON Insp.
+D3351,นางสาว,ป่านแก้ว,พรมสุริยา,Miss,Parnkaew,Promsuriya,PR,OSH35,Z17P,VMEC Insp.
+J5577,นางสาว,เบญจวรรณ,ระมั่งทอง,Miss,Banjawan,Ramangthong,PR,OSH35,Z17P,VMEC Insp.
+F3022,นางสาว,กาญจนา,กงแสง,Miss,Kanjana,Kong-saeng,PR,OSH36,Z17P,BST ASSY
+D4783,นางสาว,กันติมา,แสงสิทธิ์,Miss,Kantima,Saengsit,PR,OSH36,Z17P,BST ASSY
+D1400,นางสาว,รัตนาภรณ์,วงศ์มณี,Miss,Rattanaporn,Wongmanee,PR,OSH36,Z17P,Diffuser Assy
+X5090,นางสาว,วารุณี,ภูทอง,Miss,Warunee,Phoothong,PR,OSH36,Z17P,Diffuser Assy
+D8426,นางสาว,วิไลวรรณ,จินดา,Miss,Wilaiwan,Jinda,PR,OSH36,Z17P,Insert HF
+E9809,นาง,สายสุดา,จรัสศรี,Mrs.,Saisuda,Jarassri,PR,OSH36,Z17P,Protecion Film Assy
+E6788,นาง,เกษสุนีย์,เตชะไพศาลทวี,Mrs.,Kessunee,Techaphaisantawee,PR,OSH36,Z17P,Protecion Film Assy
+E8612,นาง,ศิชล,พุ่มพินิจ,Mrs.,Sichol,Pumpinid,PR,OSH36,Z17P,Spacer Assy
+L3857,นางสาว,ศิรินารถ,พังพิศ,Miss,Sirinart,Pangpit,PR,OSH36,Z17P,Spacer Assy
+J5841,นางสาว,ทิพวรรณ,สุขได้พึ่ง,Miss,Thiphawon,Sukdaiphueng,PR,OSH36,Z17P,VCON Insp.
+D7007,นางสาว,นิภาพร,กาบทอง,Miss,Vipa,Phumchom,PR,OSH36,Z17P,VMEC Insp.
+D1306,นางสาว,เป็นหนึ่ง,สิงห์ทา,Miss,Pennueng,Singta,PR,Packing,Z17T,PR Packing
+E8538,นาง,สมจิตร์,นุชใย,Mrs.,Somjit,Nuchyai,PR,Packing,Z17T,PR Packing
+E8797,นางสาว,ปรารถนา,บรรฑิต,Miss,Prattana,Bandit,PR,Packing,Z17T,PR Packing
+E5116,นาง,วรพิม,ม่วงเอม,Mrs.,Worapim,Muangaem,PR,Packing,Z17T,PR Packing
+L4103,นางสาว,นิลวรรณ,นิลละออ,Miss,Nillawan,Nilla-ao,PR,Packing,Z17T,PR Packing
+L4665,นางสาว,สุลาวรรณ,กิจทา,Miss,Sulawan,Kitta,PR,Packing,Z17T,PR Packing
+L4538,นางสาว,ดารณี,ทองรักษ์,Miss,PDaranee,Thongrux,PR,Packing,Z17T,PR Packing
+P6560,นาง,จุลาลักษณ์,ตริเกษร,Mrs.,Julaluk,Tikesorn,PR,Packing,Z17T,PR Packing
+X5196,นางสาว,มณีรัตน์,รั่วลี,Miss,Maneerat,Ruelee,LCDM,PB000,PRLCM,IT
+L7483,นางสาว,ธิดารัตน์,สายสอาด,Miss,Tidarat,Saisa-ard,MDS,PB000,PRMDS,IT
+J8177,นางสาว,พัชมนฑ์,ระเบียบ,Miss,Phatchamon,Rabiab,PR,PB000,IT,IT
+J4575,นางสาว,วีรนาท,สมประสงค์,Miss,Weranat,Somprasong,LCDM,PB000,PRLCM,IT
+D6406,นางสาว,สิริรัตน์,อินวารี,Miss,Sirirut,Inwaree,PR,PB000,IT,IT
+L7231,นางสาว,วิไลพร,ทองลาวัน,Miss,Wilaiporn,Thonglawan,PR,PB000,IT,Leader
+LC298,นางสาว,ปรียานุช,เขตรขันธ์,Miss,Preeyanush,Khetkhan,PR,PB000,IT,Leader
+LB559,นางสาว,ทิพย์ภาพรรณ,เสนารายณ์,Miss,Thippapan,Sanarai,MDS,PB000,PRMDS,Programmer
+D9664,นางสาว,กมลวรรณ,พันธะ,Miss,Kamonwan,Panta,PR,PB000,IT,Programmer
+J4708,นางสาว,ณัฐมล,นวลเทศ,Miss,Natthamon,Nuantate,LCDM,PB000,PRLCM,Programmer
+J5013,นางสาว,เนตรนภา,ตลับนาค,Miss,Netnapha,Talabnak,PR,PB000,IT,Programmer
+J3704,นางสาว,อังสดา,มั่นเจริญ,Miss,Angsada,Mancharoen,PR,PB000,IT,Programmer
+J6430,นางสาว,สุกัญญา,เอี่ยมสอาด,Miss,Sukunya,Aiamsa-art,PR,PB000,IT,Programmer
+J5751,นาย,เลิศชาย,บุญบำเรอ,Mr.,Loedchai,Boonbamrer,LCDM,PC,PCLCM,PC Packing
+J5942,นางสาว,ณภัทร,สกุลพงษ์,Miss,Napat,Sakulpong,LCDM,PC,PCLCM,PC Packing
+J7791,นางสาว,ธนัชพร,เติมทรัพย์,Miss,Thanatchaporn,Termsup,LCDM,PC,PCLCM,PC Packing
+C7523,นาย,เอกวิทย์,พิมพ์รัตน์,Mr.,Ekkawit,Pimrat,LCDM,PC,PCLCM,PC Packing
+J4615,นางสาว,จินตนา,อนันต์สลุง,Miss,Jintana,Anansalung,PC,PC,AD,Support AD
+J4709,นางสาว,ทิพย์วรรณ,เชื้อนาค,Miss,Thippawan,Chueanak,PC,PC PK,PACK3,PC Packing
+J4667,นางสาว,ชลธิชา,ปานสุวรรณ์,Miss,Cholticha,Pansuwan,PC,PC PK,PACK3,PC Packing
+J4718,นางสาว,ณฐมณฑ์,พรมมา,Miss,Nathamon,Promma,PC,PC PK,PACK3,PC Packing
+J4763,นางสาว,พรรณิภา,ม่วงไข่,Miss,Pannipa,Muangkhai,PC,PC PK,PACK3,PC Packing
+J6972,นางสาว,พรสุดา,เดชเปรื่อง,Miss,Pornsuda,Detprueang,MDS,PC PK,PCMDS,PC Packing
+J5753,นาย,ศราวุฒิ,คงดาบ,Mr.,Sarawoot,Kongdab,MDS,PC PK,PCMDS,PC Packing
+E8729,นาง,สมหมาย,พันทวี,Mrs.,Sommai,Phantawee,MDS,PC PK,PCMDS,PC Packing
+J1220,นางสาว,วิลาวรรณ,ล้วนพร,Miss,Wilawan,Lounporn,PC,PC PK,PACK3,PC Packing
+J1672,นาย,ประสิทธิ์,สาธร,Mr.,Prasit,Saton,PC,PC PK,PACK3,PC Packing
+J1638,นางสาว,กวินทิพย์,นุ่มฤทธิ์,Miss,Kawinthip,Numrit,PC,PC PK,PACK3,PC Packing
+D3940,นางสาว,ลภัสรดา,เมืองคำ,Miss,Laphasrada,Muengkham,MDS,PC PK,PCMDS,PC Packing
+D3658,นาย,ธนวัฒน์,เกตุสอน,Mr.,Thanawat,Katsorn,PC,PC PK,PACK3,PC Packing
+E3639,นางสาว,นิสา,เทียนสิงห์,Miss,Nisa,Thiansing,PC,PC PK,PACK3,PC Packing
+D8026,นาย,สิทธินนท์,แสงสว่าง,Mr.,Sithinon,Sangsawang,MDS,PC PK,PCMDS,PC Packing
+LC330,นาย,สรายุทธ,สุขสวัสดิ์,Mr.,Sarayut,Suksawad,PC,PC PK,PACK3,PC Packing
+LC324,นาย,ชาลี,เถื่อนดี,Mr.,Chalee,Tuendee,PC,PC PK,PACK3,PC Packing
+X5462,นาง,กนกวรรณ,โรจน์ปาน,Mrs.,Kanokwan,Rojpan,PC,PC PK,PACK3,PC Packing
+X0473,นางสาว,อมราวดี,สรรพสิทธิ์,Miss,Amarawadee,Subpasit,MDS,PC PK,PCMDS,PC Packing
+X1886,นางสาว,สำราญ,แก้วสิงห์,Miss,Samran,Kaewsing,PC,PC PK,PACK3,PC Packing
+L6770,นางสาว,รัชนี,แก่นทรัพย์,Miss,Ratchanee,Kansup,PC,PC PK,PACK3,PC Packing
+LB606,นางสาว,วิริญญา,เกิดแก่น,Miss,Wirinya,Koedkan,LCDM,PE,PELCM,Analysis
+D1405,นางสาว,เกษรา,คงเพ็ชร์,Miss,Ketsara,Kongpetch,LCDM,PE,PELCM,Analysis
+J6052,นางสาว,เกศรา,ท้าวทุมมา,Miss,Ketsara,Taotoomma,LCDM,PE,PELCM,Analysis
+J7272,นาย,ธงชัย,อารีราษฎร์,Mr.,Thongchai,Areras,MDS,PE,PEMDS,Machine Setters Z.16
+J8101,นาย,เทพพิทักษ์,อิสระภาพ,Mr.,Tabpitak,Aisarapap,MDS,PE,PEMDS,Machine Setters Z.16
+J4527,นาย,พงษ์สิทธิ์,ประพันธ์ศรี,Mr.,Pongsit,Praphansri,MDS,PE,PEMDS,Machine Setters Z.16
+LB955,นาย,จิรพัส,เจียมรัตนะ,Mr.,Jirapat,Jiamratana,MDS,PE,PEMDS,Machine Setters Z.16
+J8198,นาย,ประสิทธิ์,กำเนิดเกียรติศักดิ์,Mr.,Prasit,Kamnerdkiettisak,MDS,PE,PEMDS,Machine Setters Z.16
+LB902,นาย,ชนินทร์,เงินกรม,Mr.,Chanin,Ngeonkrom,MDS,PE,PEMDS,Machine Setters Z.4
+J4174,นาย,คงศักดิ์,พุทธโกสัย,Mr.,Kongsak,Puttakosai,MDS,PE,PEMDS,Machine Setters Z.4
+J3659,นาย,ยุทธนา,เอี่ยมบู่,Mr.,Yutana,Aieamboou,MDS,PE,PEMDS,Machine Setters Z.4
+J1249,นาย,ยอดรัก,โสภา,Mr.,Yodrak,Sopa,MDS,PE,PEMDS,Machine Setters Z.4
+D2052,นาย,วันชัย,พุ่มสุข,Mr.,Wanchai,Pumsuk,MDS,PE,PEMDS,Machine Setters Z.4
+D2162,นาย,ณัฐพนธ์,พุฒดี,Mr.,Nattapon,Putdee,LCDM,PE,PELCM,PE Improvement
+D7712,นาย,ฐนวสรณ์,ขมขำ,Mr.,Thanawasorn,Khomkham,LCDM,PE,PELCM,PE Improvement
+D8142,นาย,สุวิทย์,สว่างแสง,Mr.,Suvit,Sawangsang,LCDM,PE,PELCM,PE Improvement
+D8722,นางสาว,จารุวรรณ,จันทร์รอด,Miss,Jaruwan,Janrod,LCDM,PE,PELCM,PE Improvement
+D8723,นางสาว,นาถตยา,ไสยโสภณ,Miss,Nattaya,Saisophon,LCDM,PE,PELCM,PE Improvement
+D9869,นาย,ธีระพล,ชะโลมทิพย์,Mr.,Teerapol,Chalomtip,LCDM,PE,PELCM,PE Improvement
+D5231,นาย,ศิจา,กราบขุนทด,Mr.,Sija,Krabkhunthod,LCDM,PE,PELCM,PE Improvement
+J1937,นาย,สุนทร,เที่ยงธรรม,Mr.,Suntorn,Thangtam,LCDM,PE,PELCM,PE Improvement
+L9469,นางสาว,นวนันท์,เฉลยทัศน์,Miss,Navanan,Chaloeytat,LCDM,PK01,PRLCM,PR Packing
+L2604,นางสาว,สุภาวดี,เทียมสีฟ้า,Miss,Supawadee,Tiamseefar,LCDM,PK02,PRLCM,PR Packing
+J3338,นางสาว,ลักษณา,มิ่งขวัญ,Miss,LUKSANA,MINGKWAN,LCDM,PK03,PRLCM,PR Packing
+J7034,นาง,ปัทมา,อมรประสิทธิ์,Mrs.,Puttama,Amonprasit,PR,PKSMS01,Z17S,Characteristic
+D1316,นาง,นิภา,จงเสริมกลาง,Mrs.,Nipa,Jongsermklang,PR,PKX10,Z17P,Combine Pack
+J3160,นาง,วลักษณ์,เพ็ชรสว่าง,Mrs.,Walux,Phetsawang,PR,PKX10,Z17P,Print Label
+D8634,นาย,พงษ์พิพัฒน์,โตจำนงค์,Mr.,PHONGPHIPAT,TOCHAMNONG,PE,PM001,Z17T,Machine Maintenance
+J7331,นาย,ธวัชชัย,พรหมธนปัญ,Mr.,Thawatchai,Phromthanapan,PE,PM002,Z17T,Machine Maintenance
+J4753,นาย,พรเทพ,รัตนวงษ์,Mr.,Porntep,Rattanawong,PE,PM003,Z17T,Machine Maintenance
+J8364,นาย,ปริญญา,ร่มโพธิ์,Mr.,Pharinya,Rompho,PE,PM003,Z17T,Machine Maintenance
+L2678,นาย,ไพศาล,พรเจริญ,Mr.,Paisal,Poncharon,PE,PM004,Z17T,Machine Maintenance
+LC295,นางสาว,น้ำทิพย์,สวนขำ,Miss,Namthip,Suankham,LCDM,PO001,PRLCM,Final appearance inspection
+D6187,นางสาว,เนาวรัตน์,สีใจดี,Miss,Naowarat,Seejaidee,LCDM,PO001,PRLCM,Protection film re-lamination
+X4227,นางสาว,นุจรี,ขันกสิกรรม,Miss,Nuchjaree,Khankasikam,LCDM,PO001,PRLCM,TP Lamination
+J5078,นางสาว,ดวงใจ,มีดี,Miss,Dongjai,Meedee,LCDM,PO002,PRLCM,Final appearance inspection
+J7052,นางสาว,ขวัญเรือน,บุญลอย,Miss,Kuanruan,Boonloy,LCDM,PO002,PRLCM,Protection film re-lamination
+D3772,นางสาว,บุญตา,พรมหงษ์,Miss,Boonta,Promhong,LCDM,PO002,PRLCM,TP Lamination
+D2031,นางสาว,มัทนา,น้อยตั้ง,Miss,Mattana,Noytang,LCDM,PR01,PRLCM,Leader
+D3822,นางสาว,เดือนเพ็ญ,บุญงาม,Miss,Duanpen,Boon-ngam,LCDM,PR01,PRLCM,Senior
+D5264,นางสาว,ทับทิม,มั่นสติ,Miss,Tabtim,Mansati,LCDM,PR01,PRLCM,Senior
+J1482,นางสาว,กรรณิกา,แสงจันทร์,Miss,Kannikar,Saengchan,LCDM,PR01,PRLCM,Senior
+L3157,นางสาว,ธนาภรณ์,ธาระมนต์,Miss,Thanaporn,Tharamon,LCDM,PR01,PRLCM,Senior
+X5197,นางสาว,พรทิพย์,เมืองพรวน,Miss,Pornthip,Mangpron,MDS,Pregnant,PRMDS,AI
+D4873,นางสาว,วัชราภรณ์,โพธิ์ยิ้ม,Miss,Watcharaporn,Phoyim,MDS,Pregnant,PRMDS,P.9
+LC413,นางสาว,วนาลี,กับเกตุ,Miss,Wanalee,Kabket,MDS,Pregnant,STAFF,Staff PE
+L9286,นางสาว,สุรางค์,นารี,Miss,Surang,Naree,MDS,Pregnant,PRMDS,Training MDS
+D2317,นาย,สมภพ,ฟันฟอง,Mr.,Sompop,Funfong,PE,PSX01,Z17P,Machine Setters
+J8456,นาย,เกรียงไกร,กันอ่ำ,Mr.,Kraingkai,Kanam,PE,PSX03,Z17P,Machine Setters
+D9410,นางสาว,ปรณัฐ,แสงสอาด,Miss,Poranut,Sangsard,QC,QAI05,QC3,Outgoing Dimension
+X2630,นางสาว,สุมิตรา,เกตุตรง,Miss,Sumittra,Katetrong,QA,QAI05,QA,QA
+L9272,นางสาว,ฐิตาพร,สลับสี,Miss,Thitaporn,Salubsee,QA,QAI06,QA,QA
+LA707,นาย,บวร,ตั้งดี,Mr.,Boworn,Tangdee,QA,QAI20,STAFF,Staff QA
+J2777,นางสาว,นวกมล,พุ่มสำเภา,Miss,Nawakamon,Phumsumpao,QA,QAI20,STAFF,Staff QA
+D0865,นางสาว,อนันตญา,บุญชม,Miss,Anantaya,Boonchom,MDS,QAM01,QAMDS,QA
+D5142,นางสาว,พัชรา,นุตระ,Miss,Patchara,Nuttara,MDS,QAM02,QAMDS,QA
+D5600,นางสาว,ลินลดา,สุรากลี,Miss,Linlada,Surakri,LCDM,QC,QCLCM,QC Outgoing
+J2732,นางสาว,จินตนาการ,บุญแต้ม,Miss,Jintanakan,Boontaem,LCDM,QC,QCLCM,QC Outgoing
+J4813,นางสาว,ปัทมวรรณ,มาลีหอม,Miss,PATTAMAWAN,MALEEHOM,LCDM,QC,QCLCM,QC Outgoing
+L8493,นางสาว,ประภา,วงษ์ชมภู,Miss,Prapa,Wongchompoo,LCDM,QC,QCLCM,QC Outgoing
+L8806,นางสาว,กัญญารัตน์,สีทาจันทร์,Miss,Kanyarat,Seethachan,LCDM,QC,QCLCM,QC Outgoing
+X4063,นางสาว,กัญญารัตน์,เมืองมล,Miss,Kanyarat,Muengmol,LCDM,QC,QCLCM,QC Outgoing
+X5194,นางสาว,นฤมล,ทัพจันทร์,Miss,Naruemon,Thapjan,LCDM,QC,QCLCM,QC Outgoing
+J2305,นางสาว,กัลยา,ชื่นชวน,Miss,Kanlaya,Chuenchan,QC,QCI04,QC3,Outgoing Appearance
+E6639,นาง,เรณู,เครือขอน,Mrs.,Renu,KHREUEKHON,QC,QCI05,QC3,Instructor
+L1730,นาง,เพ็ญนภา,สมาคม,Mrs.,Pennapa,Samakom,QC,QCI05,QC3,Instructor
+L0662,นาง,มัทนียา,รอดทองดี,Mrs.,Muttaneeya,Rodthongdee,QC,QCI05,QC3,Leader
+X4867,นาง,ภาวิณี,รอดคร้าม,Mrs.,Pawinee,Rodkram,QC,QCI05,QC3,Leader
+L8487,นางสาว,นันทกา,โอฬารพูล,Miss,Nanthakar,O-lanpoon,QC,QCI05,QC3,Material check
+L5649,นางสาว,ชวรรณลักษณ์,จิตเอี่ยม,Miss,Chawanlak,Jitiam,QC,QCI05,QC3,Outgoing Dimension
+LB632,นาง,ฐิติรัตน์,สวยวิเศษ,Mrs.,Thitirat,Suaiwiset,QC,QCI05,QC3,Outgoing Dimension
+D3530,นางสาว,อารยา,อายุโย,Miss,Araya,Aryuyo,QC,QCI05,QC3,Outgoing Dimension
+L4265,นาง,พรสวรรค์,รักรี,Mrs.,Pornsawan,Rakree,QC,QCI06,QC3,Instructor
+L4169,นางสาว,ปานจิตร,ใจแก้ว,Miss,Panchit,Chaikaew,QC,QCI06,QC3,Leader
+L4949,นางสาว,กาญจนา,เสาธงทอง,Miss,Kanjana,Saothongtong,QC,QCI06,QC3,Leader
+L6907,นางสาว,ทิพวรรณ,คันทารัตน์,Miss,Thipphawan,Khantharat,QC,QCI06,QC3,Leader
+L8503,นางสาว,อณัญญา,อ่อนสันทัด,Miss,Ananya,Onsantad,QC,QCI06,QC3,Material check
+L6581,นางสาว,ชญาภัช,เดชาเครือแตง,Miss,Chayapach,Dechakurtang,QC,QCI06,QC3,Outgoing Dimension
+D4103,นาง,วันทนา,กันภัย,Mrs.,Wantana,Kanpai,QC,QCI06,QC3,Outgoing Dimension
+J4687,นางสาว,นาฏญา,โพปั้น,Miss,Nattaya,Popun,QC,QCI06,QC3,Outgoing Dimension
+J5063,นางสาว,กาญจนา,เกษสอน,Miss,Kanjana,Kathson,QC,QCI06,QC3,QC Cleanliness
+E8516,นาง,ปรียากรณ์,สร้อยวงศ์สกุล,Mrs.,Preeyakorn,Sroyyongsakul,QC,QCI10,QC3,Incoming GP
+E7493,นาง,สุมาลี,สาระเดช,Mrs.,Sumalee,Sa-radech,QC,QCI10,QC3,Incoming HF
+E7181,นางสาว,สิริกร,แดงโสภา,Miss,Sirikorn,Daengsopa,QC,QCI10,QC3,Leader
+E8499,นางสาว,นงนาฏ,เนตรน้อย,Miss,Nongnart,Netnoi,QC,QCI10,QC3,Leader
+L6918,นางสาว,อุษา,สดับจิตร์,Miss,Usa,Sadabjit,QC,QCI10,QC3,Leader
+L3302,นางสาว,สุภิญญา,ปัทมะเสวี,Miss,Supinya,Pattamasavee,QC,QCI10,QC3,Leader
+L4686,นาง,สุพรรณนิการ์,สงวนใจ,Mrs.,Supannikar,Sanguanjai,QC,QCI10,QC3,Material check
+J6963,นางสาว,วรารัตน์,มั่งมี,Miss,Wararat,Mungmee,QC,QCI10,QC3,QC Cleanliness
+E7002,นางสาว,อรัญญา,แก่นแก้ว,Miss,Aranya,Kaenkaew,QC,QCI20,QC3,Material check
+LC318,นางสาว,หนึ่งฤทัย,ศรีดวงนภา,Miss,Nungruthai,Sriduangnapa,QC,QCI20,QC3,QC Instructor
+LA407,นาย,เพียรวิทย์,ผิวสว่าง,Mr.,Pianwit,Piwsawang,QC,QCI20,STAFF,Staff QC
+LB942,นางสาว,ธนาพร,แก้วสว่าง,Miss,Thanaporn,Kaewsawang,QC,QCI20,STAFF,Staff QC
+L9683,นาง,วรรณรฎา,ศรีเรือง,Mrs.,Wanrada,SRIRUANG,QC,QCI20,STAFF,Staff QC
+L7170,นางสาว,วิไล,ทองเอี่ยม,Miss,Wilai,Tongaem,MDS,QCM03,QCMDS,Clerk QC
+E8949,นางสาว,ทักษญา,ทองอร่าม,Miss,Thaksaya,Thong-aram,MDS,QCM10,QCMDS,Box Appearance
+J2951,นางสาว,ณัชชา,คงสิทธิโชค,Miss,Natcha,Kongsittichok,MDS,QCM10,QCMDS,Incoming Inhouse
+L3504,นาง,ประภัสสร,วงษ์อ่อน,Mrs.,Prapatsorn,Wongorn,MDS,QCM10,QCMDS,Incoming Inhouse
+L3535,นาง,นัยนา,ระน้อย,Mrs.,Naiyana,Ranoi,MDS,QCM10,QCMDS,Incoming Inhouse
+L8558,นางสาว,วาสนา,หมั่นเขตรกิจ,Miss,Wasana,Mankatrakit,MDS,QCM10,QCMDS,Incoming Inhouse
+L0245,นางสาว,ชนิดา,สิริสุขะ,Miss,Chanida,Sirisukha,MDS,QCM10,QCMDS,Instructor
+J9539,นางสาว,ธีรดา,อ้วนมี,Miss,Theerada,Ouenmee,MDS,QCM10,QCMDS,Instructor
+D5804,นางสาว,สุจิตรา,สุขเทศ,Miss,Sujitta,Sukthet,MDS,QCM10,QCMDS,Instructor
+D2997,นาง,ธนวันต์,เกตุดี,Mrs.,Tanawan,Katdee,MDS,QCM10,QCMDS,Leader QC
+X2394,นางสาว,สุกัญญา,วงษ์อินทร์,Miss,Sukanya,Wong-in,MDS,QCM10,QCMDS,Leader QC
+X2625,นางสาว,จิตรวิชา,แก้วอุดม,Miss,Jitwicha,Kaewudom,MDS,QCM10,QCMDS,Outgoing Appearance
+X5163,นางสาว,กนิษฐา,ศิริจันทร์โท,Miss,Kanitha,Sirijuntho,MDS,QCM10,QCMDS,Outgoing Appearance
+L8834,นางสาว,อภิญญา,สิงห์งาม,Miss,Apinya,Singngam,MDS,QCM10,QCMDS,Outgoing Appearance
+LB653,นางสาว,ขวัญพร,ขอพึ่ง,Miss,Khwanporn,Khopung,MDS,QCM10,QCMDS,Outgoing Appearance
+D2847,นางสาว,ปราณี,กลิ่นหอม,Miss,Pranee,Klinhom,MDS,QCM10,QCMDS,Outgoing Appearance
+D8436,นางสาว,สุธารัตน์,คุ้มครอง,Miss,Sutharat,Khumkhrong,MDS,QCM10,QCMDS,Outgoing Appearance
+D2824,นางสาว,วิภาวรรณ,มุ่งชนะ,Miss,Wipawan,Mungchana,MDS,QCM10,QCMDS,Outgoing Dimension
+L9356,นางสาว,โชติกา,หยั่งถึง,Miss,CHOTIKA,Yangtung,MDS,QCM10,QCMDS,QC Material
+D2887,นางสาว,ดวงหทัย,พวงแก้ว,Miss,Duanghatai,Puangkaew,QMR,QMS&ISO,CLERK,CLERK QMS&ISO
+D1264,นางสาว,กรองแก้ว,คงแจ้ง,Miss,Krongkaeo,Khongchaeng,QMR,QMS&ISO,STAFF,QMS&ISO
+L0198,นางสาว,วรนุช,ศรีสุวรรณ์,Miss,Worranuch,Srisuwan,PR,Roller,Z17R,Wash Roller
+L0208,นาง,มนฤดี,วงษ์แพง,Mrs.,Monrudee,Wongpang,PR,Roller,Z17R,Wash Roller
+D1744,นางสาว,อันธิการณ์,บรรเทาทุ,Miss,Aunthikan,Banthatoo,PR,RPI04,Z17R,Leader
+D1628,นางสาว,วันนา,พิลา,Miss,Wanna,Pila,PR,RPI04,Z17R,STB RW
+E4621,นาง,ขันทอง,นิลาบุตร,Mrs.,Khanthong,Nilabut,PR,RPI04,Z17R,STB RW
+L1824,นาง,โสภา,ทาชาติ,Mrs.,Sopa,Thachat,PR,RPI04,Z17R,STB RW
+L1627,นาง,ฉวีวรรณ,ภู่อินทรันต์,Mrs.,Chaweewan,Poo-in-tan,PR,RPI04,Z17R,STB RW
+J4555,นางสาว,วิไลวรรณ,วนะสิทธิ์,Miss,Wilaiwan,Wanasit,PR,RPI10,Z17T,Maternity Leave
+J6255,นางสาว,สิริพร,ศรีเข็ม,Miss,SIRIPORN,SRIKEM,PR,RPI10,Z17T,Pregnant
+D3854,นาง,ศศิธร,ใจแสน,Mrs.,Sasithorn,Jaisan,PR,RPI10,Z17T,Pregnant
+D8619,นางสาว,โสภิดา,สายโสดา,Miss,Sopida,Saisoda,PR,RPI10,Z17T,Pregnant
+D9570,นางสาว,อัจฉรา,ตรีแก้ว,Miss,ATCHARA,TRIKAEW,PR,RPI10,Z17T,Pregnant
+L8420,นางสาว,จารุวรรณ,นามบุญ,Miss,CHARUWAN,NAMBUN,PR,RPI10,Z17T,Pregnant
+LB611,นางสาว,สุชาดา,บุตรศรี,Miss,SUCHADA,BOOTSRI,PR,RPI10,Z17T,Pregnant
+LB685,นางสาว,อารียา,หลอดเงิน,Miss,AREEYA,HLOD-NGEN,PR,RPI10,Z17T,Pregnant
+X5178,นางสาว,ปัญจพร,ศรีใจแก้ว,Miss,Panchaphorn,Srichaikaew,PR,RPI10,Z17T,Pregnant
+M2126,นางสาว,รุ่งทิพย์,อภิญญา,Miss,Rungthip,Apinya,PR,RPI10,Z17R,STB RW
+L1291,นางสาว,ษิรัณชญาค์,บัวทอง,Miss,Siranchaya,Buathong,PR,RPI10,Z17R,STB RW
+L1806,นางสาว,อ้อยจิตร,สวนทิพย์,Miss,OOYJIT,SUANTHIP,PR,RPI10,Z17R,STB RW
+L3821,นางสาว,อรทัย,เคยบรรจง,Miss,Orathai,Keaybanjong,PR,RPI10,Z17R,STB RW
+L0257,นาง,เจียม,กอพงษ์,Mrs.,Jeam,Kopong,PR,RPI10,Z17R,STB RW
+E7121,นาง,กองแก้ว,หินสุภาพ,Mrs.,Kongkaew,Hinsuphap,PR,RPI10,Z17P,STB RW
+L4108,นางสาว,นวรัตน์,สืบรัตนา,Miss,Nawarat,Suebrattana,PR,RSI04,Z17R,Senior
+M0870,นาง,สาคร,ชวนอยู่,Mrs.,Sakorn,Chunyou,PR,RSI04,Z17R,Senior
+E6631,นาง,สุนันทา,ภูสูง,Mrs.,Sunantha,Phoosoong,PR,SCRAP,SCRAP,SCRAP
+E5448,นาง,พัชรินทร์,อารีพงษ์,Mrs.,Patcharin,Areepong,PR,SCRAP,SCRAP,SCRAP Report
+J1413,นางสาว,พิมพ์มาลา,ผาจันทร์,Miss,Pimmala,Pajan,PR,SCRAP,SCRAP,SCRAP Report
+E9986,นาง,พัชรา,ผ่องโอภาส,Mrs.,Patchara,Pong-o-pas,PR,Senior,Z17T,Senior
+X2756,นางสาว,วิไลพร,สมานมิตร,Miss,Wilaiporn,Samanmit,PR,Senior,Z17T,Senior
+L0770,นางสาว,กาหลง,พรหมมา,Miss,Kalong,Promma,PR,Senior,Z17T,Senior
+L3151,นางสาว,ปิยนันท์,พระนาค,Miss,Piyanan,Pranak,PR,Senior,Z17T,Senior
+X3990,นางสาว,จุฑามาศ,เปียวงษ์,Miss,Juthamas,Piwong,PR,SMG07,Z17S,BEF Assy
+L0501,นางสาว,วรรณทนา,ตามประดับ,Miss,Wanthana,Tampradab,PR,SMG07,Z17S,LGP/FPC Assy
+D1043,นางสาว,รำเภา,โสภา,Miss,Rampao,Sopa,PR,SMG07,Z17S,Shading Assy
+D9477,นางสาว,ศันสนีย์,ชุ่มชื่น,Miss,SANSANEE,CHUMCHUEN,PR,SMG07,Z17S,VCON Main
+X5682,นางสาว,รุ่งฟ้า,พันธุมิตร,Miss,Lungfa,Pantumit,PR,SMG07,Z17S,VCON Main
+LC264,นางสาว,อารัมภ์พร,พรมารินทร์,Miss,Arumporn,Pornmarin,PR,SMG07,Z17S,VMEC Main
+D5295,นางสาว,รัตติการ,มากเสมอ,Miss,Rattikan,Maksamer,PR,SMG07,Z17S,VMEC Main
+D8200,นางสาว,ญาณิศา,สกุลรัง,Miss,Yanisa,Sakunrang,PR,SMG08,Z17S,BEF Assy
+D6377,นางสาว,รัตนา,ทองดี,Miss,Ratana,Thongdee,PR,SMG08,Z17S,LGP/FPC Assy
+E8143,นาง,ชุติมา,สิริกา,Mrs.,Chutima,Sirika,PR,SMG08,Z17S,Reflector Assy
+J1614,นาง,มณีพร,ป้อมทอง,Mrs.,Maneeporn,Pomthong,PR,SMG08,Z17S,Shading Assy
+LA100,นางสาว,แสงระวี,เรืองรัตน์,Miss,Sangrawi,Ruangrat,PR,SMG08,Z17S,VCON Main
+LB687,นางสาว,กนกวรรณ,บุญสูบ,Miss,Kanokwan,Bunsuk,PR,SMG08,Z17S,VCON Sub
+L2327,นางสาว,ณรัญชกร,ใยสว่าง,Miss,Naranchakron,Yaisawing,PR,SMG09,Z17S,BEF Assy
+L7573,นางสาว,ธัญกมล,เกิดศิริ,Miss,Thankamol,Kerdsiri,PR,SMG09,Z17S,LGP/FPC Assy
+E9750,นางสาว,วนิดา,เหลืองอร่าม,Miss,Wanida,Lueng-aram,PR,SMG09,Z17S,Reflector Assy
+D7353,นาง,โสภา,วงษ์ผ่องสกุล,Mrs.,SOPA,WONGPHONGSAKUL,PR,SMG09,Z17S,Shading Assy
+L2870,นาง,วนัญญา,ปานถม,Mrs.,Wananya,Panthom,PR,SMG09,Z17S,VCON Main
+D3158,นางสาว,ดวงใจ,จันทองเทศ,Miss,Duangjai,Junthongthes,PR,SMG09,Z17S,VCON Sub
+X4162,นางสาว,ขวัญใจ,โพธิ์กะต้น,Miss,Kwanjai,Pookaton,PR,SMG09,Z17S,VMEC SUB1
+X4709,นาง,ขนิษฐา,นาคศิลา,Mrs.,AKhanittha,Naksila,PR,SP01,MCWAS,Washing
+X4094,นางสาว,สุกัญญา,ศรีสูงเนิน,Miss,Sukanya,Srisoongnern,PR,SP01,MCWAS,Washing
+X1098,นาง,เสาวลักษณ์,กลิ่นเกษร,Mrs.,Sowwaluk,Klinkasorn,PR,SP01,MCWAS,Washing
+X0296,นางสาว,สุกัลยา,วิลัย,Miss,Sukanlaya,Wilai,PR,SP01,MCWAS,Washing
+D6194,นางสาว,พัชรินทร์,หอมกลิ่น,Miss,Patcharin,Hormklin,PR,SP01,MCWAS,Washing
+E9876,นางสาว,สุทธาทิพย์,ตะถะ,Miss,Suthathip,Thata,PR,SP01,MCWAS,Washing
+E9558,นางสาว,กัญญา,เกิดสมบุญ,Miss,Kanya,Kerdsomboon,PR,SP01,MCWAS,Washing
+E9475,นาง,เดือนรุ่ง,ขันตีเรือง,Mrs.,Duenrung,Khanteerueng,PR,SP01,MCWAS,Washing
+J3072,นางสาว,กมลทิพย์,ศรีสูงเนิน,Miss,Kamontip,Srisoongnern,PR,SP01,MCWAS,Washing
+J4847,นางสาว,รัตนา,ซิ่วนัส,Miss,Ruttana,Siwnus,PR,SP01,MCWAS,Washing
+J9971,นางสาว,ภัทรวดี,วิเศษดี,Miss,Pattarawadee,Wisasdee,EN,SP02,SCI,CS2000
+L7861,นางสาว,ศรีสมร,ทับทิมศรี,Miss,Seesamon,Tapthimsri,EN,SP02,SCI,CS2000
+L6430,นางสาว,กีรนันท์,สุขทรัพย์,Miss,Keeranan,Suksup,PR,SP02,MCWAS,Washing
+J2204,นางสาว,อินทิรา,น้อยประถม,Miss,Intira,Noiprathom,PR,SP02,MCWAS,Washing
+D9753,นางสาว,สุรีรัตน์,มาหนองโดน,Miss,SUREERAT,Manongdon,PR,SP02,MCWAS,Washing
+D1338,นาง,ณัฏฐณิชา,วงษ์มนัตย์,Mrs.,Nattanicha,Wongmanat,EN,SP03,SCI,CS2000
+J4472,นางสาว,ศิริรินทร์,มหาอุด,Miss,SIRIRIN,MAHAOOD,EN,SP04,SCI,Dimension Measurement
+L9004,นางสาว,พลอยกมล,สืบดี,Miss,Ploykamon,Suebdee,EN,SP04,SCI,MC SCI
+L1388,นางสาว,อารีรัตน์,สุขงาม,Miss,Arerat,Sukgam,EN,SP04,SCI,Senior
+E6029,นาง,อังคณา,ทองพรม,Mrs.,Angkana,Thongprom,EN,SP04,SCI,Senior
+D1260,นางสาว,นันทวัน,กลิ่นหอม,Miss,Nanthawan,Klinhom,EN,SP04,SCI,Senior SCI
+L1035,นางสาว,มะปราง,ละออง,Miss,Maprang,La-ong,EN,SP04,SCI,Senior SCI
+D2463,นางสาว,กรรณิการ์,เอี่ยมสำอางค์,Miss,Kunnika,Iamsamarng,LCDM,SPMC,MCLCM,MC
+LC108,นาย,วันเฉลิม,ปึ่งประกายศรี,Mr.,Wanchalame,Pungprakays,LCDM,SPMM,MMLCM,Machine Maintenance
+L7739,นางสาว,บุษกร,ประสมพงษ์,Miss,Butsakorn,Pasomphong,LCDM,SPQC,QCLCM,QC Outgoing
+J3516,นางสาว,วนิดา,บารมี,Miss,Wanida,Baramee,LCDM,SPQC,QCLCM,QC Outgoing
+L1728,นาง,นงคราญ,ทองสุภาพ,Mrs.,Nongkarn,Thongsuphap,MDS,SPW00,PRMDS,Washing
+J7979,นางสาว,จุฑามาศ,สุขกำเนิด,Miss,Jutamat,Sukkamnoed,MDS,SPW01,PRMDS,Washing
+E9905,นางสาว,ดวงรัศ,กุลโสภณ,Miss,Doungrat,Kulsophon,MDS,SPW01,PRMDS,Washing
+E7189,นาง,ชมภู,จิตรเฉย,Mrs.,Chompoo,Jitchoei,MDS,SPW02,PRMDS,Washing
+J5871,นาง,อำไพภรณ์,นาคง,Mrs.,Ampaiporn,NAKONG,MDS,SPW02,PRMDS,Washing
+J9413,นางสาว,อำไพ,การัตน์,Miss,Ampai,Karat,MDS,SPW02,PRMDS,Washing
+L5454,นางสาว,ศิรประภา,ปานพรหมมาศ,Miss,Siraprapa,Panprommas,MDS,SPW02,PRMDS,Washing
+X5053,นาง,ธารทิพย์,เลี่ยมวิไล,Mrs.,Thantip,Liamwilai,PR,SPX10,Z17P,AI
+L4374,นาง,อรุณี,บุณฑริก,Mrs.,ARUNEE,BOONTARICK,PR,SPX10,Z17P,Maid
+L4420,นาง,พีรดา,นิลบุตร,Mrs.,Peerada,Nilabhoot,PR,SPX10,Z17P,Senior
+L8827,นางสาว,ชิดชนก,อิทธะรงค์,Miss,Chidchanok,Ittarong,MDS,Staff,STAFF,Dept Manager
+D3420,นาย,วิทยา,สุมะลิ,Mr.,Wittaya,Sumali,COMN,Staff,STAFF,Div Head
+DS004,นาง,ไพรัช,อินมั่น,Mrs.,Phairat,Inman,COMN,Staff,STAFF,Manager
+L0877,นาง,ขวัญตา,แก้วมณี,Mrs.,Kwanta,Keawmanee,LCDM,Staff,STAFF,Manager
+LA180,นาย,ณัฐิวุฒิ,เรียนแจ้ง,Mr.,Nattiwut,Rienjang,MDS,Staff,STAFF,Staff EN
+LC280,นาย,นนทพัทธ์,หนูแสง,Mr.,Nonthapat,Noosaeng,EN,Staff,STAFF,Staff EN
+LA408,นาย,นวศิริ,ทองศิริ,Mr.,Nawasiri,Tongsiri,LCDM,Staff,STAFF,Staff EN
+LA513,นางสาว,ทรรศนีย์,วงษ์หมื่น,Miss,Tudsanee,Vongmuen,EN,Staff,STAFF,Staff EN
+LB832,นางสาว,รวิวรรณ,เรืองภวัด,Miss,Rawiwan,Ruangpawat,EN,Staff,STAFF,Staff EN
+LC971,นาย,วัลลภ,มีมูล,Mr.,WALLOP,MIMUL,MDS,Staff,STAFF,Staff EN
+LE385,นาย,ชนะพล,ทองแดง,Mr.,CHANAPOL,THONGDANG,MDS,Staff,STAFF,Staff EN
+LE397,นางสาว,ทิพย์นิรินทร์,วัจนะรัตน์,Miss,Tipnirin,Vajanarat,MDS,Staff,STAFF,Staff EN
+P9576,นางสาว,ธษา,จันทร์เปล่ง,Miss,Thasa,Janpleng,EN,Staff,STAFF,Staff EN
+D4259,นาย,ธีระศักดิ์,กันสุ่ม,Mr.,Teerasak,Kansum,EN,Staff,STAFF,Staff EN
+D1237,นางสาว,พรวิภา,ชุบทอง,Miss,Pornvipa,Chubtong,EN,Staff,STAFF,Staff EN
+D1386,นาย,ธนัท,ต่วนคำ,Mr.,Thanut,Tuankam,MDS,Staff,STAFF,Staff EN
+D1103,นาย,ปวิณ,พงษ์โอภาส,Mr.,Pawin,Pong-o-pas,EN,Staff,STAFF,Staff EN
+D1164,นาย,อเนก,สาริพันธ์,Mr.,Anek,Saripan,EN,Staff,STAFF,Staff EN
+D5976,นางสาว,นริศรา,หีบไธสง,Miss,Naritsara,Heabthaisong,MDS,Staff,STAFF,Staff MC
+LC950,นางสาว,ปาริสา,ศิริพันธุ์,Miss,PARISA,SIRIPARN,LCDM,Staff,STAFF,Staff MC
+L8405,นาย,ธนภัทร,อ่อนอนงค์,Mr.,Tanaput,On-anong,LCDM,Staff,STAFF,Staff MM
+L7057,นาย,มนตรี,สอนสืบ,Mr.,Montree,Sornsueb,MM,Staff,STAFF,Staff MM
+E0291,นาง,พนารัตน์,วัฒนา,Mrs.,Panarat,Wattana,MM,Staff,STAFF,Staff MM
+J3671,นาย,ภรดร,ศิลปเสริฐ,Mr.,Paradon,Silapasert,MDS,Staff,STAFF,Staff MM
+J6930,นาย,มณฑล,ลิ้มแก้ว,Mr.,Monthol,Limkeaw,MDS,Staff,STAFF,Staff PC
+D5711,นาง,ภัทรวรรณ,ฤทธิมงคล,Mrs.,Phattharawan,RITTHIMONGKOL,LCDM,Staff,STAFF,Staff PC
+L6309,นางสาว,เนลินญาน์,ศิระวิเชษฐ์กุล,Miss,Nelinya,Sirawichetkul,LCDM,Staff,STAFF,Staff PC
+L7569,นาย,ทะแกล้ว,ปานขาว,Mr.,Taklaew,Pankhao,LCDM,Staff,STAFF,Staff PE
+LB953,นาย,นพรัตน์,อ้นดำ,Mr.,Nopparat,Ondam,MDS,Staff,STAFF,Staff PE
+L9228,นาย,วชิรนันท์,แสนยะบุตร,Mr.,Vachiranan,Saneyabut,MDS,Staff,STAFF,Staff PE
+LB889,นางสาว,วิภาวี,ปกิรณะ,Miss,Wipavee,Pakirana,LCDM,Staff,STAFF,Staff PR
+D7437,นางสาว,รัตนพร,กล่อมใจ,Miss,Rattanaporn,Klomjai,MDS,Staff,STAFF,Staff PR
+D1255,นาย,การัณย์,วันทอง,Mr.,Karun,Wanthong,MDS,Staff,STAFF,Staff PR
+D3020,นางสาว,มนิดา,ทวีสิทธิ์พรสง่า,Miss,Manida,Taweesitpornsanga,MDS,Staff,STAFF,Staff QA
+LC089,นาย,ชลภัทร์,บัวทองจันทร์,Mr.,Chollaphat,Buathongchan,MDS,Staff,STAFF,Staff QC
+T1271,นางสาว,วงศ์วรรณ,สิงห์สอน,Miss,WONGWAN,SINGSON,MDS,Staff,STAFF,Staff QC
+K4166,นางสาว,ปภัสสรา,ปาละเปียง,Miss,Papatsara,Palapiang,LCDM,Staff,STAFF,Staff QC
+D2607,นางสาว,อภินันท์,จาดภักดี,Miss,Apinan,Jadpakdee,PR,STB01,Z17T,LEADER AUTO
+J1976,นาง,วาสนา,รอดย้อย,Mrs.,WASSANA,RODYOY,PR,STB01,Z17T,Peel TRRL
+E7201,นางสาว,จำรัส,ปานจีน,Miss,Jamras,Parnjeen,PR,STB01,Z17S,PSA TAB
+J5529,นางสาว,จินตนา,ค้ำคูณ,Miss,Jintana,Kamkoon,PR,STB01,SPOE,SUB1
+D5805,นางสาว,กัญญาณัฐ,เสียวคำ,Miss,KANYANAT,Seawkham,PR,STB01,SPOE,SUB1
+L0717,นางสาว,มณีรัตน์,โยธี,Miss,MANEERAT,YOTHEE,PR,STB01,SPOE,SUB1
+X4700,นาง,บุญตา,สุขขุนทด,Mrs.,Boonta,Sukkhuntod,PR,STB01,SPOE,SUB1
+L9088,นาง,อรพินร์,แผนบุตร,Mrs.,Orapin,Panbut,PR,STB01,SPOE,SUB1
+L8746,นาง,ชญาดา,รอดเที่ยง,Mrs.,Chayardar,Rodtieng,PR,STB01,SPOE,SUB1
+L8623,นางสาว,ยุวดี,แจ่มผล,Miss,YUWADEE,JAMPHON,PR,STB01,Z17T,VMEC
+X1951,นางสาว,เด่นเดือน,คงสอาด,Miss,Denduan,Kongsaoad,PR,STB02,Z17T,LEADER AUTO
+L0112,นาง,จันทรา,บุญนาที,Mrs.,Chantra,Boonnathee,PR,STB02,Z17P,Peel TRRL
+D7235,นาง,พรทิพย์,ช่างสุ่ม,Mrs.,Pornthip,Changsum,PR,STB02,Z17T,Peel TRRL
+L1663,นางสาว,เพชรพร,บุญแจ่ม,Miss,Petchporn,Boonjaem,PR,STB02,Z17S,SUB1
+LC027,นาย,ชยพล,บรรจง,Mr.,Chayaphon,Bunchong,OP,STFOP,STAFF,Staff PE
+L9340,นาง,วนิดา,เรือนประเสริฐ,Mrs.,Vanida,Ruanprasert,PC,STFPCMC,STAFF,Staff PC
+L3203,นาง,วชิราวรรณ,วงศ์สวรรค์,Mrs.,Wachirawan,Wongsawan,PC,STFPCMC,STAFF,Staff PC
+L6310,นางสาว,สุพรรษา,จิตราศรี,Miss,Supansa,Jitrasri,PC,STFPCMC,STAFF,Staff PC
+D4310,นางสาว,อันธิกา,ประจงดี,Miss,Untika,Prajongdee,PC,STFPCMC,STAFF,Staff PC
+B3858,นาง,สุกัญญา,รัตนพันธ์,Mrs.,Sukanya,Rattanaphun,PR,STFPR,STAFF,Staff PR
+J6635,นาย,ณัฐพนธ์,เสือยอด,Mr.,Nattapon,Suayod,PR,STFPR,STAFF,Staff PR
+E7555,นาง,ทิพวรรณ,ทิพย์มาตร,Mrs.,Thippawan,Tippamart,PR,STFPR,STAFF,Staff PR
+E7732,นางสาว,แสงเดือน,ใจหาญ,Miss,Saengduan,Jaihan,PR,STFPR,STAFF,Staff PR
+LB911,นางสาว,ธนาภร,มีทรัพย์,Miss,Tanaporn,Meesap,PR,STFPR,STAFF,Staff PR
+P1553,นาย,สุทธิชัย,ครูช่วยอวยพร,Mr.,Suttichai,Kruchuyuayporn,PR,STFPR,STAFF,Staff PR
+P9681,นางสาว,ยุพา,วงค์คำลือ,Miss,Yupa,Wongkhamlue,PR,STFPR,STAFF,Staff PR
+E0862,นาง,สาพิชฌาย์,กองแก้ว,Mrs.,Saphitcha,Krongkaew,PR,STS10,Z17S,FPC/Tape Assy
+C4546,นางสาว,รุ่งนภา,บุญมาศ,Miss,Rungnapha,Boonmas,MDS,Support00,PRMDS,AI
+LC313,นางสาว,สายใจ,ชื่นใจฉ่ำ,Miss,Saijai,Chunjaichum,MDS,Support00,PRMDS,AI
+LA342,นางสาว,กรรณิการ์,กาฬภักดี,Miss,Kannika,Karapakdee,MDS,Support00,PRMDS,AI
+L6561,นางสาว,สุกัญญา,อยู่คง,Miss,Sukanya,Yookong,MDS,Support00,ENMDS,AI
+X1982,นางสาว,ศิริวรรณ,สังข์ลอย,Miss,Siriwan,Sangloy,MDS,Support00,PRMDS,Leader Shift
+D2184,นางสาว,เพชร,แสงสิทธิ์,Miss,Phet,Seangsit,MDS,Support00,PRMDS,Leader Shift
+E9337,นางสาว,ศิริรัตน์,กลัดงาม,Miss,Sirirat,Kradngam,MDS,Support00,PRMDS,Leader Zone
+E5453,นางสาว,ศิริพันธ์,ไกรสรไขศรี,Miss,Siripan,Kraisornkhai-sri,MDS,Support00,PRMDS,Leader Zone
+D3118,นางสาว,รัตนา,หมีเอี่ยม,Miss,Rattana,Himiem,MDS,Support00,PRMDS,Senior Main
+D3298,นางสาว,กิติยาพร,บุญปลีก,Miss,Kitiyaporn,Boonpeek,MDS,Support00,PRMDS,Senior Main
+D5353,นางสาว,สุดใจ,ทองจอก,Miss,Sudjai,Thongjok,MDS,Support00,PRMDS,Senior Main
+P9308,นางสาว,นภสร,แสงวิโรจน์,Miss,Nappasorn,Saengwirod,MDS,Support00,PRMDS,Senior Main
+L6719,นางสาว,อภิญญา,พวงภู่,Miss,Apinya,Puangpu,MDS,Support00,PRMDS,Senior Main
+X6432,นางสาว,อำภา,ประยงค์กลิ่น,Miss,Ampa,Prayongklin,MDS,Support00,PRMDS,Senior Main
+X0453,นางสาว,สุมาลี,หวังข้อกลาง,Miss,Sumalee,Wangkhoklang,MDS,Support00,ENMDS,Senior SCI
+M5359,นางสาว,วิภา,เกลื่อนเพชร,Miss,Wipa,Kluenpech,MDS,Support00,PRMDS,Senior Sub
+LC934,นาย,วิศวะ,จูสมบุญ,Mr.,WISAWA,CHUSOMBUN,PE,TPE20,STAFF,Staff PE
+LC028,นาย,พัสกร,เขียวทอง,Mr.,Patsakorn,Kheawthong,PE,TPE20,STAFF,Staff PE
+LA398,นาย,พลภัทร,วิเวก,Mr.,Phonlaphat,Wiwake,PE,TPE20,STAFF,Staff PE
+J8626,นาย,ณรงค์ฤทธิ์,แก้วทรวง,Mr.,Naronglit,Kaewthruang,PE,TPE20,STAFF,Staff PE
+D4618,นางสาว,นุจรีย์,มีเจ้ย,Miss,Nujjaree,Meejeoy,PE,TPE20,STAFF,Staff PE
+J2109,นางสาว,สุพัตรา,เอี่ยมพงษ์,Miss,Supattra,Iamphong,PR,Visual200%,Z17T,Visual 200
+J6277,นางสาว,พรสุดา,มอญดี,Miss,Pornsuda,Mondee,PR,Visual200%,Z17T,Visual 200
+J3696,นางสาว,ศศิธร,แดงสันเทียะ,Miss,Sasitorn,DAENGSANTHIA,PR,Visual200%,Z17T,Visual 200
+L9333,นางสาว,สุวนันท์,บัติทิม,Miss,SUWANAN,BATTHIM,PR,Visual200%,Z17T,Visual 200
+X5030,นาง,ฐิตินันทา,นามประเทือง,Mrs.,THITINANTA,NAMPRATHUEANG,PR,Visual200%,Z17T,Visual 200
+X6810,นางสาว,ขนิษฐา,หยดย้อย,Miss,Khanittha,Yodyoy,PR,Visual200%,Z17T,Visual 200

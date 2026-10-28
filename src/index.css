@@ -1,8 +1,32 @@
 @import "tailwindcss";
 
+@theme {
+  --color-ink: #0f1b33;
+  --color-paper: #f1f5fb;
+  --color-gold: #f5b301;
+  --color-pass: #16a34a;
+  --font-sans: "Noto Sans Thai", "Sarabun", system-ui, -apple-system, "Segoe UI",
+    "Leelawadee UI", Tahoma, sans-serif;
+}
+
 html,
 body,
 #root {
   height: 100%;
   margin: 0;
+}
+
+body {
+  background: #e2e8f0;
+  color: var(--color-ink);
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
