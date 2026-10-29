@@ -2,8 +2,8 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 import BottomNav from './components/BottomNav'
 import HomePage from './pages/HomePage'
 import PassportPage from './pages/PassportPage'
-import TrainerPage from './pages/TrainerPage'
 import RankPage from './pages/RankPage'
+import TrainerPage from './pages/TrainerPage'
 import AdminPage from './pages/AdminPage'
 
 export default function App() {
@@ -17,9 +17,11 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/passport" element={<PassportPage />} />
-          <Route path="/trainer" element={<TrainerPage />} />
           <Route path="/rank" element={<RankPage />} />
-          <Route path="/profile" element={<AdminPage />} />
+          <Route path="/trainer" element={<TrainerPage />} />
+          <Route path="/admin" element={<AdminPage />} />
+          {/* ลิงก์เก่า (/profile) พาไปหน้า Admin */}
+          <Route path="/profile" element={<Navigate to="/admin" replace />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

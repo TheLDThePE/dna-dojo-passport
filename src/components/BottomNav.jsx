@@ -1,12 +1,13 @@
 import { NavLink } from 'react-router-dom'
-import { Award, BookOpen, ChartNoAxesColumn, House, UserRound } from 'lucide-react'
+import { Award, BookOpen, ChartNoAxesColumn, House, ShieldCheck } from 'lucide-react'
 
+// สามเมนูแรกคือที่พนักงานทั่วไปใช้ ส่วน Trainer และ Admin สำหรับผู้ดูแล
 const ITEMS = [
   { to: '/', label: 'Home', Icon: House, end: true },
   { to: '/passport', label: 'Passport', Icon: Award },
-  { to: '/trainer', label: 'Trainer', Icon: BookOpen },
   { to: '/rank', label: 'Rank', Icon: ChartNoAxesColumn },
-  { to: '/profile', label: 'Profile', Icon: UserRound },
+  { to: '/trainer', label: 'Trainer', Icon: BookOpen },
+  { to: '/admin', label: 'Admin', Icon: ShieldCheck },
 ]
 
 export default function BottomNav() {

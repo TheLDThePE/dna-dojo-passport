@@ -5,7 +5,7 @@ const W = 320
 const X_LEFT = 80
 const X_RIGHT = 240
 const X_MID = 160
-const Y0 = 78
+const Y0 = 58
 const Y_STEP = 160
 
 function layout(n) {
