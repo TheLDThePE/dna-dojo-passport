@@ -1,92 +1,107 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
-import { RefreshCw, Search } from 'lucide-react'
-import { getRank } from '../api/rankApi'
-import { errorText } from '../lib/errorText'
-import { formatDuration } from '../lib/format'
-import { loadSession } from '../lib/session'
-import Avatar from '../components/Avatar'
+import { useEffect, useMemo, useRef, useState } from "react";
+import { RefreshCw, Search } from "lucide-react";
+import { getRank } from "../api/rankApi";
+import { errorText } from "../lib/errorText";
+import { formatDuration } from "../lib/format";
+import { loadSession } from "../lib/session";
+import Avatar from "../components/Avatar";
 
-const PAGE = 100
-const MAX = 500
+const PAGE = 100;
+const MAX = 500;
 
 const TABS = [
-  { id: 'points', label: 'คะแนน' },
-  { id: 'speed', label: 'ความเร็ว' },
-]
+  { id: "points", label: "คะแนน" },
+  { id: "speed", label: "ความเร็ว" },
+];
 
 const chipColor = (rank) =>
   rank === 1
-    ? 'bg-gold text-ink'
+    ? "bg-gold text-ink"
     : rank === 2
-      ? 'bg-slate-300 text-ink'
+      ? "bg-slate-300 text-ink"
       : rank === 3
-        ? 'bg-amber-700 text-white'
-        : 'bg-slate-100 text-slate-600'
+        ? "bg-amber-700 text-white"
+        : "bg-slate-100 text-slate-600";
 
 export default function RankPage() {
-  const [sort, setSort] = useState('points')
-  const [query, setQuery] = useState('')
-  const [search, setSearch] = useState('')
-  const [limit, setLimit] = useState(PAGE)
-  const [reloadKey, setReloadKey] = useState(0)
-  const [data, setData] = useState(null)
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState('')
-  const reqId = useRef(0)
-  const me = useMemo(() => loadSession().empNo, [])
+  const [sort, setSort] = useState("points");
+  const [query, setQuery] = useState("");
+  const [search, setSearch] = useState("");
+  const [limit, setLimit] = useState(PAGE);
+  const [reloadKey, setReloadKey] = useState(0);
+  const [data, setData] = useState(null);
+  const [error, setError] = useState("");
+  // พารามิเตอร์ของคำขอที่ข้อมูลชุดปัจจุบันมาจาก — ใช้ derive สถานะ loading
+  // (ไม่เก็บ loading เป็น state เพื่อเลี่ยง setState sync ใน effect)
+  const [loadedFor, setLoadedFor] = useState(null);
+  const reqId = useRef(0);
+  const me = useMemo(() => loadSession().empNo, []);
+
+  // loading = พารามิเตอร์ปัจจุบัน ยังไม่ตรงกับที่โหลดมา
+  const loading =
+    !loadedFor ||
+    loadedFor.sort !== sort ||
+    loadedFor.search !== search ||
+    loadedFor.limit !== limit ||
+    loadedFor.reloadKey !== reloadKey;
 
   // รอผู้ใช้พิมพ์ค้นหาเสร็จ 0.3 วินาทีก่อนค่อยเรียก backend
   // (รีเซ็ตจำนวนแถวเฉพาะเมื่อคำค้นเปลี่ยนจริง ไม่งั้นปุ่ม "แสดงเพิ่ม" จะถูกรีเซ็ตเอง)
-  const searchRef = useRef('')
+  const searchRef = useRef("");
   useEffect(() => {
     const t = setTimeout(() => {
-      const next = query.trim()
-      if (next === searchRef.current) return
-      searchRef.current = next
-      setSearch(next)
-      setLimit(PAGE)
-    }, 300)
-    return () => clearTimeout(t)
-  }, [query])
+      const next = query.trim();
+      if (next === searchRef.current) return;
+      searchRef.current = next;
+      setSearch(next);
+      setLimit(PAGE);
+    }, 300);
+    return () => clearTimeout(t);
+  }, [query]);
 
   // โหลดข้อมูล (ถ้ามีคำขอใหม่ซ้อนเข้ามา ผลของคำขอเก่าจะถูกทิ้ง)
   useEffect(() => {
-    const id = ++reqId.current
-    setLoading(true)
+    const id = ++reqId.current;
+    const params = { sort, search, limit, reloadKey };
     getRank({ sort, search, limit }).then((r) => {
-      if (id !== reqId.current) return
-      setLoading(false)
+      if (id !== reqId.current) return;
+      // setLoadedFor ใน .then (async) ไม่ผิดกฎ set-state-in-effect
+      setLoadedFor(params);
       if (r.ok) {
-        setData(r)
-        setError('')
+        setData(r);
+        setError("");
       } else {
-        setError(errorText(r))
+        setError(errorText(r));
       }
-    })
-  }, [sort, search, limit, reloadKey])
+    });
+  }, [sort, search, limit, reloadKey]);
 
   // กลับมาเปิดแท็บ/แอปอีกครั้งให้โหลดข้อมูลล่าสุด
   useEffect(() => {
     const onVisible = () => {
-      if (document.visibilityState === 'visible') setReloadKey((k) => k + 1)
-    }
-    document.addEventListener('visibilitychange', onVisible)
-    return () => document.removeEventListener('visibilitychange', onVisible)
-  }, [])
+      if (document.visibilityState === "visible") setReloadKey((k) => k + 1);
+    };
+    document.addEventListener("visibilitychange", onVisible);
+    return () => document.removeEventListener("visibilitychange", onVisible);
+  }, []);
 
   function changeSort(id) {
-    setSort(id)
-    setLimit(PAGE)
+    setSort(id);
+    setLimit(PAGE);
   }
 
-  const rows = data?.rows ?? []
-  const isSpeed = sort === 'speed'
-  const canMore = rows.length >= limit && limit < MAX
+  const rows = data?.rows ?? [];
+  const isSpeed = sort === "speed";
+  const canMore = rows.length >= limit && limit < MAX;
 
   return (
     <div className="pb-4">
       <div className="sticky top-0 z-10 space-y-3 bg-paper px-4 pb-3 pt-4">
-        <div role="tablist" aria-label="เรียงอันดับตาม" className="grid grid-cols-2 rounded-xl bg-slate-200 p-1">
+        <div
+          role="tablist"
+          aria-label="เรียงอันดับตาม"
+          className="grid grid-cols-2 rounded-xl bg-slate-200 p-1"
+        >
           {TABS.map((t) => (
             <button
               key={t.id}
@@ -97,7 +112,7 @@ export default function RankPage() {
               aria-controls="rank-panel"
               onClick={() => changeSort(t.id)}
               className={`rounded-lg py-2 text-sm font-bold transition ${
-                sort === t.id ? 'bg-white text-ink shadow-sm' : 'text-slate-500'
+                sort === t.id ? "bg-white text-ink shadow-sm" : "text-slate-500"
               }`}
             >
               {t.label}
@@ -106,7 +121,11 @@ export default function RankPage() {
         </div>
 
         <div className="relative">
-          <Search size={18} className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" aria-hidden="true" />
+          <Search
+            size={18}
+            className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400"
+            aria-hidden="true"
+          />
           <input
             type="search"
             aria-label="ค้นหาด้วยรหัสพนักงานหรือชื่อ"
@@ -121,13 +140,19 @@ export default function RankPage() {
         </div>
       </div>
 
-      <section id="rank-panel" role="tabpanel" aria-labelledby={`tab-${sort}`} aria-busy={loading} className="px-4">
+      <section
+        id="rank-panel"
+        role="tabpanel"
+        aria-labelledby={`tab-${sort}`}
+        aria-busy={loading}
+        className="px-4"
+      >
         <div className="mb-2 flex items-start justify-between gap-3">
           <p className="text-sm text-slate-500">
             {isSpeed
-              ? 'เฉพาะคนที่ผ่านครบทุกสถานี นับจากตั้ง PIN ครั้งแรก จนผ่านสถานีสุดท้าย'
-              : 'เรียงตามคะแนนเพิ่ม แสดงเฉพาะคนที่ผ่านอย่างน้อย 1 สถานี'}
-            {data ? ` (${data.total_ranked} คน)` : ''}
+              ? "เฉพาะคนที่ผ่านครบทุกสถานี นับจากตั้ง PIN ครั้งแรก จนผ่านสถานีสุดท้าย"
+              : "เรียงตามคะแนนเพิ่ม แสดงเฉพาะคนที่ผ่านอย่างน้อย 1 สถานี"}
+            {data ? ` (${data.total_ranked} คน)` : ""}
           </p>
           <button
             type="button"
@@ -136,42 +161,62 @@ export default function RankPage() {
             aria-label="อัปเดตอันดับ"
             className="shrink-0 rounded-full p-1.5 text-blue-700 disabled:opacity-50"
           >
-            <RefreshCw size={18} className={loading ? 'animate-spin' : ''} aria-hidden="true" />
+            <RefreshCw
+              size={18}
+              className={loading ? "animate-spin" : ""}
+              aria-hidden="true"
+            />
           </button>
         </div>
 
         {error && (
-          <p role="alert" className="mb-3 rounded-xl bg-red-50 px-4 py-3 text-sm font-medium text-red-700 ring-1 ring-red-200">
+          <p
+            role="alert"
+            className="mb-3 rounded-xl bg-red-50 px-4 py-3 text-sm font-medium text-red-700 ring-1 ring-red-200"
+          >
             {error}
           </p>
         )}
 
-        {!data && !error && <p className="py-10 text-center text-sm text-slate-500">กำลังโหลด…</p>}
+        {!data && !error && (
+          <p className="py-10 text-center text-sm text-slate-500">กำลังโหลด…</p>
+        )}
 
         {data && rows.length === 0 && (
           <p className="rounded-2xl bg-white p-6 text-center text-sm text-slate-500 shadow-sm ring-1 ring-slate-200">
             {search
               ? `ไม่พบ "${search}" ในอันดับนี้`
               : isSpeed
-                ? 'ยังไม่มีใครผ่านครบทุกสถานี'
-                : 'ยังไม่มีใครผ่านสถานี'}
+                ? "ยังไม่มีใครผ่านครบทุกสถานี"
+                : "ยังไม่มีใครผ่านสถานี"}
           </p>
         )}
 
         {rows.length > 0 && (
-          <ol className={`divide-y divide-slate-100 overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-200 transition-opacity ${loading ? 'opacity-60' : ''}`}>
+          <ol
+            className={`divide-y divide-slate-100 overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-200 transition-opacity ${loading ? "opacity-60" : ""}`}
+          >
             {rows.map((r) => {
-              const mine = me && r.emp_no === me
+              const mine = me && r.emp_no === me;
               return (
-                <li key={r.emp_no} className={`flex items-center gap-3 px-3 py-3 ${mine ? 'bg-blue-50' : ''}`}>
-                  <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold ${chipColor(r.rank)}`}>
+                <li
+                  key={r.emp_no}
+                  className={`flex items-center gap-3 px-3 py-3 ${mine ? "bg-blue-50" : ""}`}
+                >
+                  <span
+                    className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold ${chipColor(r.rank)}`}
+                  >
                     {r.rank}
                   </span>
                   <Avatar empNo={r.emp_no} size={44} />
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-[15px] font-semibold">
                       {r.name}
-                      {mine && <span className="ml-2 rounded-full bg-blue-700 px-2 py-0.5 align-middle text-[11px] font-bold text-white">คุณ</span>}
+                      {mine && (
+                        <span className="ml-2 rounded-full bg-blue-700 px-2 py-0.5 align-middle text-[11px] font-bold text-white">
+                          คุณ
+                        </span>
+                      )}
                     </p>
                     <p className="truncate text-xs text-slate-500">
                       {r.dept_code} · {r.emp_no}
@@ -179,16 +224,22 @@ export default function RankPage() {
                   </div>
                   <div className="shrink-0 text-right">
                     {isSpeed ? (
-                      <p className="text-sm font-bold text-ink">{formatDuration(r.duration_seconds)}</p>
+                      <p className="text-sm font-bold text-ink">
+                        {formatDuration(r.duration_seconds)}
+                      </p>
                     ) : (
                       <>
-                        <p className="text-base font-extrabold leading-none text-ink">{r.points}</p>
-                        <p className="mt-1 text-xs text-slate-500">ผ่าน {r.passed_count} สถานี</p>
+                        <p className="text-base font-extrabold leading-none text-ink">
+                          {r.points}
+                        </p>
+                        <p className="mt-1 text-xs text-slate-500">
+                          ผ่าน {r.passed_count} สถานี
+                        </p>
                       </>
                     )}
                   </div>
                 </li>
-              )
+              );
             })}
           </ol>
         )}
@@ -204,5 +255,5 @@ export default function RankPage() {
         )}
       </section>
     </div>
-  )
+  );
 }
