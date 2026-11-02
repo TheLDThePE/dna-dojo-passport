@@ -5,12 +5,19 @@ import PassportPage from './pages/PassportPage'
 import RankPage from './pages/RankPage'
 import TrainerPage from './pages/TrainerPage'
 import AdminPage from './pages/AdminPage'
+import LdnaLogo from './components/LdnaLogo'
 
 export default function App() {
   return (
     <div className="mx-auto flex h-dvh max-w-md flex-col bg-paper shadow-xl">
-      <header className="shrink-0 bg-ink px-4 pb-3 pt-[calc(0.75rem+env(safe-area-inset-top))]">
-        <h1 className="text-base font-extrabold tracking-wide text-white">LDNA DOJO e-Passport</h1>
+      <header className="shrink-0 bg-ink px-4 pb-2 pt-[calc(0.5rem+env(safe-area-inset-top))]">
+        <div className="flex items-center justify-between">
+          <LdnaLogo className="h-14 w-auto" />
+          <span className="inline-flex items-center gap-1.5 rounded border border-emerald-800/60 bg-emerald-950/80 px-2 py-0.5 font-mono text-[10px] text-emerald-400">
+            <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-400" />
+            ONLINE
+          </span>
+        </div>
       </header>
 
       <main className="min-h-0 flex-1 overflow-y-auto">

@@ -1,33 +1,39 @@
-"""
+r"""
 resize_photos.py  -  ย่อรูปพนักงานก่อนอัปโหลดขึ้น Supabase Storage
 
 ทำอะไร
-  1. อ่านรูปทั้งหมดจากโฟลเดอร์ SRC (รูปต้นฉบับ ไม่ถูกแก้ไข)
+  1. อ่านรูปทั้งหมดจากโฟลเดอร์ต้นทาง (รูปต้นฉบับ ไม่ถูกแก้ไข)
   2. หมุนรูปให้ตรง, ครอปเป็นสี่เหลี่ยมจัตุรัส (เน้นส่วนบนของรูปเพื่อไม่ให้ตัดหน้า)
-  3. ย่อเป็น SIZE x SIZE พิกเซล แล้วบันทึกเป็น JPEG ชื่อ <EmpNo>.jpg ลงโฟลเดอร์ DST
-  4. ทำรายงาน: พนักงานที่ไม่มีรูป / ไฟล์ที่ชื่อไม่ตรงกับ EmpNo / ไฟล์ที่เปิดไม่ได้
+  3. ย่อเป็น 256 x 256 พิกเซล บันทึกเป็น JPEG ชื่อ <EmpNo>.jpg ลงโฟลเดอร์ปลายทาง
+  4. ทำรายงาน: คนในรายชื่อที่ไม่มีรูป / ไฟล์ที่ชื่อไม่ตรงกับ EmpNo / ไฟล์ที่เปิดไม่ได้
+     (รายงานเก็บไว้ในโฟลเดอร์แม่ของโฟลเดอร์ปลายทาง ชื่อมีชื่อโฟลเดอร์ปลายทางต่อท้าย จึงไม่ทับรายงานชุดก่อน)
 
-วิธีรัน (ใน PowerShell ที่โฟลเดอร์โปรเจกต์)
+วิธีรัน (PowerShell ที่โฟลเดอร์โปรเจกต์)
   pip install pillow
+
+  # รูปชุดแรก (ใช้ค่าเริ่มต้นด้านล่าง)
   python scripts\resize_photos.py
+
+  # รูปชุดใหม่: ระบุ โฟลเดอร์รูป  โฟลเดอร์ผลลัพธ์  ไฟล์รายชื่อ(CSV ที่มีคอลัมน์ emp_no)
+  python scripts\resize_photos.py "C:\User DATA\ld_img_new" "C:\User DATA\ld_img_new_small" "supabase\data\qa_employees.csv"
 """
 
+import argparse
 import csv
 import sys
 from pathlib import Path
 
 from PIL import Image, ImageOps
 
-# ======================= ตั้งค่าตรงนี้ =======================
-SRC = Path(r"C:\User DATA\ld_img")                      # โฟลเดอร์รูปต้นฉบับ
-DST = Path(r"C:\User DATA\ld_img_small")                # โฟลเดอร์ผลลัพธ์ (สร้างให้เอง)
-CSV_PATH = Path(r"C:\User DATA\ldna-dojo-passport\supabase\data\employees_import.csv")
-REPORT_DIR = Path(r"C:\User DATA")                      # ที่เก็บไฟล์รายงาน .txt
+# ======================= ค่าเริ่มต้น (แก้ได้) =======================
+DEFAULT_SRC = r"C:\User DATA\ld_img"                    # โฟลเดอร์รูปต้นฉบับ
+DEFAULT_DST = r"C:\User DATA\ld_img_small"              # โฟลเดอร์ผลลัพธ์ (สร้างให้เอง)
+DEFAULT_CSV = r"C:\User DATA\ldna-dojo-passport\supabase\data\employees_import.csv"
 SIZE = 256                                              # ขนาดด้านละกี่พิกเซล
 QUALITY = 82                                            # คุณภาพ JPEG (1-95)
 FACE_BIAS = 0.25                                        # 0 = ครอปกลางภาพ, 0.25 = เอียงไปทางบน
 EXTS = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
-# ==============================================================
+# ====================================================================
 
 
 def load_emp_nos(csv_path: Path):
@@ -66,18 +72,25 @@ def mb(n_bytes: int) -> str:
 
 
 def main():
-    if not SRC.exists():
-        sys.exit(f"ไม่พบโฟลเดอร์รูปต้นฉบับ: {SRC}")
+    ap = argparse.ArgumentParser(description="ย่อรูปพนักงานเป็น 256x256 ตั้งชื่อตาม EmpNo")
+    ap.add_argument("src", nargs="?", default=DEFAULT_SRC, help="โฟลเดอร์รูปต้นฉบับ")
+    ap.add_argument("dst", nargs="?", default=DEFAULT_DST, help="โฟลเดอร์ผลลัพธ์")
+    ap.add_argument("csv", nargs="?", default=DEFAULT_CSV, help="ไฟล์ CSV รายชื่อ (คอลัมน์ emp_no)")
+    args = ap.parse_args()
+    src, dst, csv_path = Path(args.src), Path(args.dst), Path(args.csv)
 
-    emp_list = load_emp_nos(CSV_PATH)
+    if not src.exists():
+        sys.exit(f"ไม่พบโฟลเดอร์รูปต้นฉบับ: {src}")
+
+    emp_list = load_emp_nos(csv_path)
     emp_lookup = {e.upper(): e for e in emp_list} if emp_list else None
     if emp_lookup is None:
-        print(f"[หมายเหตุ] ไม่พบไฟล์ {CSV_PATH}\n"
+        print(f"[หมายเหตุ] ไม่พบไฟล์ {csv_path}\n"
               "          จะย่อรูปให้ แต่ข้ามการตรวจว่าใครไม่มีรูป/ชื่อไฟล์ไม่ตรง\n")
 
-    DST.mkdir(parents=True, exist_ok=True)
-    files = sorted(p for p in SRC.rglob("*") if p.is_file() and p.suffix.lower() in EXTS)
-    print(f"พบไฟล์รูป {len(files)} ไฟล์ใน {SRC}\n")
+    dst.mkdir(parents=True, exist_ok=True)
+    files = sorted(p for p in src.rglob("*") if p.is_file() and p.suffix.lower() in EXTS)
+    print(f"พบไฟล์รูป {len(files)} ไฟล์ใน {src}\n")
 
     done = {}          # EmpNo -> ไฟล์ต้นฉบับที่ใช้
     unmatched = []     # ชื่อไฟล์ที่ไม่ตรงกับ EmpNo ใดเลย
@@ -100,7 +113,7 @@ def main():
             duplicates.append(f"{emp_no}: {done[emp_no].name} และ {f.name} (ใช้ไฟล์แรก)")
             continue
 
-        out_file = DST / f"{emp_no}.jpg"
+        out_file = dst / f"{emp_no}.jpg"
         try:
             process(f, out_file)
         except Exception as e:  # noqa: BLE001
@@ -118,20 +131,23 @@ def main():
     if emp_list is not None:
         missing = [e for e in emp_list if e not in done]
 
-    REPORT_DIR.mkdir(parents=True, exist_ok=True)
-    (REPORT_DIR / "report_missing_photos.txt").write_text("\n".join(missing), encoding="utf-8")
-    (REPORT_DIR / "report_unmatched_files.txt").write_text("\n".join(unmatched), encoding="utf-8")
+    report_dir = dst.parent
+    report_dir.mkdir(parents=True, exist_ok=True)
+    missing_file = report_dir / f"report_missing_photos_{dst.name}.txt"
+    unmatched_file = report_dir / f"report_unmatched_files_{dst.name}.txt"
+    missing_file.write_text("\n".join(missing), encoding="utf-8")
+    unmatched_file.write_text("\n".join(unmatched), encoding="utf-8")
 
     print("\n================ สรุป ================")
-    print(f"ย่อสำเร็จ                : {len(done)} รูป  -> {DST}")
+    print(f"ย่อสำเร็จ                : {len(done)} รูป  -> {dst}")
     print(f"ขนาดรวมต้นฉบับ (ที่ใช้)   : {mb(src_bytes)}")
     print(f"ขนาดรวมหลังย่อ           : {mb(out_bytes)}")
     if done:
         print(f"เฉลี่ยต่อรูปหลังย่อ       : {out_bytes / len(done) / 1024:.0f} KB")
     if emp_list is not None:
-        print(f"พนักงานทั้งหมด            : {len(emp_list)} คน")
-        print(f"พนักงานที่ไม่มีรูป         : {len(missing)} คน  (ดู report_missing_photos.txt)")
-        print(f"ไฟล์ที่ชื่อไม่ตรง EmpNo    : {len(unmatched)} ไฟล์ (ดู report_unmatched_files.txt)")
+        print(f"คนในรายชื่อ               : {len(emp_list)} คน")
+        print(f"คนในรายชื่อที่ไม่มีรูป     : {len(missing)} คน  ({missing_file.name})")
+        print(f"ไฟล์ที่ชื่อไม่ตรงรายชื่อ   : {len(unmatched)} ไฟล์ ({unmatched_file.name})")
     print(f"EmpNo ที่มีไฟล์ซ้ำ         : {len(duplicates)}")
     print(f"ไฟล์ที่เปิดไม่ได้          : {len(broken)}")
     for line in duplicates[:10]:
@@ -141,8 +157,8 @@ def main():
     if unmatched:
         print("ตัวอย่างไฟล์ชื่อไม่ตรง   :", ", ".join(unmatched[:10]))
     if missing:
-        print("ตัวอย่างคนไม่มีรูป        :", ", ".join(missing[:10]))
-    print(f"\nรายงานเต็มอยู่ที่ {REPORT_DIR}")
+        print("คนที่ไม่มีรูป             :", ", ".join(missing[:10]))
+    print(f"\nรายงานเต็มอยู่ที่ {report_dir}")
 
 
 if __name__ == "__main__":
