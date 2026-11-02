@@ -4,22 +4,22 @@ import { ChevronRight, CircleHelp, GitCompare, LineChart, ShieldCheck, Tv, X, Za
 /* ---------------- Data ---------------- */
 
 const THEMES = {
-  blue:   { iconBox: 'bg-blue-50 border-blue-200 text-blue-700',       hover: 'hover:border-blue-500',   head: 'bg-blue-900',   sub: 'text-blue-300',   close: 'text-blue-200',   strip: 'bg-blue-50 border-blue-200',     stripText: 'text-blue-900',   btn: 'bg-blue-900' },
-  amber:  { iconBox: 'bg-amber-50 border-amber-200 text-amber-700',    hover: 'hover:border-amber-500',  head: 'bg-amber-900',  sub: 'text-amber-300',  close: 'text-amber-200',  strip: 'bg-amber-50 border-amber-200',   stripText: 'text-amber-900',  btn: 'bg-amber-900' },
-  indigo: { iconBox: 'bg-indigo-50 border-indigo-200 text-indigo-700', hover: 'hover:border-indigo-500', head: 'bg-indigo-900', sub: 'text-indigo-300', close: 'text-indigo-200', strip: 'bg-indigo-50 border-indigo-200', stripText: 'text-indigo-900', btn: 'bg-indigo-900' },
-  rose:   { iconBox: 'bg-rose-50 border-rose-200 text-rose-700',       hover: 'hover:border-rose-500',   head: 'bg-rose-900',   sub: 'text-rose-300',   close: 'text-rose-200',   strip: 'bg-rose-50 border-rose-200',     stripText: 'text-rose-900',   btn: 'bg-slate-700' },
-  teal:   { iconBox: 'bg-teal-50 border-teal-200 text-teal-700',       hover: 'hover:border-teal-500',   head: 'bg-teal-900',   sub: 'text-teal-300',   close: 'text-teal-200',   strip: 'bg-teal-50 border-teal-200',     stripText: 'text-teal-900',   btn: 'bg-slate-700' },
+  sky:    { iconBox: 'bg-sky-50 border-sky-200 text-sky-700',           hover: 'hover:border-sky-500',     head: 'bg-sky-900',    sub: 'text-sky-300',    close: 'text-sky-200',    strip: 'bg-sky-50 border-sky-200',       stripText: 'text-sky-900',    btn: 'bg-sky-900' },
+  amber:  { iconBox: 'bg-amber-50 border-amber-200 text-amber-700',     hover: 'hover:border-amber-500',   head: 'bg-amber-900',  sub: 'text-amber-300',  close: 'text-amber-200',  strip: 'bg-amber-50 border-amber-200',   stripText: 'text-amber-900',  btn: 'bg-amber-900' },
+  violet: { iconBox: 'bg-violet-50 border-violet-200 text-violet-700',  hover: 'hover:border-violet-500',  head: 'bg-violet-900', sub: 'text-violet-300', close: 'text-violet-200', strip: 'bg-violet-50 border-violet-200', stripText: 'text-violet-900', btn: 'bg-violet-900' },
+  rose:   { iconBox: 'bg-rose-50 border-rose-200 text-rose-700',        hover: 'hover:border-rose-500',    head: 'bg-rose-900',   sub: 'text-rose-300',   close: 'text-rose-200',   strip: 'bg-rose-50 border-rose-200',     stripText: 'text-rose-900',   btn: 'bg-rose-900' },
+  emerald:{ iconBox: 'bg-emerald-50 border-emerald-200 text-emerald-700', hover: 'hover:border-emerald-500', head: 'bg-emerald-900', sub: 'text-emerald-300', close: 'text-emerald-200', strip: 'bg-emerald-50 border-emerald-200', stripText: 'text-emerald-900', btn: 'bg-emerald-900' },
 }
 
-const BADGES = {
-  passed: 'bg-emerald-100 text-emerald-800',
-  progress: 'bg-blue-100 text-blue-800',
-  locked: 'bg-slate-200 text-slate-600',
-}
+// const BADGES = {
+//   passed: 'bg-emerald-100 text-emerald-800',
+//   progress: 'bg-blue-100 text-blue-800',
+//   locked: 'bg-slate-200 text-slate-600',
+// }
 
 const STATIONS = [
   {
-    id: 'st1', no: '01', theme: 'blue', icon: Tv,
+    id: 'st1', no: '01', theme: 'sky', icon: Tv,
     title: 'BLU + Panel Structure & Defect',
     modalTitle: 'BLU + Panel Structure & Defect',
     subtitle: 'Optical layers, LGP inspection, Mura/Pixel criteria',
@@ -53,7 +53,7 @@ const STATIONS = [
     closeLabel: 'Resume Module 3',
   },
   {
-    id: 'st3', no: '03', theme: 'indigo', icon: GitCompare,
+    id: 'st3', no: '03', theme: 'violet', icon: GitCompare,
     title: 'Comparative Instruction (WI & QI)',
     modalTitle: 'Clear Comparative Instruction (WI & QI)',
     subtitle: 'Work Instructions vs Quality Inspection limit samples',
@@ -85,13 +85,13 @@ const STATIONS = [
     closeLabel: 'Back to Home',
   },
   {
-    id: 'st5', no: '05', theme: 'teal', icon: ShieldCheck,
+    id: 'st5', no: '05', theme: 'emerald', icon: ShieldCheck,
     title: 'Safety Mind & 5S Station',
     modalTitle: 'Safety Mind & 5S Station',
     subtitle: 'Seiri, Seiton, PPE compliance & safety protocols',
     badge: { text: 'Locked', tone: 'locked' },
     statusLabel: 'Prerequisite Requirement:',
-    status: { text: 'Locked (Final Certification)', cls: 'text-teal-700 bg-teal-100' },
+    status: { text: 'Locked (Final Certification)', cls: 'text-emerald-700 bg-emerald-100' },
     sectionTitle: 'Shop-Floor Discipline Training:',
     items: [
       ['1. Cleanroom PPE Discipline:', 'Cap, hood, mask, smock, and ESD shoe grounding check.'],
@@ -126,34 +126,24 @@ function StationCard({ station, onOpen }) {
   const t = THEMES[station.theme]
   const Icon = station.icon
   return (
-    <article
-      className={`flex min-h-[88px] flex-1 basis-0 items-center justify-between gap-3 rounded-xl border border-slate-300 bg-white px-4 py-2 shadow-xs transition ${t.hover}`}
+    <button
+      type="button"
+      onClick={() => onOpen(station.id)}
+      className={`flex min-h-[88px] w-full flex-1 basis-0 items-center justify-between gap-3 rounded-xl border border-slate-300 bg-white px-4 py-2 text-left shadow-xs transition active:scale-[0.99] ${t.hover}`}
     >
       <div className="flex min-w-0 items-center gap-3.5">
         <div className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border ${t.iconBox}`}>
           <Icon size={28} />
         </div>
         <div className="min-w-0 leading-tight">
-          <div className="flex items-center gap-2">
-            <span className="font-mono text-xs font-bold text-slate-400">#{station.no}</span>
-            <span className={`rounded px-1.5 py-0.5 text-[10px] font-semibold ${BADGES[station.badge.tone]}`}>
-              {station.badge.text}
-            </span>
-          </div>
+          <span className="font-mono text-xs font-bold text-slate-400">#{station.no}</span>
           <h2 className="line-clamp-2 text-base font-bold leading-snug text-slate-900">{station.title}</h2>
           <p className="mt-0.5 line-clamp-2 text-xs text-slate-500">{station.subtitle}</p>
         </div>
       </div>
 
-      <button
-        type="button"
-        onClick={() => onOpen(station.id)}
-        className={`inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-lg px-3 py-2 text-xs font-semibold text-white transition active:scale-95 ${t.btn}`}
-      >
-        More detail
-        <ChevronRight size={14} />
-      </button>
-    </article>
+      <ChevronRight size={20} className="shrink-0 text-slate-400" aria-hidden="true" />
+    </button>
   )
 }
 

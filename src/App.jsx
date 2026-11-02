@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
+import { Info } from 'lucide-react'
 import BottomNav from './components/BottomNav'
 import HomePage from './pages/HomePage'
 import PassportPage from './pages/PassportPage'
@@ -6,18 +8,27 @@ import RankPage from './pages/RankPage'
 import TrainerPage from './pages/TrainerPage'
 import AdminPage from './pages/AdminPage'
 import LdnaLogo from './components/LdnaLogo'
+import LdnaMarquee from './components/LdnaMarquee'
+import ValuesSheet from './components/ValuesSheet'
 
 export default function App() {
+  const [showValues, setShowValues] = useState(false)
+
   return (
     <div className="mx-auto flex h-dvh max-w-md flex-col bg-paper shadow-xl">
       <header className="shrink-0 bg-ink px-4 pb-2 pt-[calc(0.5rem+env(safe-area-inset-top))]">
-        <div className="flex items-center justify-between">
-          <LdnaLogo className="h-14 w-auto" />
-          <span className="inline-flex items-center gap-1.5 rounded border border-emerald-800/60 bg-emerald-950/80 px-2 py-0.5 font-mono text-[10px] text-emerald-400">
-            <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-400" />
-            ONLINE
+        <button
+          type="button"
+          onClick={() => setShowValues(true)}
+          aria-label="ดูค่านิยม LDNA"
+          className="flex w-full items-center gap-3 text-left"
+        >
+          <span className="flex shrink-0 items-start gap-1">
+            <LdnaLogo className="h-14 w-auto shrink-0" />
+            <Info size={14} className="mt-1 shrink-0 text-slate-400" aria-hidden="true" />
           </span>
-        </div>
+          <LdnaMarquee />
+        </button>
       </header>
 
       <main className="min-h-0 flex-1 overflow-y-auto">
@@ -34,6 +45,8 @@ export default function App() {
       </main>
 
       <BottomNav />
+
+      {showValues && <ValuesSheet onClose={() => setShowValues(false)} />}
     </div>
   )
 }

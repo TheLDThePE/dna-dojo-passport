@@ -30,3 +30,19 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ---- LDNA marquee (ใช้ CSS variables จาก JSX) ---- */
+@keyframes ldna-marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(calc(var(--marquee-shift) * -1), 0, 0); }
+}
+
+.animate-ldna-marquee {
+  animation: ldna-marquee var(--marquee-duration) linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-ldna-marquee {
+    animation: none;
+  }
+}
