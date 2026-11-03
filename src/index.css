@@ -22,15 +22,6 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-
 /* ---- LDNA marquee (ใช้ CSS variables จาก JSX) ---- */
 @keyframes ldna-marquee {
   from { transform: translate3d(0, 0, 0); }
@@ -41,6 +32,7 @@ body {
   animation: ldna-marquee var(--marquee-duration) linear infinite;
 }
 
+/* ผู้ใช้ที่เปิดลดการเคลื่อนไหว: ลดทุกอย่าง ยกเว้น marquee */
 @media (prefers-reduced-motion: reduce) {
   *:not(.animate-ldna-marquee),
   *::before,
