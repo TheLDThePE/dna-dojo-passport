@@ -42,7 +42,10 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-ldna-marquee {
-    animation: none;
+  *:not(.animate-ldna-marquee),
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
   }
 }
