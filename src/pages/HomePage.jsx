@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
-import { ChevronRight, CircleHelp, GitCompare, LineChart, ShieldCheck, Tv, X, Zap } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
 
+import { ChevronRight, CircleHelp, CirclePlay, GitCompare, Lightbulb, LineChart, ShieldCheck, Tv, X, Zap } from 'lucide-react'
 /* ---------------- Data ---------------- */
 
 const THEMES = {
@@ -41,50 +41,152 @@ const STATIONS = [
     modalTitle: 'ESD / Electric Puck Type Station',
     subtitle: 'Grounding wrist band, ionization, puck calibration',
     badge: { text: '2/3 Done', tone: 'progress' },
-    statusLabel: 'Curriculum Status:',
-    status: { text: 'In Progress (2/3 Modules)', cls: 'text-blue-700 bg-blue-100' },
-    sectionTitle: 'Standard Operating Criteria:',
-    items: [
-      ['1. Wrist Strap & Footwear Impedance:', 'Daily log-in resistance test within 750 kΩ – 35 MΩ tolerance.'],
-      ['2. Electric Puck Discharge Verification:', 'Direct contact decay time validation (<1.0s decay to ±50V).'],
-      ['3. Ionizer Airflow & Balance Calibration (Pending):', 'Target offset voltage within ±15V.', true],
+    activity: [
+      {
+        lang: 'th',
+        title: 'กิจกรรมส่งเสริมความรู้และสร้างความตระหนักเกี่ยวกับไฟฟ้าสถิต',
+        intro: 'ให้กับพนักงานผ่านการเล่นเกมส์และทดลอง โดยแบ่งออกเป็น 2 ฐาน คือ',
+        stations: [
+          {
+            name: 'ฐานที่ 1 ESD Game board',
+            text: 'เรียนรู้ผ่านเกมส์จับคู่ระหว่างอุปกรณ์ป้องกันไฟฟ้าสถิต คุณสมบัติ และผลกระทบจากการไม่ใช้งาน',
+          },
+          {
+            name: 'ฐานที่ 2 ESD Magic station',
+            text: 'เรียนรู้จากการทดลอง เป็นกิจกรรมสาธิตการเกิดไฟฟ้าสถิตและการทำงานของ Ionizer โดยใช้แผ่นพลาสติกและเม็ดโฟม เพื่อให้พนักงานมองเห็นผลของไฟฟ้าสถิตได้อย่างชัดเจน',
+          },
+        ],
+      },
+      {
+        lang: 'en',
+        title: 'ESD Knowledge and Awareness Activity',
+        intro: 'Engaging employees through interactive games and demonstrations across 2 stations.',
+        stations: [
+          {
+            name: 'Station 1: ESD Game board',
+            text: 'Learn about ESD protection equipment through a matching game. Match each piece of equipment with its function and the possible problem if it is not used.',
+          },
+          {
+            name: 'Station 2: ESD Magic station',
+            text: 'Demonstrates static electricity and how an Ionizer works using plastic sheets and foam beads. Compare the results with the Ionizer ON and OFF to understand the effects of static electricity.',
+          },
+        ],
+      },
     ],
-    footerNote: 'Module 3 Uncompleted',
-    closeLabel: 'Resume Module 3',
+    link: {
+      label: 'See image / VDO',
+      url: 'https://www.dropbox.com/scl/fi/fcpmkl78vs3c1etvexybs/ESD-Gameboard.mp4?rlkey=ii4jiept4wkr6k17duhywn30j&st=2waeuw5s&dl=0',
+    },
   },
-  {
+    {
     id: 'st3', no: '03', theme: 'violet', icon: GitCompare,
     title: 'Comparative Instruction (WI & QI)',
     modalTitle: 'Clear Comparative Instruction (WI & QI)',
     subtitle: 'Work Instructions vs Quality Inspection limit samples',
     badge: { text: '3/3 Passed', tone: 'passed' },
-    statusLabel: 'Curriculum Status:',
-    status: { text: 'Certified (3/3 Completed)', cls: 'text-emerald-700 bg-emerald-100' },
-    sectionTitle: 'Instruction Alignment Competencies:',
-    items: [
-      ['1. WI (Work Instruction) Mastery:', 'Standard sequence order, cycle-time compliance, and tool holding posture.'],
-      ['2. QI (Quality Inspection) Cross-Check:', 'Critical-to-Quality (CTQ) visual parameters and test criteria.'],
-      ['3. Boundary Sample Differentiation:', 'Fast distinction of borderline OK vs NG physical samples.'],
+    activity: [
+      {
+        lang: 'th',
+        title: 'กิจกรรมต่อโลโก้เปรียบเทียบ WI และ QI',
+        stations: [
+          {
+            name: 'ต่อโลโก้',
+            text: 'ให้ผู้เข้าอบรมแบ่งเป็น 3 กลุ่ม ต่อโลโก้จากตัวต่อชุดเดียวกันภายใน 5 นาที โดยแต่ละกลุ่มได้ WI ไม่เหมือนกัน (ไม่มี WI / WI ไม่สมบูรณ์ / WI สมบูรณ์)',
+          },
+          {
+            name: 'ตรวจผลงาน (QI)',
+            text: 'จากนั้นตรวจผลงานเทียบกับ master sample ด้วย check list (QI)',
+          },
+          {
+            name: 'สิ่งที่ได้เรียนรู้',
+            text: 'เพื่อให้เห็นว่า WI ทำให้ทุกคน "ทำเหมือนกัน" และ QI ทำให้ทุกคน "ตัดสินเหมือนกัน"',
+          },
+          {
+            name: 'เวลาและค่าใช้จ่าย',
+            text: 'ใช้เวลา 20–25 นาที ไม่มีค่าใช้จ่ายเพิ่ม',
+          },
+        ],
+      },
+      {
+        lang: 'en',
+        title: 'WI & QI Logo-Building Activity',
+        stations: [
+          {
+            name: 'Build the logo',
+            text: 'Participants form 3 groups and build the same logo from the same blocks in 5 minutes. Each group gets a different WI (no WI / incomplete WI / complete WI).',
+          },
+          {
+            name: 'Check the results (QI)',
+            text: 'Each result is then checked against a master sample with a checklist (QI).',
+          },
+          {
+            name: 'What participants learn',
+            text: 'WI makes everyone "work the same way" and QI makes everyone "judge the same way".',
+          },
+          {
+            name: 'Time and cost',
+            text: 'It takes 20–25 minutes and has no extra cost.',
+          },
+        ],
+      },
     ],
-    closeLabel: 'Close',
+    link: {
+      label: 'See image / VDO',
+      url: 'https://www.dropbox.com/scl/fi/b275d485hhlf01mwd5940/DOJO_Activity_WI_QI_90s_FINAL_.mp4?rlkey=3eg4pcz4y882blmrpxqzxpzuc&st=09lp10uv&dl=0',
+    },
   },
-  {
+   {
     id: 'st4', no: '04', theme: 'rose', icon: LineChart,
     title: 'COPQ & Quality Awareness',
     modalTitle: 'COPQ & Quality Awareness Station',
     subtitle: 'Scrap loss, internal re-work cost & customer trust',
     badge: { text: 'Locked', tone: 'locked' },
-    statusLabel: 'Prerequisite Requirement:',
-    status: { text: 'Locked (Complete St. 2 first)', cls: 'text-rose-700 bg-rose-100' },
-    sectionTitle: 'Course Curriculum Highlights:',
-    items: [
-      ['1. COPQ (Cost of Poor Quality):', 'Scrap cost multipliers, rework hours, and yield drop calculation.'],
-      ['2. Customer Impact Case Studies:', 'Analysis of market field-returns, defect escapes, and brand risk.'],
-      ['3. Stop-Call-Wait Protocol:', 'Immediate machine escalation drill whenever 2 consecutive anomalies occur.'],
+    activity: [
+      {
+        lang: 'th',
+        title: 'กิจกรรมผลกระทบเมื่อชิ้นงานไม่ได้คุณภาพหลุดไปหาลูกค้า',
+        stations: [
+          {
+            name: 'วิธีเล่น',
+            text: 'ให้ผู้เข้าร่วมอบรมช่วยกันติดป้ายผลกระทบที่เกิดขึ้นเมื่อชิ้นงานไม่ได้คุณภาพหลุดไปหาลูกค้าแล้วทำให้ลูกค้า claim กลับมา',
+          },
+          {
+            name: 'การแบ่งผลกระทบ',
+            text: 'แบ่งเป็นผลกระทบที่เห็นได้ชัดเจน (ภูเขาน้ำแข็งเหนือน้ำ) และผลกระทบแฝง (ภูเขาน้ำแข็งใต้น้ำ)',
+          },
+          {
+            name: 'เฉลย',
+            text: 'เมื่อกดเฉลย ถ้าวางถูกตำแหน่งไฟจะขึ้นสีเขียว ถ้าวางผิดตำแหน่งไฟจะขึ้นสีแดง',
+          },
+        ],
+      },
+      {
+        lang: 'en',
+        title: 'Impact of Non-Conforming Parts Escaping to the Customer',
+        stations: [
+          {
+            name: 'How it works',
+            text: 'Participants collaborate to place flashcards representing the impacts of non-conforming parts escaping to the customer and causing customer claims.',
+          },
+          {
+            name: 'Impact categories',
+            text: 'The impacts are divided into visible cost impacts (the iceberg above the water) and hidden cost impacts (the iceberg below the water).',
+          },
+          {
+            name: 'Reveal the answers',
+            text: 'When the answers are revealed, correctly placed flashcards show green lights, while incorrect placements show red lights.',
+          },
+        ],
+      },
     ],
-    closeLabel: 'Back to Home',
+    link: {
+      label: 'See image / VDO',
+      url: 'https://www.dropbox.com/scl/fi/yc1aq2u16pg080f35whvr/gemini_generated_video_46dec7fc.mp4?rlkey=u07s9ltefqfoo05mszo797knh&st=rn0psksf&dl=0',
+    },
   },
-  {
+
+
+    {
     id: 'st5', no: '05', theme: 'emerald', icon: ShieldCheck,
     title: 'Safety Mind & 5S Station',
     modalTitle: 'Safety Mind & 5S Station',
@@ -103,7 +205,6 @@ const STATIONS = [
 ]
 
 /* ---------------- Components ---------------- */
-
 function WhatIsDojoButton({ onClick }) {
   return (
     <button
@@ -114,9 +215,9 @@ function WhatIsDojoButton({ onClick }) {
         <CircleHelp size={16} className="text-rose-600" />
         <span className="text-xs font-bold uppercase tracking-wide text-rose-600">What is DOJO?</span>
       </div>
-      <div className="flex items-center gap-1 text-[11px] font-semibold text-slate-500">
-        <span>Standards &amp; Vision</span>
-        <ChevronRight size={12} className="text-slate-400" />
+      <div className="flex items-center gap-1.5">
+        <Lightbulb size={18} className="text-gold" aria-hidden="true" />
+        <ChevronRight size={14} className="text-slate-400" />
       </div>
     </button>
   )
@@ -162,39 +263,214 @@ function Sheet({ onClose, children }) {
   )
 }
 
+const DOJO_LANGS = ['th', 'en', 'ja']
+
+const DOJO_TEXT = {
+  th: {
+    tab: 'ไทย',
+    title: 'DOJO คืออะไร?',
+    subtitle: 'ความหมายและที่มาของคำ',
+    doRead: 'โด',
+    doMeaning: 'วิธีการปฏิบัติ หรือแนวทางปฏิบัติ',
+    joRead: 'โจ',
+    joMeaning: 'ห้องโถง หรือสถานที่ขนาดใหญ่',
+    paragraphs: [
+      'DOJO Training คือเครื่องมือฝึกอบรมที่ช่วยพัฒนาเจ้าหน้าที่ฝ่ายควบคุมคุณภาพและเจ้าหน้าที่ฝ่ายปฏิบัติการในกระบวนการผลิต ซึ่งเป็นมากกว่าการอบรมทั่วไป',
+      'DOJO Training จึงหมายถึงสถานที่สำหรับฝึกปฏิบัติ เปรียบเสมือนโรงเรียน พนักงานจะได้เรียนรู้ทั้งภาคทฤษฎีและลงมือปฏิบัติด้วยตนเองจนเข้าใจและชำนาญ แล้วจึงส่งเข้าไปปฏิบัติงานตามจุดต่างๆ',
+    ],
+    ok: 'เข้าใจแล้ว',
+  },
+  en: {
+    tab: 'English',
+    title: 'What is DOJO?',
+    subtitle: 'Meaning and origin of the word',
+    doRead: 'dō',
+    doMeaning: 'A way, method, or practice',
+    joRead: 'jō',
+    joMeaning: 'A hall or large place',
+    paragraphs: [
+      'DOJO Training is a development tool for Quality Control and Production Operation staff. It is more than a standard training course.',
+      'A DOJO is therefore a place to practice, much like a school. Employees learn the theory and then practice hands-on until they truly understand and master it, before being assigned to their stations.',
+    ],
+    ok: 'Understood',
+  },
+  ja: {
+    tab: '日本語',
+    title: 'DOJOとは？',
+    subtitle: '言葉の意味と由来',
+    doRead: 'どう',
+    doMeaning: '方法、やり方、実践の道',
+    joRead: 'じょう',
+    joMeaning: '広間、大きな場所',
+    paragraphs: [
+      'DOJO Training（道場トレーニング）は、品質管理担当者と製造現場のオペレーターを育成するための教育ツールであり、単なる研修にとどまりません。',
+      '道場とは、やり方を実践して身につける場所です。学校のように、従業員は理論を学び、自ら手を動かして理解し習熟してから、各現場へ配属されます。',
+    ],
+    ok: 'わかりました',
+  },
+}
+
+// เส้นรัศมีครึ่งวงกลมด้านบน (คำนวณครั้งเดียวระดับไฟล์)
+const BULB_RAYS = [-180, -150, -120, -90, -60, -30, 0].map((deg) => {
+  const r = (deg * Math.PI) / 180
+  const c = Math.cos(r)
+  const s = Math.sin(r)
+  return {
+    x1: (28 + 20 * c).toFixed(1),
+    y1: (28 + 20 * s).toFixed(1),
+    x2: (28 + 26 * c).toFixed(1),
+    y2: (28 + 26 * s).toFixed(1),
+  }
+})
+
+function LitBulb() {
+  return (
+    <span className="relative flex h-14 w-14 shrink-0 items-center justify-center text-gold" aria-hidden="true">
+      {/* แสงเรืองด้านหลัง */}
+      <span className="absolute inset-2 animate-pulse rounded-full bg-gold/40 blur-md" />
+
+      {/* เส้นรัศมี */}
+      <svg viewBox="0 0 56 56" className="absolute inset-0 animate-pulse" fill="none">
+        {BULB_RAYS.map((l, i) => (
+          <line
+            key={i}
+            x1={l.x1}
+            y1={l.y1}
+            x2={l.x2}
+            y2={l.y2}
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+          />
+        ))}
+      </svg>
+
+      {/* หลอดไฟทึบ */}
+      <Lightbulb size={26} fill="currentColor" className="relative drop-shadow-[0_0_6px_rgba(245,179,1,0.9)]" />
+    </span>
+  )
+}
+
+
+
+
+
+
 function DojoModal({ onClose }) {
+  const [lang, setLang] = useState('th')
+  const [progress, setProgress] = useState(0)
+  const scrollRef = useRef(null)
+  const t = DOJO_TEXT[lang]
+
+  const onScroll = (e) => {
+    const el = e.currentTarget
+    const max = el.scrollHeight - el.clientHeight
+    setProgress(max > 0 ? el.scrollTop / max : 1)
+  }
+
+  const changeLang = (next) => {
+    setLang(next)
+    setProgress(0)
+    if (scrollRef.current) scrollRef.current.scrollTop = 0
+  }
+
   return (
     <Sheet onClose={onClose}>
-      <div className="flex items-center justify-between bg-slate-900 p-4 text-white">
-        <div>
-          <h3 className="text-sm font-bold">What is LDNA DOJO?</h3>
-          <p className="text-[11px] text-slate-400">Technical Manufacturing Training Center</p>
+      {/* หัว */}
+      <div className="flex items-center justify-between bg-ink p-4 text-white">
+        <div className="flex items-center gap-3">
+
+          <LitBulb />
+          {/* <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white/10 text-gold">
+            <Lightbulb size={24} aria-hidden="true" />
+          </span> */}
+          <div>
+            <h3 className="text-sm font-bold" lang={lang}>{t.title}</h3>
+            <p className="text-[11px] text-slate-400" lang={lang}>{t.subtitle}</p>
+          </div>
         </div>
         <button onClick={onClose} aria-label="Close" className="px-2 text-slate-300 hover:text-white">
           <X size={18} />
         </button>
       </div>
-      <div className="space-y-3 overflow-y-auto p-4 text-xs text-slate-700">
-        <p className="leading-relaxed">
-          <strong>LDNA DOJO</strong> is a standardized training methodology and physical simulator designed to
-          cultivate zero-defect mindsets, operational dexterity, and rigorous adherence to standard operating
-          procedures before operators enter live cleanroom lines.
-        </p>
-        <div className="space-y-2 rounded-lg border border-slate-200 bg-slate-50 p-3">
-          <h4 className="text-xs font-bold text-slate-900">Core Objectives:</h4>
-          <ul className="list-disc space-y-1 pl-4 text-slate-600">
-            <li><strong>Zero Escape:</strong> Detect and intercept defects at the station of origin.</li>
-            <li><strong>Standardized Motion:</strong> Eliminate micro-waste and ergonomic variance.</li>
-            <li><strong>Verification Competency:</strong> Calibrate eye acuity for optical limit samples (OK vs NG).</li>
-          </ul>
-        </div>
+
+      {/* เลือกภาษา */}
+      <div className="flex gap-1 border-b border-slate-200 bg-white p-2" role="tablist" aria-label="Language">
+        {DOJO_LANGS.map((code) => (
+          <button
+            key={code}
+            role="tab"
+            aria-selected={lang === code}
+            onClick={() => changeLang(code)}
+            className={`flex-1 rounded-lg py-1.5 text-xs font-bold transition ${
+              lang === code ? 'bg-ink text-white' : 'text-slate-500 hover:bg-slate-100'
+            }`}
+          >
+            {DOJO_TEXT[code].tab}
+          </button>
+        ))}
       </div>
-      <div className="flex justify-end border-t border-slate-200 bg-slate-100 p-3">
-        <button onClick={onClose} className="rounded bg-slate-800 px-4 py-1.5 text-xs font-semibold text-white">
-          Understood
+
+      {/* แถบความคืบหน้าการอ่าน */}
+      <div className="h-0.5 shrink-0 bg-slate-200" aria-hidden="true">
+        <div className="h-full bg-[#ef2b2d] transition-[width] duration-100" style={{ width: `${progress * 100}%` }} />
+      </div>
+
+      {/* เนื้อหา */}
+      <div ref={scrollRef} onScroll={onScroll} lang={lang} className="min-h-0 flex-1 space-y-4 overflow-y-auto p-5">
+        {/* 道 + 場 = DOJO */}
+        <div className="flex items-stretch gap-2">
+          <div className="flex-1 rounded-xl border border-slate-200 bg-slate-50 p-3 text-center">
+            <p lang="ja" className="text-4xl font-bold leading-none text-ink">道</p>
+            <p className="mt-2 text-xs font-extrabold tracking-wider text-[#ef2b2d]">DO · {t.doRead}</p>
+            <p className="mt-1 text-xs leading-snug text-slate-600">{t.doMeaning}</p>
+          </div>
+          <span className="flex items-center text-lg font-bold text-slate-300">+</span>
+          <div className="flex-1 rounded-xl border border-slate-200 bg-slate-50 p-3 text-center">
+            <p lang="ja" className="text-4xl font-bold leading-none text-ink">場</p>
+            <p className="mt-2 text-xs font-extrabold tracking-wider text-[#ef2b2d]">JO · {t.joRead}</p>
+            <p className="mt-1 text-xs leading-snug text-slate-600">{t.joMeaning}</p>
+          </div>
+        </div>
+
+        {t.paragraphs.map((p) => (
+          <p key={p} className="text-[15px] leading-7 text-slate-700">
+            {p}
+          </p>
+        ))}
+      </div>
+
+      {/* ปุ่มติดด้านล่าง */}
+      <div className="flex justify-end border-t border-slate-200 bg-slate-100 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
+        <button onClick={onClose} className="rounded bg-ink px-5 py-2 text-xs font-semibold text-white" lang={lang}>
+          {t.ok}
         </button>
       </div>
     </Sheet>
+  )
+}
+function ActivityBody({ activity }) {
+  return (
+    <div className="space-y-5">
+      {activity.map((block, i) => (
+        <section
+          key={block.lang}
+          lang={block.lang}
+          className={`space-y-3 ${i > 0 ? 'border-t border-slate-200 pt-5' : ''}`}
+        >
+          <h4 className="text-sm font-bold leading-snug text-slate-900">{block.title}</h4>
+          {block.intro && <p className="text-[13px] leading-6 text-slate-700">{block.intro}</p>}
+          <ul className="space-y-2">
+            {block.stations.map((s) => (
+              <li key={s.name} className="rounded border border-slate-200 bg-slate-50 p-2.5">
+                <p className="text-[13px] font-semibold leading-snug text-slate-800">{s.name}</p>
+                <p className="mt-1 text-[13px] leading-6 text-slate-600">{s.text}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
   )
 }
 
@@ -213,27 +489,33 @@ function StationModal({ station, onClose }) {
       </div>
 
       <div className="space-y-3 overflow-y-auto p-4 text-xs text-slate-700">
-        <div className={`flex items-center justify-between rounded border p-2 ${t.strip}`}>
-          <span className={`font-semibold ${t.stripText}`}>{station.statusLabel}</span>
-          <span className={`rounded px-2 py-0.5 text-[11px] font-bold ${station.status.cls}`}>
-            {station.status.text}
-          </span>
-        </div>
+        {station.activity ? (
+          <ActivityBody activity={station.activity} />
+        ) : (
+          <>
+            <div className={`flex items-center justify-between rounded border p-2 ${t.strip}`}>
+              <span className={`font-semibold ${t.stripText}`}>{station.statusLabel}</span>
+              <span className={`rounded px-2 py-0.5 text-[11px] font-bold ${station.status.cls}`}>
+                {station.status.text}
+              </span>
+            </div>
 
-        <div>
-          <h4 className="mb-1 font-bold text-slate-900">{station.sectionTitle}</h4>
-          <ul className="space-y-1.5">
-            {station.items.map(([label, text, pending]) => (
-              <li
-                key={label}
-                className={`rounded border p-2 ${pending ? 'border-amber-200 bg-amber-50/50' : 'border-slate-200 bg-slate-50'}`}
-              >
-                <span className={`font-semibold ${pending ? 'text-amber-800' : 'text-slate-800'}`}>{label}</span>{' '}
-                {text}
-              </li>
-            ))}
-          </ul>
-        </div>
+            <div>
+              <h4 className="mb-1 font-bold text-slate-900">{station.sectionTitle}</h4>
+              <ul className="space-y-1.5">
+                {station.items.map(([label, text, pending]) => (
+                  <li
+                    key={label}
+                    className={`rounded border p-2 ${pending ? 'border-amber-200 bg-amber-50/50' : 'border-slate-200 bg-slate-50'}`}
+                  >
+                    <span className={`font-semibold ${pending ? 'text-amber-800' : 'text-slate-800'}`}>{label}</span>{' '}
+                    {text}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </>
+        )}
       </div>
 
       <div className="flex items-center justify-between border-t border-slate-200 bg-slate-100 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
@@ -242,13 +524,28 @@ function StationModal({ station, onClose }) {
         ) : (
           <span />
         )}
-        <button onClick={onClose} className={`rounded px-4 py-1.5 text-xs font-semibold text-white ${t.btn}`}>
-          {station.closeLabel}
-        </button>
+
+        {station.link ? (
+          <a
+            href={station.link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`inline-flex items-center gap-1.5 rounded px-4 py-2 text-xs font-semibold text-white ${t.btn}`}
+          >
+            <CirclePlay size={16} aria-hidden="true" />
+            {station.link.label}
+          </a>
+        ) : (
+          <button onClick={onClose} className={`rounded px-4 py-1.5 text-xs font-semibold text-white ${t.btn}`}>
+            {station.closeLabel}
+          </button>
+        )}
       </div>
     </Sheet>
   )
 }
+
+
 
 /* ---------------- Page ---------------- */
 
