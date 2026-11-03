@@ -2,16 +2,16 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { RefreshCw, Search } from "lucide-react";
 import { getRank } from "../api/rankApi";
 import { errorText } from "../lib/errorText";
-import { formatDuration } from "../lib/format";
 import { loadSession } from "../lib/session";
 import Avatar from "../components/Avatar";
 
 const PAGE = 100;
 const MAX = 500;
 
+// id "speed" ใช้ต่อได้ เพราะใน SQL ถือเป็นชื่อแทนของ 'finish' (ครบก่อน)
 const TABS = [
   { id: "points", label: "คะแนน" },
-  { id: "speed", label: "ความเร็ว" },
+  { id: "speed", label: "ครบก่อน" },
 ];
 
 const chipColor = (rank) =>
@@ -22,6 +22,26 @@ const chipColor = (rank) =>
       : rank === 3
         ? "bg-amber-700 text-white"
         : "bg-slate-100 text-slate-600";
+
+// วันเวลาที่ครบ เป็นเวลาไทย เช่น "3 พ.ย. 14:20"
+const finishFormatter = new Intl.DateTimeFormat("th-TH", {
+  timeZone: "Asia/Bangkok",
+  day: "numeric",
+  month: "short",
+  hour: "2-digit",
+  minute: "2-digit",
+  hourCycle: "h23",
+});
+
+function formatFinish(iso) {
+  if (!iso) return "—";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "—";
+  const p = Object.fromEntries(
+    finishFormatter.formatToParts(d).map((x) => [x.type, x.value]),
+  );
+  return `${p.day} ${p.month} ${p.hour}:${p.minute}`;
+}
 
 export default function RankPage() {
   const [sort, setSort] = useState("points");
@@ -91,7 +111,7 @@ export default function RankPage() {
   }
 
   const rows = data?.rows ?? [];
-  const isSpeed = sort === "speed";
+  const isFinish = sort === "speed";
   const canMore = rows.length >= limit && limit < MAX;
 
   return (
@@ -149,8 +169,8 @@ export default function RankPage() {
       >
         <div className="mb-2 flex items-start justify-between gap-3">
           <p className="text-sm text-slate-500">
-            {isSpeed
-              ? "เฉพาะคนที่ผ่านครบทุกสถานี นับจากตั้ง PIN ครั้งแรก จนผ่านสถานีสุดท้าย"
+            {isFinish
+              ? "เฉพาะคนที่ผ่านครบทุกสถานี เรียงตามเวลาที่ผ่านสถานีสุดท้าย ครบก่อนอยู่บนสุด"
               : "เรียงตามคะแนนเพิ่ม แสดงเฉพาะคนที่ผ่านอย่างน้อย 1 สถานี"}
             {data ? ` (${data.total_ranked} คน)` : ""}
           </p>
@@ -186,7 +206,7 @@ export default function RankPage() {
           <p className="rounded-2xl bg-white p-6 text-center text-sm text-slate-500 shadow-sm ring-1 ring-slate-200">
             {search
               ? `ไม่พบ "${search}" ในอันดับนี้`
-              : isSpeed
+              : isFinish
                 ? "ยังไม่มีใครผ่านครบทุกสถานี"
                 : "ยังไม่มีใครผ่านสถานี"}
           </p>
@@ -223,10 +243,13 @@ export default function RankPage() {
                     </p>
                   </div>
                   <div className="shrink-0 text-right">
-                    {isSpeed ? (
-                      <p className="text-sm font-bold text-ink">
-                        {formatDuration(r.duration_seconds)}
-                      </p>
+                    {isFinish ? (
+                      <>
+                        <p className="text-[11px] text-slate-500">ครบเมื่อ</p>
+                        <p className="mt-0.5 text-sm font-bold leading-none text-ink">
+                          {formatFinish(r.last_passed_at)}
+                        </p>
+                      </>
                     ) : (
                       <>
                         <p className="text-base font-extrabold leading-none text-ink">
