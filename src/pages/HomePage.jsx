@@ -74,8 +74,8 @@ const STATIONS = [
       },
     ],
     link: {
-      label: 'See image / VDO',
-      url: 'https://www.dropbox.com/scl/fi/fcpmkl78vs3c1etvexybs/ESD-Gameboard.mp4?rlkey=ii4jiept4wkr6k17duhywn30j&st=2waeuw5s&dl=0',
+      label: 'See VDO',
+      url: 'https://www.loom.com/share/398da1184240484f8cc464cde10db6a2',
     },
   },
     {
@@ -131,8 +131,8 @@ const STATIONS = [
       },
     ],
     link: {
-      label: 'See image / VDO',
-      url: 'https://www.dropbox.com/scl/fi/b275d485hhlf01mwd5940/DOJO_Activity_WI_QI_90s_FINAL_.mp4?rlkey=3eg4pcz4y882blmrpxqzxpzuc&st=09lp10uv&dl=0',
+      label: 'See VDO',
+      url: 'https://www.loom.com/share/f0b38bb8c58e43c7881a3bd9b6eda33b',
     },
   },
    {
@@ -180,8 +180,8 @@ const STATIONS = [
       },
     ],
     link: {
-      label: 'See image / VDO',
-      url: 'https://www.dropbox.com/scl/fi/yc1aq2u16pg080f35whvr/gemini_generated_video_46dec7fc.mp4?rlkey=u07s9ltefqfoo05mszo797knh&st=rn0psksf&dl=0',
+      label: 'See VDO',
+      url: 'https://www.loom.com/share/5f9105dcf45a410d99498e915281a4f9',
     },
   },
 
