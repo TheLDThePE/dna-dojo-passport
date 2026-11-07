@@ -11,29 +11,49 @@ const THEMES = {
   emerald:{ iconBox: 'bg-emerald-50 border-emerald-200 text-emerald-700', hover: 'hover:border-emerald-500', head: 'bg-emerald-900', sub: 'text-emerald-300', close: 'text-emerald-200', strip: 'bg-emerald-50 border-emerald-200', stripText: 'text-emerald-900', btn: 'bg-emerald-900' },
 }
 
-// const BADGES = {
-//   passed: 'bg-emerald-100 text-emerald-800',
-//   progress: 'bg-blue-100 text-blue-800',
-//   locked: 'bg-slate-200 text-slate-600',
-// }
-
 const STATIONS = [
   {
     id: 'st1', no: '01', theme: 'sky', icon: Tv,
-    title: 'BLU + Panel Structure & Defect',
-    modalTitle: 'BLU + Panel Structure & Defect',
-    subtitle: 'Optical layers, LGP inspection, Mura/Pixel criteria',
+    title: 'Backlight Product Training',
+    modalTitle: 'Backlight Product Training and Awareness Activity',
+    subtitle: 'กิจกรรมส่งเสริมความรู้และสร้างความเข้าใจ Backlight product',
     badge: { text: '4/4 Passed', tone: 'passed' },
-    statusLabel: 'Curriculum Status:',
-    status: { text: 'Certified (4/4 Completed)', cls: 'text-emerald-700 bg-emerald-100' },
-    sectionTitle: 'Standard Inspection Breakdown:',
-    items: [
-      ['1. BLU Stack Alignment:', 'Reflector, Light Guide Plate (LGP), Diffuser, and Dual Prism sheet orientation checks.'],
-      ['2. Optical Defect Classification:', 'Spot Mura, Line Mura, White Spots, and Foreign Material contamination boundaries.'],
-      ['3. Cell Assembly Integrity:', 'FPC bonding, polarizer scratch criteria (≤0.05mm limit samples), and bezel latch verification.'],
+    activity: [
+      {
+        lang: 'th',
+        title: 'กิจกรรมส่งเสริมความรู้และสร้างความเข้าใจ Backlight product',
+        intro: 'โดยผ่านฐานการเรียนรู้ดังต่อไปนี้',
+        stations: [
+          {
+            name: 'ฐานที่ 1',
+            text: 'บรรยายเกี่ยวกับการประกอบและโครงสร้างของ Back light',
+          },
+          {
+            name: 'ฐานที่ 2',
+            text: 'เรียนรู้และเข้าใจว่าผลิตภัณฑ์ของเรานำไปใช้ในส่วนประกอบใด และจำลองเหตุการณ์เมื่อเกิดปัญหาที่ผลิตภัณฑ์ของเราจะส่งผลกระทบอย่างไร โดยเรียนรู้ผ่านการจำลองการขับขี่รถยนต์เสมือนจริง',
+          },
+        ],
+      },
+      {
+        lang: 'en',
+        title: 'Backlight Product Training and Awareness Activity',
+        intro: 'Facilitated via the following learning stations:',
+        stations: [
+          {
+            name: 'Station 1',
+            text: 'Lecture on Backlight Assembly and Structure',
+          },
+          {
+            name: 'Station 2',
+            text: 'Understanding the specific components where our products are applied, and simulating the potential impacts of product failures through a virtual driving simulator.',
+          },
+        ],
+      },
     ],
-    footerNote: 'Passing Grade: ≥95%',
-    closeLabel: 'Close',
+    link: {
+      label: 'See VDO',
+      url: 'https://www.loom.com/share/2ab8ccecc9594b8389b70af531198b73',
+    },
   },
   {
     id: 'st2', no: '02', theme: 'amber', icon: Zap,
@@ -78,7 +98,7 @@ const STATIONS = [
       url: 'https://www.loom.com/share/398da1184240484f8cc464cde10db6a2',
     },
   },
-    {
+  {
     id: 'st3', no: '03', theme: 'violet', icon: GitCompare,
     title: 'Comparative Instruction (WI & QI)',
     modalTitle: 'Clear Comparative Instruction (WI & QI)',
@@ -135,7 +155,7 @@ const STATIONS = [
       url: 'https://www.loom.com/share/f0b38bb8c58e43c7881a3bd9b6eda33b',
     },
   },
-   {
+  {
     id: 'st4', no: '04', theme: 'rose', icon: LineChart,
     title: 'COPQ & Quality Awareness',
     modalTitle: 'COPQ & Quality Awareness Station',
@@ -184,23 +204,48 @@ const STATIONS = [
       url: 'https://www.loom.com/share/5f9105dcf45a410d99498e915281a4f9',
     },
   },
-
-
-    {
+  {
     id: 'st5', no: '05', theme: 'emerald', icon: ShieldCheck,
     title: 'Safety Mind & 5S Station',
     modalTitle: 'Safety Mind & 5S Station',
-    subtitle: 'Seiri, Seiton, PPE compliance & safety protocols',
+    subtitle: 'กิจกรรมส่งเสริมความรู้และสร้างความเข้าใจเกี่ยวกับ Safety',
     badge: { text: 'Locked', tone: 'locked' },
-    statusLabel: 'Prerequisite Requirement:',
-    status: { text: 'Locked (Final Certification)', cls: 'text-emerald-700 bg-emerald-100' },
-    sectionTitle: 'Shop-Floor Discipline Training:',
-    items: [
-      ['1. Cleanroom PPE Discipline:', 'Cap, hood, mask, smock, and ESD shoe grounding check.'],
-      ['2. 5S Implementation Audit:', 'Seiri (Sort), Seiton (Set in order), Seiso (Shine), Seiketsu (Standardize), Shitsuke (Sustain).'],
-      ['3. KYT (Kiken Yochi Training):', 'Hazard prediction and finger-pointing-and-calling drills.'],
+    activity: [
+      {
+        lang: 'th',
+        title: 'กิจกรรมส่งเสริมความรู้และสร้างความเข้าใจเกี่ยวกับ Safety',
+        intro: 'โดยผ่านฐานการเรียนรู้ดังต่อไปนี้',
+        stations: [
+          {
+            name: 'ฐานที่ 1',
+            text: 'เพื่อให้ผู้เข้ารับการอบรมมีความรู้และทักษะในการประเมินและเลือกใช้อุปกรณ์คุ้มครองความปลอดภัยส่วนบุคคล (PPE) ให้สอดคล้องกับสภาพแวดล้อมและลักษณะงานจริง เพื่อลดความเสี่ยงและป้องกันอุบัติเหตุจากการทำงาน',
+          },
+          {
+            name: 'ฐานที่ 2',
+            text: 'เพื่อให้ผู้เข้ารับการอบรมสามารถจำแนกและเลือกใช้อุปกรณ์ไฟฟ้าให้เหมาะสมกับขนาดและประเภทของแหล่งจ่ายไฟ เพื่อความปลอดภัยต่อชีวิตและป้องกันความชำรุดเสียหายของเครื่องมือเครื่องจักร',
+          },
+        ],
+      },
+      {
+        lang: 'en',
+        title: 'Safety Training Activity',
+        intro: 'Facilitated via the following learning stations:',
+        stations: [
+          {
+            name: 'Station 1',
+            text: 'To equip trainees with the knowledge and skills to evaluate and select appropriate Personal Protective Equipment (PPE) suited to their actual work environment and tasks, reducing risks and preventing workplace accidents.',
+          },
+          {
+            name: 'Station 2',
+            text: 'To enable trainees to classify and select electrical equipment appropriate for the rating and type of power supply, ensuring personal safety and preventing damage to tools and machinery.',
+          },
+        ],
+      },
     ],
-    closeLabel: 'Back to Home',
+    link: {
+      label: 'See VDO',
+      url: 'https://www.loom.com/share/20ae2330f926492c9bcea70e56390bb1',
+    },
   },
 ]
 
@@ -310,7 +355,6 @@ const DOJO_TEXT = {
   },
 }
 
-// เส้นรัศมีครึ่งวงกลมด้านบน (คำนวณครั้งเดียวระดับไฟล์)
 const BULB_RAYS = [-180, -150, -120, -90, -60, -30, 0].map((deg) => {
   const r = (deg * Math.PI) / 180
   const c = Math.cos(r)
@@ -326,10 +370,7 @@ const BULB_RAYS = [-180, -150, -120, -90, -60, -30, 0].map((deg) => {
 function LitBulb() {
   return (
     <span className="relative flex h-14 w-14 shrink-0 items-center justify-center text-gold" aria-hidden="true">
-      {/* แสงเรืองด้านหลัง */}
       <span className="absolute inset-2 animate-pulse rounded-full bg-gold/40 blur-md" />
-
-      {/* เส้นรัศมี */}
       <svg viewBox="0 0 56 56" className="absolute inset-0 animate-pulse" fill="none">
         {BULB_RAYS.map((l, i) => (
           <line
@@ -344,17 +385,10 @@ function LitBulb() {
           />
         ))}
       </svg>
-
-      {/* หลอดไฟทึบ */}
       <Lightbulb size={26} fill="currentColor" className="relative drop-shadow-[0_0_6px_rgba(245,179,1,0.9)]" />
     </span>
   )
 }
-
-
-
-
-
 
 function DojoModal({ onClose }) {
   const [lang, setLang] = useState('th')
@@ -376,14 +410,9 @@ function DojoModal({ onClose }) {
 
   return (
     <Sheet onClose={onClose}>
-      {/* หัว */}
       <div className="flex items-center justify-between bg-ink p-4 text-white">
         <div className="flex items-center gap-3">
-
           <LitBulb />
-          {/* <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white/10 text-gold">
-            <Lightbulb size={24} aria-hidden="true" />
-          </span> */}
           <div>
             <h3 className="text-sm font-bold" lang={lang}>{t.title}</h3>
             <p className="text-[11px] text-slate-400" lang={lang}>{t.subtitle}</p>
@@ -394,7 +423,6 @@ function DojoModal({ onClose }) {
         </button>
       </div>
 
-      {/* เลือกภาษา */}
       <div className="flex gap-1 border-b border-slate-200 bg-white p-2" role="tablist" aria-label="Language">
         {DOJO_LANGS.map((code) => (
           <button
@@ -411,14 +439,11 @@ function DojoModal({ onClose }) {
         ))}
       </div>
 
-      {/* แถบความคืบหน้าการอ่าน */}
       <div className="h-0.5 shrink-0 bg-slate-200" aria-hidden="true">
         <div className="h-full bg-[#ef2b2d] transition-[width] duration-100" style={{ width: `${progress * 100}%` }} />
       </div>
 
-      {/* เนื้อหา */}
       <div ref={scrollRef} onScroll={onScroll} lang={lang} className="min-h-0 flex-1 space-y-4 overflow-y-auto p-5">
-        {/* 道 + 場 = DOJO */}
         <div className="flex items-stretch gap-2">
           <div className="flex-1 rounded-xl border border-slate-200 bg-slate-50 p-3 text-center">
             <p lang="ja" className="text-4xl font-bold leading-none text-ink">道</p>
@@ -440,7 +465,6 @@ function DojoModal({ onClose }) {
         ))}
       </div>
 
-      {/* ปุ่มติดด้านล่าง */}
       <div className="flex justify-end border-t border-slate-200 bg-slate-100 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
         <button onClick={onClose} className="rounded bg-ink px-5 py-2 text-xs font-semibold text-white" lang={lang}>
           {t.ok}
@@ -449,6 +473,7 @@ function DojoModal({ onClose }) {
     </Sheet>
   )
 }
+
 function ActivityBody({ activity }) {
   return (
     <div className="space-y-5">
@@ -545,12 +570,10 @@ function StationModal({ station, onClose }) {
   )
 }
 
-
-
 /* ---------------- Page ---------------- */
 
 export default function HomePage() {
-  const [openId, setOpenId] = useState(null) // null | 'dojo' | station id
+  const [openId, setOpenId] = useState(null)
   const close = () => setOpenId(null)
 
   useEffect(() => {
