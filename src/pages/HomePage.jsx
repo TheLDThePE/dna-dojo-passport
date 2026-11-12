@@ -57,8 +57,8 @@ const STATIONS = [
   },
   {
     id: 'st2', no: '02', theme: 'amber', icon: Zap,
-    title: 'ESD / Electric Puck Type',
-    modalTitle: 'ESD / Electric Puck Type Station',
+    title: 'ESD Awareness Station',
+    modalTitle: 'ESD Awareness Station',
     subtitle: 'Grounding wrist band, ionization, puck calibration',
     badge: { text: '2/3 Done', tone: 'progress' },
     activity: [
