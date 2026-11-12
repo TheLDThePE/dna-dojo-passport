@@ -1,14 +1,18 @@
-import { useEffect } from 'react'
+import { useCallback, useEffect } from 'react'
 import { Delete } from 'lucide-react'
 
 // แป้นตัวเลขสำหรับใส่ PIN (ควบคุมค่าจากหน้าที่เรียกใช้ผ่าน value/onChange)
 export default function PinPad({ value, onChange, length = 6, disabled = false }) {
-  const press = (d) => {
-    if (!disabled && value.length < length) onChange(value + d)
-  }
-  const back = () => {
+  const press = useCallback(
+    (d) => {
+      if (!disabled && value.length < length) onChange(value + d)
+    },
+    [disabled, value, length, onChange]
+  )
+
+  const back = useCallback(() => {
     if (!disabled) onChange(value.slice(0, -1))
-  }
+  }, [disabled, value, onChange])
 
   // รองรับคีย์บอร์ดจริงตอนใช้บนคอมพิวเตอร์
   useEffect(() => {
@@ -19,7 +23,7 @@ export default function PinPad({ value, onChange, length = 6, disabled = false }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  })
+  }, [press, back])
 
   const key =
     'flex h-14 items-center justify-center rounded-full bg-white text-xl font-semibold text-ink shadow-sm ring-1 ring-slate-200 transition active:scale-95 active:bg-slate-100 disabled:opacity-40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'

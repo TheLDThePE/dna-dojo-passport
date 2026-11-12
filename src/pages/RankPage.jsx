@@ -8,43 +8,20 @@ import Avatar from "../components/Avatar";
 const PAGE = 100;
 const MAX = 500;
 
-// id "speed" ใช้ต่อได้ เพราะใน SQL ถือเป็นชื่อแทนของ 'finish' (ครบก่อน)
-const TABS = [
-  { id: "points", label: "คะแนน" },
-  { id: "speed", label: "ครบก่อน" },
-];
-
-const chipColor = (rank) =>
-  rank === 1
-    ? "bg-gold text-ink"
-    : rank === 2
-      ? "bg-slate-300 text-ink"
-      : rank === 3
-        ? "bg-amber-700 text-white"
-        : "bg-slate-100 text-slate-600";
-
-// วันเวลาที่ครบ เป็นเวลาไทย เช่น "3 พ.ย. 14:20"
-const finishFormatter = new Intl.DateTimeFormat("th-TH", {
-  timeZone: "Asia/Bangkok",
-  day: "numeric",
-  month: "short",
-  hour: "2-digit",
-  minute: "2-digit",
-  hourCycle: "h23",
-});
-
-function formatFinish(iso) {
-  if (!iso) return "—";
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return "—";
-  const p = Object.fromEntries(
-    finishFormatter.formatToParts(d).map((x) => [x.type, x.value]),
-  );
-  return `${p.day} ${p.month} ${p.hour}:${p.minute}`;
-}
+// สีวงกลมอันดับตามคะแนนรวม: 1 ทอง, 2 เงิน, 3 ทองแดง, ที่เหลือเทาอ่อน
+// คะแนนเท่ากันได้อันดับเดียวกัน (มีหลายคนในอันดับเดียวได้) และคนที่ได้ 0 คะแนนไม่ได้เหรียญ
+const chipColor = (rank, points) =>
+  points <= 0
+    ? "bg-slate-100 text-slate-600"
+    : rank === 1
+      ? "bg-gold text-ink"
+      : rank === 2
+        ? "bg-slate-300 text-ink"
+        : rank === 3
+          ? "bg-amber-700 text-white"
+          : "bg-slate-100 text-slate-600";
 
 export default function RankPage() {
-  const [sort, setSort] = useState("points");
   const [query, setQuery] = useState("");
   const [search, setSearch] = useState("");
   const [limit, setLimit] = useState(PAGE);
@@ -60,7 +37,6 @@ export default function RankPage() {
   // loading = พารามิเตอร์ปัจจุบัน ยังไม่ตรงกับที่โหลดมา
   const loading =
     !loadedFor ||
-    loadedFor.sort !== sort ||
     loadedFor.search !== search ||
     loadedFor.limit !== limit ||
     loadedFor.reloadKey !== reloadKey;
@@ -82,8 +58,9 @@ export default function RankPage() {
   // โหลดข้อมูล (ถ้ามีคำขอใหม่ซ้อนเข้ามา ผลของคำขอเก่าจะถูกทิ้ง)
   useEffect(() => {
     const id = ++reqId.current;
-    const params = { sort, search, limit, reloadKey };
-    getRank({ sort, search, limit }).then((r) => {
+    const params = { search, limit, reloadKey };
+    // ส่ง sort: "points" ตายตัว (ฟังก์ชัน get_rank ไม่ใช้พารามิเตอร์นี้แล้ว แต่ rankApi.js ยังรับอยู่)
+    getRank({ sort: "points", search, limit }).then((r) => {
       if (id !== reqId.current) return;
       // setLoadedFor ใน .then (async) ไม่ผิดกฎ set-state-in-effect
       setLoadedFor(params);
@@ -94,7 +71,7 @@ export default function RankPage() {
         setError(errorText(r));
       }
     });
-  }, [sort, search, limit, reloadKey]);
+  }, [search, limit, reloadKey]);
 
   // กลับมาเปิดแท็บ/แอปอีกครั้งให้โหลดข้อมูลล่าสุด
   useEffect(() => {
@@ -105,41 +82,12 @@ export default function RankPage() {
     return () => document.removeEventListener("visibilitychange", onVisible);
   }, []);
 
-  function changeSort(id) {
-    setSort(id);
-    setLimit(PAGE);
-  }
-
   const rows = data?.rows ?? [];
-  const isFinish = sort === "speed";
   const canMore = rows.length >= limit && limit < MAX;
 
   return (
     <div className="pb-4">
       <div className="sticky top-0 z-10 space-y-3 bg-paper px-4 pb-3 pt-4">
-        <div
-          role="tablist"
-          aria-label="เรียงอันดับตาม"
-          className="grid grid-cols-2 rounded-xl bg-slate-200 p-1"
-        >
-          {TABS.map((t) => (
-            <button
-              key={t.id}
-              type="button"
-              role="tab"
-              id={`tab-${t.id}`}
-              aria-selected={sort === t.id}
-              aria-controls="rank-panel"
-              onClick={() => changeSort(t.id)}
-              className={`rounded-lg py-2 text-sm font-bold transition ${
-                sort === t.id ? "bg-white text-ink shadow-sm" : "text-slate-500"
-              }`}
-            >
-              {t.label}
-            </button>
-          ))}
-        </div>
-
         <div className="relative">
           <Search
             size={18}
@@ -160,18 +108,10 @@ export default function RankPage() {
         </div>
       </div>
 
-      <section
-        id="rank-panel"
-        role="tabpanel"
-        aria-labelledby={`tab-${sort}`}
-        aria-busy={loading}
-        className="px-4"
-      >
+      <section aria-busy={loading} className="px-4">
         <div className="mb-2 flex items-start justify-between gap-3">
           <p className="text-sm text-slate-500">
-            {isFinish
-              ? "เฉพาะคนที่ผ่านครบทุกสถานี เรียงตามเวลาที่ผ่านสถานีสุดท้าย ครบก่อนอยู่บนสุด"
-              : "เรียงตามคะแนนเพิ่ม แสดงเฉพาะคนที่ผ่านอย่างน้อย 1 สถานี"}
+            เรียงตามคะแนนรวม คะแนนเท่ากันได้อันดับเดียวกัน แสดงเฉพาะคนที่ผ่านอย่างน้อย 1 สถานี
             {data ? ` (${data.total_ranked} คน)` : ""}
           </p>
           <button
@@ -206,9 +146,7 @@ export default function RankPage() {
           <p className="rounded-2xl bg-white p-6 text-center text-sm text-slate-500 shadow-sm ring-1 ring-slate-200">
             {search
               ? `ไม่พบ "${search}" ในอันดับนี้`
-              : isFinish
-                ? "ยังไม่มีใครผ่านครบทุกสถานี"
-                : "ยังไม่มีใครผ่านสถานี"}
+              : "ยังไม่มีใครผ่านสถานี"}
           </p>
         )}
 
@@ -224,7 +162,7 @@ export default function RankPage() {
                   className={`flex items-center gap-3 px-3 py-3 ${mine ? "bg-blue-50" : ""}`}
                 >
                   <span
-                    className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold ${chipColor(r.rank)}`}
+                    className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold ${chipColor(r.rank, r.points)}`}
                   >
                     {r.rank}
                   </span>
@@ -243,23 +181,12 @@ export default function RankPage() {
                     </p>
                   </div>
                   <div className="shrink-0 text-right">
-                    {isFinish ? (
-                      <>
-                        <p className="text-[11px] text-slate-500">ครบเมื่อ</p>
-                        <p className="mt-0.5 text-sm font-bold leading-none text-ink">
-                          {formatFinish(r.last_passed_at)}
-                        </p>
-                      </>
-                    ) : (
-                      <>
-                        <p className="text-base font-extrabold leading-none text-ink">
-                          {r.points}
-                        </p>
-                        <p className="mt-1 text-xs text-slate-500">
-                          ผ่าน {r.passed_count} สถานี
-                        </p>
-                      </>
-                    )}
+                    <p className="text-base font-extrabold leading-none text-ink">
+                      {r.points}
+                    </p>
+                    <p className="mt-1 text-xs text-slate-500">
+                      ผ่าน {r.passed_count} สถานี
+                    </p>
                   </div>
                 </li>
               );

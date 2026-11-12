@@ -19,20 +19,27 @@ export default function TrainersTab({ pw, fail }) {
   const [confirm, setConfirm] = useState(null) // { empNo, station }
   const [form, setForm] = useState({ station: '', emp_no: '', password: '' })
 
-  const load = useCallback(async () => {
-    const [t, s] = await Promise.all([adminListTrainers(pw), listStations()])
-    if (fail(t)) return
-    if (!t.ok) return setNotice({ type: 'error', text: errorText(t, 'admin') })
-    setTrainers(t.rows)
-    if (s.ok) {
-      setStations(s.stations)
-      setForm((f) => (f.station ? f : { ...f, station: s.stations[0]?.code || '' }))
-    }
-  }, [pw, fail])
+  const load = useCallback(
+    async (signal) => {
+      const [t, s] = await Promise.all([adminListTrainers(pw), listStations()])
+      if (signal?.aborted) return
+      if (fail(t)) return
+      if (!t.ok) return setNotice({ type: 'error', text: errorText(t, 'admin') })
+      setTrainers(t.rows)
+      if (s.ok) {
+        setStations(s.stations)
+        setForm((f) => (f.station ? f : { ...f, station: s.stations[0]?.code || '' }))
+      }
+    },
+    [pw, fail]
+  )
 
-  useEffect(() => {
-    load()
-  }, [load])
+ useEffect(() => {
+  const ctrl = new AbortController()
+  // eslint-disable-next-line react-hooks/set-state-in-effect -- โหลดข้อมูลเมื่อ mount, setState เกิดขึ้นหลัง await เท่านั้น
+  load(ctrl.signal)
+  return () => ctrl.abort()
+}, [load])
 
   async function onSave(e) {
     e.preventDefault()

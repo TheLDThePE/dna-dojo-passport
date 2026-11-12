@@ -31,6 +31,22 @@ export function errorText(r, who = 'passport') {
       return 'พนักงานคนนี้ผ่านสถานีนี้ไปแล้ว'
     case 'BAD_BONUS':
       return 'คะแนนเพิ่มไม่ถูกต้อง'
+    case 'NOT_PASSED':
+      return 'ยังไม่ผ่านสถานีนี้ ไปให้เทรนเนอร์ประจำสถานีกดผ่านก่อน'
+    case 'NO_EXAM':
+      return 'ข้อสอบสถานีนี้ยังไม่เปิดให้ทำ'
+    case 'ALREADY_TAKEN':
+      return 'สถานีนี้ทำข้อสอบไปแล้ว (ทำได้ครั้งเดียว)'
+    case 'BAD_ANSWERS':
+      return 'ตอบไม่ครบหรือรูปแบบไม่ถูกต้อง ตรวจคำตอบแล้วลองอีกครั้ง'
+    case 'NOT_REGISTERED':
+      return 'ยังไม่ได้ตั้ง PIN ให้ตั้ง PIN ที่หน้า Passport ก่อน'
+    case 'NOT_ALL_PASSED':
+      return 'ต้องผ่านครบทุกสถานีก่อนจึงจะ Restart ได้'
+    case 'BAD_CARD':
+      return 'อ่านเลขบัตรไม่ได้ ลองสแกนอีกครั้ง'
+    case 'BAD_ITEMS':
+      return 'ส่งผลไม่ได้ รายการไม่ถูกต้อง (ส่งได้สูงสุด 200 คนต่อครั้ง)'
     case 'ADMIN_NOT_SET':
       return 'ยังไม่ได้ตั้งรหัสผ่าน Admin (ตั้งครั้งแรกด้วย admin_init ใน SQL Editor)'
     case 'MISSING_FIELDS':

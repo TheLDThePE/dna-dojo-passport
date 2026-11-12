@@ -6,7 +6,8 @@ const X_LEFT = 80
 const X_RIGHT = 240
 const X_MID = 160
 const Y0 = 58
-const Y_STEP = 160
+const Y_STEP = 190 // เพิ่มจาก 160 เพราะมีป้ายคะแนนข้อสอบใต้ชื่อสถานี
+const EXAM_MAX = 5 // คะแนนเต็มข้อสอบต่อสถานี (5 ข้อ ข้อละ 1 คะแนน)
 
 function layout(n) {
   return Array.from({ length: n }, (_, i) => {
@@ -32,7 +33,9 @@ function pathFor(points) {
 const shortDate = (iso) =>
   iso ? new Date(iso).toLocaleDateString('th-TH', { day: 'numeric', month: 'short' }) : ''
 
-export default function StationMap({ stations }) {
+// onSelect(station) ถูกเรียกเมื่อแตะวงกลมของสถานี (ผ่านแล้ว = ไปทำข้อสอบ, ยังไม่ผ่าน = แจ้งเตือน)
+// station.exam_score: null/ไม่มี = ยังไม่ได้ทำข้อสอบ (ป้ายสีเทา), ตัวเลข (รวม 0) = ทำแล้ว (ป้ายสีฟ้า)
+export default function StationMap({ stations, onSelect }) {
   const pts = layout(stations.length)
   const H = (pts.length ? pts[pts.length - 1].y : 0) + 100
 
@@ -64,15 +67,18 @@ export default function StationMap({ stations }) {
             aria-label={`${s.code} ${s.name}: ${s.passed ? 'ผ่านแล้ว' : 'ยังไม่ผ่าน'}`}
           >
             <div className="relative mx-auto h-[72px] w-[72px]">
-              <div
-                className={`flex h-full w-full items-center justify-center rounded-full ring-4 transition ${
+              <button
+                type="button"
+                onClick={() => onSelect?.(s)}
+                aria-label={s.passed ? `ทำข้อสอบสถานี ${s.code}` : `สถานี ${s.code} ยังไม่ผ่าน`}
+                className={`flex h-full w-full cursor-pointer items-center justify-center rounded-full ring-4 transition active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 ${
                   s.passed
                     ? 'bg-pass text-white ring-pass/25'
                     : 'border-2 border-slate-300 bg-slate-200 text-slate-400 ring-white'
                 }`}
               >
                 {s.passed ? <Check size={34} strokeWidth={3} aria-hidden="true" /> : <Lock size={28} aria-hidden="true" />}
-              </div>
+              </button>
               {s.bonus_points > 0 && (
                 <span className="absolute -top-2 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-gold px-2 py-0.5 text-[11px] font-bold text-ink shadow-sm">
                   +{s.bonus_points} คะแนน
@@ -83,6 +89,15 @@ export default function StationMap({ stations }) {
             <p className="mt-0.5 text-xs leading-snug text-slate-500">{s.name}</p>
             {s.passed && s.passed_at && (
               <p className="mt-0.5 text-xs font-medium text-pass">ผ่านเมื่อ {shortDate(s.passed_at)}</p>
+            )}
+            {s.exam_score != null ? (
+              <p className="mx-auto mt-1.5 w-fit rounded-full bg-blue-100 px-2.5 py-0.5 text-[11px] font-bold text-blue-800">
+                ข้อสอบ {s.exam_score}/{EXAM_MAX}
+              </p>
+            ) : (
+              <p className="mx-auto mt-1.5 w-fit rounded-full bg-slate-100 px-2.5 py-0.5 text-[11px] font-bold text-slate-400">
+                ข้อสอบ —/{EXAM_MAX}
+              </p>
             )}
           </li>
         ))}

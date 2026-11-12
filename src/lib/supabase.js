@@ -15,3 +15,7 @@ export const supabase = createClient(url || 'http://invalid.local', key || 'miss
 // รูปพนักงาน: bucket "photos" ชื่อไฟล์ = EmpNo.jpg
 export const photoUrl = (empNo) =>
   `${url}/storage/v1/object/public/photos/${encodeURIComponent(empNo)}.jpg`
+
+// รูปข้อสอบ: bucket "exam" (แยกจากรูปพนักงาน) ชื่อไฟล์ตามที่ระบุในข้อสอบ เช่น Q_D1_1.png, A_D1_3_B.png
+export const examImageUrl = (file) =>
+  `${url}/storage/v1/object/public/exam/${encodeURIComponent(file)}`

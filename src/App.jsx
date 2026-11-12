@@ -5,6 +5,9 @@ import BottomNav from './components/BottomNav'
 import HomePage from './pages/HomePage'
 import PassportPage from './pages/PassportPage'
 import RankPage from './pages/RankPage'
+import PlayerPage from './pages/PlayerPage'
+import AwardPage from './pages/AwardPage'
+import ExamPage from './pages/ExamPage'
 import TrainerPage from './pages/TrainerPage'
 import AdminPage from './pages/AdminPage'
 import LdnaLogo from './components/LdnaLogo'
@@ -35,7 +38,10 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/passport" element={<PassportPage />} />
+          <Route path="/passport/exam/:code" element={<ExamPage />} />
           <Route path="/rank" element={<RankPage />} />
+          <Route path="/player" element={<PlayerPage />} />
+          <Route path="/award" element={<AwardPage />} />
           <Route path="/trainer" element={<TrainerPage />} />
           <Route path="/admin" element={<AdminPage />} />
           {/* ลิงก์เก่า (/profile) พาไปหน้า Admin */}
